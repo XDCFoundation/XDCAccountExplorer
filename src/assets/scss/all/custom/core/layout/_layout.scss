@@ -1,0 +1,140 @@
+// App
+
+/*============================================================== 
+ For all pages 
+ ============================================================== */
+
+#main-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.page-wrapper {
+  background: $body-bg;
+  position: relative;
+  transition: 0.2s ease-in;
+  display: none;
+}
+
+.page-wrapper > .page-content {
+  padding: 30px;
+  min-height: calc(100vh - 116px);
+}
+.page-breadcrumb {
+  padding: 30px 30px 0;
+}
+/*******************
+ Footer
+*******************/
+
+.footer {
+  padding: 15px 20px;
+}
+
+/*******************
+ Stickey inner-left-part
+*******************/
+
+.left-part {
+  height: calc(100vh - 220px);
+  width: $left-part-width;
+  position: absolute;
+  border-right: 1px solid $border-color;
+  &.fixed-left-part {
+    position: fixed;
+    top: 0;
+    padding-top: 10px;
+  }
+  .show-left-part {
+    position: absolute;
+    top: 45%;
+    right: -41px;
+  }
+}
+
+.right-part {
+  width: calc(100% - 260px);
+  height: calc(100vh - 220px);
+  overflow: auto;
+  margin-left: $left-part-width;
+}
+
+.reverse-mode {
+  .left-part {
+    right: 0;
+    border-left: 1px solid $border-color;
+  }
+  .show-left-part {
+    right: auto;
+    left: -41px;
+  }
+  .right-part {
+    margin-left: 0;
+    margin-right: $left-part-width;
+  }
+}
+
+/*******************
+ Vertical layout
+*******************/
+
+#main-wrapper[data-layout='vertical'] {
+  /*Vertical*/
+  .topbar .top-navbar .navbar-header {
+    transition: 0.2s ease-in;
+  }
+
+  /*Header position*/
+  &[data-header-position='fixed'] {
+    .topbar {
+      position: fixed;
+      width: 100%;
+    }
+    .page-wrapper {
+      padding-top: $topbar-height;
+    }
+  }
+  /*Boxed Layout*/
+  &[data-boxed-layout='boxed'] {
+    max-width: $boxed-width;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 1px 0 80px rgba(0, 0, 0, 0.2);
+  }
+  &[data-boxed-layout='boxed'][data-header-position='fixed'] {
+    .topbar {
+      max-width: $boxed-width;
+    }
+  }
+}
+
+/*******************
+ Vertical responsive layout
+*******************/
+@include media-breakpoint-down(sm) {
+  .left-part {
+    left: -$left-part-width;
+    background: $body-bg;
+    z-index: 1;
+    top:$topbar-height;
+    height: calc(100vh - 66px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    transition: 0.1s ease-in;
+    &.show-panel {
+      left: 0; 
+    }
+  }
+  .reverse-mode .left-part {
+    right: -$left-part-width;
+    left: auto;
+    &.show-panel {
+      right: 0;
+    }
+  }
+  .right-part {
+    width: 100%;
+    margin-left: 0;
+    height: 500px;
+  }
+}

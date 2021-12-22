@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import indexRoutes from './routes/index.jsx';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {createBrowserHistory} from 'history';
+
+import './assets/scss/style.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <BrowserRouter history={createBrowserHistory()}>
+        <Routes>
+            {indexRoutes.map((prop, key) => {
+                return <Route path={prop.path} key={key} element={<prop.component/>}/>;
+            })}
+        </Routes>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    </BrowserRouter>
+    , document.getElementById('root'));
