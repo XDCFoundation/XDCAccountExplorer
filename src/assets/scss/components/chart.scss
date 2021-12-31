@@ -1,0 +1,61 @@
+.chart-legend {
+  text-align: center;
+
+  .item {
+    display: inline-block;
+    width: 16%;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 0.2em 0.5em 0.1em;
+    margin: 2px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &.inactive {
+      border-color: darkgray;
+    }
+
+    div {
+      display: inline-block;
+      line-height: 100%;
+
+      &.color {
+        width: 20%;
+        div {
+          margin-right: 8px;
+          width: 20px;
+          height: 1px;
+          vertical-align: middle;
+        }
+      }
+
+      &.label {
+        width: 25%;
+        text-align: left;
+        font-size: 0.8em;
+        color: gray;
+      }
+
+      &.amount {
+        width: 35%;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+
+      &.change {
+        width: 20%;
+        font-weight: bold;
+
+        &.up {
+          color: #28a745;
+        }
+        &.down {
+          color: #dc3545;
+        }
+      }
+    }
+  }
+}

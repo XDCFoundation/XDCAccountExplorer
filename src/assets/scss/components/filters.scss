@@ -1,0 +1,16 @@
+.chart-filters {
+  width: 100%;
+  text-align: center;
+
+  .items {
+    div {
+      display: inline-block;
+      margin-right: 1em;
+      cursor: pointer;
+
+      &.selected {
+        font-weight: bold;
+      }
+    }
+  }
+}
