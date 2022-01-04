@@ -6,7 +6,7 @@ import Filters from '../../../components/chart/filters';
 
 const AccountsPanel = () => {
     const [data, setData] = React.useState(null);
-    const [filters, setFilters] = React.useState([
+    const [filters] = React.useState([
         { name: '7D', value: 7 },
         { name: '1M', value: 30 },
         { name: '3M', value: 90 },

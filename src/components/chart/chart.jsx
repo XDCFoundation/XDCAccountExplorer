@@ -121,7 +121,9 @@ const Chart = (props) => {
                 chart.update();
             }
         }
-    }, [chartRef.current]);
+        // we dont need to re-render component but to fetch legend once at mount
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [chartRef.current, props.scales]);
 
     const data = transposeDataObject(props.data);
     const plugins = [/*chartScaleIconPlugin*/];
