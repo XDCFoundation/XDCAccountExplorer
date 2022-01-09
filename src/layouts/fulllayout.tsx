@@ -1,10 +1,9 @@
-import React from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
-import Header from '../components/header/header.jsx';
-import Footer from '../components/footer/footer.jsx';
-import ThemeRoutes from '../routes/routing.jsx';
+import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
+import ThemeRoutes from '../routes/routing';
 
-const Fulllayout = (props) => {
+const Fulllayout = (props: any) => {
     return (
         <div
             id="main-wrapper"
@@ -30,7 +29,7 @@ const Fulllayout = (props) => {
                             }
                             else {
                                 return (
-                                    <Route path={prop.path} element={<prop.component/>} key={key} />
+                                    <Route path={prop.path} element={prop.component ? <prop.component/> : undefined} key={key} />
                                 );
                             }
                         })}

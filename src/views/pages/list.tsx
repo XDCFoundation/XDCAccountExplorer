@@ -11,7 +11,7 @@ import {
     Col
 } from 'reactstrap';
 
-const PopoverItem = (props) => {
+const PopoverItem = (props: any) => {
     const [popoverOpen, setPopoverOpen] = useState(false);
 
     const toggle = () => setPopoverOpen(!popoverOpen);

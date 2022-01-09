@@ -1,5 +1,5 @@
-import DashboardPage from '../views/pages/dashboard.jsx';
-import ListPage from '../views/pages/list.jsx';
+import DashboardPage from '../views/pages/dashboard';
+import ListPage from '../views/pages/list';
 
 var ThemeRoutes = [
     {

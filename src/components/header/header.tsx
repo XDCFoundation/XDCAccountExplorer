@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {
     Nav,
     NavItem,
@@ -8,7 +8,7 @@ import {
 
 import {NavLink} from "react-router-dom";
 
-const Header = (props) => {
+const Header = (props: any) => {
     return (
         <header className="topbar navbarbg" data-navbarbg="skin1">
             <Navbar className="top-navbar" dark expand="md">
@@ -19,7 +19,7 @@ const Header = (props) => {
                 </div>
                 <Collapse className="navbarbg" navbar data-navbarbg="skin1">
                     <Nav className="ml-auto float-right" navbar>
-                        {props.routes.map((prop, key) => {
+                        {props.routes.map((prop: any, key: any) => {
                             if (prop.redirect) {
                                 return null;
                             } else {
