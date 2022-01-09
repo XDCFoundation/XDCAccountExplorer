@@ -1,7 +1,8 @@
 import Fulllayout from '../layouts/fulllayout';
+import { RouteConfig } from './types';
 
-var indexRoutes = [
-    {path: '*', name: 'Starter', component: Fulllayout}
+const indexRoutes: RouteConfig[] = [
+  { path: '*', name: 'Starter', component: Fulllayout },
 ];
 
 export default indexRoutes;

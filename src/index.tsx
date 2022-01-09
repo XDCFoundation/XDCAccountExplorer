@@ -1,15 +1,22 @@
-
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import indexRoutes from './routes';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './assets/scss/style.scss';
 
 ReactDOM.render(
+  <StrictMode>
     <BrowserRouter>
-        <Routes>
-            {indexRoutes.map((prop, key) => {
-                return <Route path={prop.path} key={key} element={<prop.component/>}/>;
-            })}
-        </Routes>
+      <Routes>
+        {indexRoutes.map((prop, key) => (
+          <Route
+            path={prop.path}
+            key={key}
+            element={prop.component ? <prop.component /> : undefined}
+          />
+        ))}
+      </Routes>
     </BrowserRouter>
-    , document.getElementById('root'));
+  </StrictMode>,
+  document.getElementById('root'),
+);
