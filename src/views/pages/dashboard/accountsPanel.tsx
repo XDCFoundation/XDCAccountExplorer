@@ -14,6 +14,8 @@ interface AccountsStatsDataObject {
   total: number,
 }
 
+const dateFormat = 'yyyy-MM-dd';
+
 function AccountsPanel() {
   const [data, setData] = useState<ChartData>({ datasets: [] });
   const [filters] = useState([
@@ -66,9 +68,9 @@ function AccountsPanel() {
   // on filter change
   const loadData = useCallback(async () => {
     const filtersObj: { [key: string]: string; } = {};
-    filtersObj.date_lte = format(Date.now(), 'yyyy-MM-dd');
+    filtersObj.date_lte = format(Date.now(), dateFormat);
     if (timeFilter) {
-      filtersObj.date_gte = format(subDays(Date.now(), timeFilter as number), 'yyyy-MM-dd');
+      filtersObj.date_gte = format(subDays(Date.now(), timeFilter as number), dateFormat);
     }
 
     const dataObj = await get<AccountsStatsDataObject[]>('accountStats', filtersObj)

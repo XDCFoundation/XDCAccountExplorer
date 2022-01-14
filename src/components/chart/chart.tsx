@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { set } from 'lodash';
 import { Chart as ReactChart } from 'react-chartjs-2';
 import {
   ChartLegendItem,
@@ -31,7 +32,7 @@ function Chart(props: ChartProps) {
   const chartRef = useRef<any>(null);
   const { scales, data, height } = props;
   const [legend, setLegend] = useState<ChartLegendItem[]>([]);
-  const [options] = useState<ChartOptions>({
+  const [options, setOptions] = useState<ChartOptions>({
     plugins: {
       legend: {
         display: false,
@@ -121,14 +122,15 @@ function Chart(props: ChartProps) {
     if (chart) {
       setLegend(chart.legend.legendItems);
       if (scales) {
-        Object.assign(options.scales.left, { title: { text: scales.left || '' } });
-        Object.assign(options.scales.right, { title: { text: scales.right || '' } });
-        // options.scales.left.title.text = scales.left || '';
-        // options.scales.right.title.text = scales.right || '';
+        const o = { ...options };
+        set(o, 'scales.left.title.text', scales.left || '');
+        set(o, 'scales.right.title.text', scales.right || '');
+        setOptions(o);
+
         chart.update();
       }
     }
-  }, [chartRef.current, scales]);
+  }, [scales]);
 
   const chartData = transposeDataObject(data);
   const plugins: ChartPlugin[] = [/* chartScaleIconPlugin */];

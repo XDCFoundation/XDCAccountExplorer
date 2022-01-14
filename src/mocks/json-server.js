@@ -1,8 +1,13 @@
-const path = require('path');
+/* eslint no-console: 0 */
 const jsonServer = require('json-server');
+
 const server = jsonServer.create();
-const data = require(path.join(__dirname, 'db.js'))();
-const router = jsonServer.router(data);
+const accountStats = require('./account-stats.json');
+
+const router = jsonServer.router({
+  accountStats,
+  // ... add more resources ...
+});
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);

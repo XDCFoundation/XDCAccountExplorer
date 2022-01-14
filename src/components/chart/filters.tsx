@@ -22,7 +22,7 @@ function Filters(props: FiltersProps) {
     <div className="chart-filters">
       { title !== null && <div className="title">{filterTitle}</div> }
       <div className="items">
-        {items.length && items.map((item, idx: number) => (
+        {!!items.length && items.map((item, idx: number) => (
           <div
             role="button"
             tabIndex={idx}
