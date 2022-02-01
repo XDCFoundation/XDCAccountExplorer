@@ -1,5 +1,5 @@
-import DashboardPage from '../views/pages/dashboard';
-import ListPage from '../views/pages/list';
+import DashboardPage from 'views/pages/dashboard';
+import ListPage from 'views/pages/list';
 import { RouteConfig } from './types';
 
 const ThemeRoutes: RouteConfig[] = [

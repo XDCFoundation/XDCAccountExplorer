@@ -6,7 +6,7 @@ import {
 } from 'reactstrap';
 
 import { NavLink } from 'react-router-dom';
-import { RouteConfig } from '../../routes/types';
+import { RouteConfig } from 'routes/types';
 
 type HeaderProps = {
   routes: RouteConfig[];

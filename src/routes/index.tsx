@@ -1,4 +1,4 @@
-import Fulllayout from '../layouts/fulllayout';
+import Fulllayout from 'layouts/fulllayout';
 import { RouteConfig } from './types';
 
 const indexRoutes: RouteConfig[] = [
