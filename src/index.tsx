@@ -1,5 +1,4 @@
-import { StrictMode } from 'react';
-import ReactDOM from 'react-dom';
+import App from 'App';
 import {
   BarElement,
   CategoryScale,
@@ -10,8 +9,8 @@ import {
   PointElement,
   Tooltip,
 } from 'chart.js';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import indexRoutes from './routes';
+import { StrictMode } from 'react';
+import ReactDOM from 'react-dom';
 import './assets/scss/style.scss';
 
 ChartJS.register(
@@ -26,17 +25,7 @@ ChartJS.register(
 
 ReactDOM.render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        {indexRoutes.map((prop, key) => (
-          <Route
-            path={prop.path}
-            key={key}
-            element={prop.component ? <prop.component /> : undefined}
-          />
-        ))}
-      </Routes>
-    </BrowserRouter>
+    <App />
   </StrictMode>,
   document.getElementById('root'),
 );

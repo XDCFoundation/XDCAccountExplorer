@@ -1,8 +1,8 @@
-import DashboardPage from 'views/pages/dashboard';
-import ListPage from 'views/pages/list';
+import DashboardPage from 'pages/dashboard/dashboard';
+import ListPage from 'pages/list/list';
 import { RouteConfig } from './types';
 
-const ThemeRoutes: RouteConfig[] = [
+const routes: RouteConfig[] = [
   {
     path: '/dashboard',
     name: 'Dashboard',
@@ -20,4 +20,5 @@ const ThemeRoutes: RouteConfig[] = [
     redirect: true,
   },
 ];
-export default ThemeRoutes;
+
+export default routes;
