@@ -12,7 +12,8 @@ import {
 import { times } from 'lodash';
 import faker from '@faker-js/faker';
 import { addDays, format } from 'date-fns';
-import Chart, { Colors } from './chart';
+import Chart from './chart';
+import { Colors } from './chart.types';
 
 ChartJS.register(
   LinearScale,
@@ -33,31 +34,31 @@ const Template: ComponentStory<typeof Chart> = (args) => <Chart {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  data: {
+  series: {
     datasets: [
       {
         type: 'line',
         label: 'Line',
         color: Colors.orange,
-        yAxisID: 'left',
+        yAxis: 'left',
         data: times(10, () => faker.datatype.number({ min: 0, max: 500 })),
       },
       {
         type: 'bar',
         label: 'Bar 1',
         color: Colors.green,
-        yAxisID: 'right',
+        yAxis: 'right',
         data: times(10, () => faker.datatype.number({ min: 0, max: 200 })),
       },
       {
         type: 'bar',
         label: 'Bar 2',
         color: Colors.blue,
-        yAxisID: 'right',
+        yAxis: 'right',
         data: times(10, () => faker.datatype.number({ min: 0, max: 300 })),
       },
     ],
-    labels: times(10, (i) => format(addDays(new Date(), i), 'yyyy-MM-dd')),
+    labels: times(10, (i) => format(addDays(new Date(), i), 'dd/MM/yyyy')),
   },
   height: 100,
   scales: { left: 'Line scale', right: 'Bar scale' },

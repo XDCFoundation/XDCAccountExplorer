@@ -1,12 +1,12 @@
-import { Card, CardBody, CardTitle } from 'reactstrap';
 import { format, subDays } from 'date-fns';
+import { FetchException, get } from 'helpers/api';
+import { useCallback, useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
-import { useEffect, useCallback, useState } from 'react';
-import { get, FetchException } from 'helpers/api';
-import Chart, { Colors } from 'ui/chart/chart';
-import { ChartData } from 'ui/chart/types';
-import Filters, { FilterValue } from 'ui/chart/filters';
+import { Card, CardBody, CardTitle } from 'reactstrap';
+import Chart from 'ui/chart/chart';
+import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import DateInfo from 'ui/date-info/dateInfo';
+import Filters, { FilterValue } from 'ui/filters/filters';
 
 interface AccountsStatsDataObject {
   date: string,
@@ -18,7 +18,7 @@ interface AccountsStatsDataObject {
 const dateFormat = 'yyyy-MM-dd';
 
 function AccountsPanel() {
-  const [data, setData] = useState<ChartData>({ datasets: [] });
+  const [data, setData] = useState<ChartSeries>({ datasets: [], labels: [] });
   const [filters] = useState([
     { name: '7D', value: 7 },
     { name: '1M', value: 30 },
@@ -29,39 +29,38 @@ function AccountsPanel() {
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
   const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]) => {
-    const labels: string[] = [];
-    const output: ChartData = {
+    const output: ChartSeries = {
       datasets: [
         {
           type: 'line',
           label: 'Total',
           color: Colors.orange,
-          yAxisID: 'left',
+          yAxis: 'left',
           data: [] as number[],
         },
         {
           type: 'bar',
           label: 'Contracts',
           color: Colors.green,
-          yAxisID: 'right',
+          yAxis: 'right',
           data: [] as number[],
         },
         {
           type: 'bar',
           label: 'Token',
           color: Colors.blue,
-          yAxisID: 'right',
+          yAxis: 'right',
           data: [] as number[],
         },
       ],
+      labels: [],
     };
     dataObj.forEach((row) => {
-      labels.push(row.date);
+      output.labels.push(row.date);
       output.datasets[0].data.push(row.total);
       output.datasets[1].data.push(row.contract);
       output.datasets[2].data.push(row.token);
     });
-    output.labels = labels;
 
     return output;
   };
@@ -80,7 +79,7 @@ function AccountsPanel() {
         const msg = (err instanceof FetchException) ? 'Fetching data error' : 'Unexpected exception';
         toast.error(msg);
       });
-    setData(dataObj as ChartData);
+    setData(dataObj as ChartSeries);
   }, [timeFilter]);
   useEffect(() => { loadData(); }, [loadData]);
 
@@ -94,7 +93,7 @@ function AccountsPanel() {
           </div>
         </CardTitle>
         <CardBody>
-          <Chart data={data} height={100} scales={{ left: 'Total', right: 'Value' }} />
+          <Chart series={data} height={100} scales={{ left: 'Total', right: 'Value' }} />
           <Filters
             title="Time"
             items={filters}
