@@ -1,9 +1,13 @@
-import { Route, Routes, Navigate } from 'react-router-dom';
-import Header from '../components/header/header';
-import Footer from '../components/footer/footer';
-import ThemeRoutes from '../routes/routing';
+import { ReactElement } from 'react';
+import routes from 'routes/routes';
+import Footer from 'ui/footer/footer';
+import Header from 'ui/header/header';
 
-function Fulllayout() {
+interface FullLayoutProps {
+  children: ReactElement;
+}
+
+function Fulllayout({ children }: FullLayoutProps) {
   return (
     <div
       id="main-wrapper"
@@ -15,28 +19,13 @@ function Fulllayout() {
       {/*--------------------------------------------------------------------------------*/}
       {/* Header                                                                         */}
       {/*--------------------------------------------------------------------------------*/}
-      <Header routes={ThemeRoutes} />
+      <Header routes={routes} />
       {/*--------------------------------------------------------------------------------*/}
       {/* Page Main-Content                                                              */}
       {/*--------------------------------------------------------------------------------*/}
       <div className="page-wrapper d-block">
         <div className="page-content container-fluid">
-          <Routes>
-            {ThemeRoutes.map((prop, key) => {
-              if (prop.redirect) {
-                return <Route path={prop.path} element={<Navigate to={prop.pathTo ?? '/'} />} key={key} />;
-                // return <Navigate from={prop.path} to={prop.pathTo} key={key} />;
-              }
-
-              return (
-                <Route
-                  path={prop.path}
-                  element={prop.component ? <prop.component /> : undefined}
-                  key={key}
-                />
-              );
-            })}
-          </Routes>
+          {children}
         </div>
         <Footer />
       </div>

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { set } from 'lodash';
 import { Chart as ReactChart } from 'react-chartjs-2';
+import classNames from 'classnames';
 import {
   ChartLegendItem,
   ChartJsData,
@@ -9,6 +10,7 @@ import {
   ChartOptions,
   ChartPlugin, ChartJsDataset,
 } from './types';
+import styles from './chart.module.scss';
 
 enum Colors {
   blue = '#5e80ab',
@@ -137,7 +139,7 @@ function Chart(props: ChartProps) {
 
   return (
     <>
-      <div className="chart-legend">
+      <div className={styles.chartLegend}>
         {legend.length > 0 && legend.map((item: ChartLegendItem, idx: number) => (
           <div
             role="link"
@@ -145,14 +147,24 @@ function Chart(props: ChartProps) {
             key={item.text}
             onClick={() => handleLegendClick(item)}
             onKeyDown={() => handleLegendClick(item)}
-            className={`item ${item.hidden ? 'inactive' : ''}`}
+            className={classNames({
+              [styles.item]: true,
+              [styles.inactive]: item.hidden,
+            })}
           >
-            <div className="color">
+            <div className={styles.color}>
               <div style={{ backgroundColor: item.fillStyle as string }} />
             </div>
-            <div className="label">{item.text}</div>
-            <div className="amount">123 456</div>
-            <div className={`change ${item.datasetIndex % 2 ? 'down' : 'up'}`}>+23</div>
+            <div className={styles.label}>{item.text}</div>
+            <div className={styles.amount}>123 456</div>
+            <div className={classNames({
+              [styles.change]: true,
+              [styles.down]: item.datasetIndex % 2,
+              [styles.up]: !(item.datasetIndex % 2),
+            })}
+            >
+              +23
+            </div>
           </div>
         ))}
       </div>

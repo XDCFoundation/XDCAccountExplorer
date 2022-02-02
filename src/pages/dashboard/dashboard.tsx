@@ -1,6 +1,6 @@
 import { Card, CardBody, CardTitle } from 'reactstrap';
 
-import AccountsPanel from './dashboard/accountsPanel';
+import AccountsPanel from './accountsPanel';
 
 function DashboardPage() {
   return (

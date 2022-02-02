@@ -24,6 +24,7 @@ module.exports = {
   ],
   rules: {
     'react/no-array-index-key': 'off',
-    '@typescript-eslint/no-explicit-any': 'error'
+    '@typescript-eslint/no-explicit-any': 'error',
+    'import/no-relative-parent-imports': 'error'
   }
 };

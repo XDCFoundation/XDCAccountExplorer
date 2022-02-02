@@ -1,3 +1,6 @@
+import classNames from 'classnames';
+import styles from './filters.module.scss';
+
 type FilterValue = string | number | null;
 
 interface FiltersItems {
@@ -19,15 +22,17 @@ function Filters(props: FiltersProps) {
   const { value } = props;
 
   return (
-    <div className="chart-filters">
-      { title !== null && <div className="title">{filterTitle}</div> }
-      <div className="items">
+    <div className={styles.chartFilters}>
+      { title !== null && <div className={styles.title}>{filterTitle}</div> }
+      <div className={styles.items}>
         {!!items.length && items.map((item, idx: number) => (
           <div
             role="button"
             tabIndex={idx}
             key={item.value}
-            className={`${value === item.value ? 'selected' : ''}`}
+            className={classNames({
+              [styles.selected]: value === item.value,
+            })}
             onClick={() => onSelect(item.value)}
             onKeyDown={() => onSelect(item.value)}
           >

@@ -2,10 +2,10 @@ import { Card, CardBody, CardTitle } from 'reactstrap';
 import { format, subDays } from 'date-fns';
 import { toast } from 'react-toastify';
 import { useEffect, useCallback, useState } from 'react';
-import { get, FetchException } from '../../../helpers/api';
-import Chart, { Colors } from '../../../components/chart/chart';
-import { ChartData } from '../../../components/chart/types';
-import Filters, { FilterValue } from '../../../components/chart/filters';
+import { get, FetchException } from 'helpers/api';
+import Chart, { Colors } from 'ui/chart/chart';
+import { ChartData } from 'ui/chart/types';
+import Filters, { FilterValue } from 'ui/chart/filters';
 
 interface AccountsStatsDataObject {
   date: string,
