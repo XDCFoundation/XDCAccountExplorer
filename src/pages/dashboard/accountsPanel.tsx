@@ -17,8 +17,10 @@ interface AccountsStatsDataObject {
 
 const dateFormat = 'yyyy-MM-dd';
 
+const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
+
 function AccountsPanel() {
-  const [data, setData] = useState<ChartSeries>({ datasets: [], labels: [] });
+  const [data, setData] = useState<ChartSeries | null>(null);
   const [filters] = useState([
     { name: '7D', value: 7 },
     { name: '1M', value: 30 },
@@ -79,7 +81,7 @@ function AccountsPanel() {
         const msg = (err instanceof FetchException) ? 'Fetching data error' : 'Unexpected exception';
         toast.error(msg);
       });
-    setData(dataObj as ChartSeries);
+    setData(dataObj ?? null);
   }, [timeFilter]);
   useEffect(() => { loadData(); }, [loadData]);
 
@@ -93,7 +95,13 @@ function AccountsPanel() {
           </div>
         </CardTitle>
         <CardBody>
-          <Chart series={data} height={100} scales={{ left: 'Total', right: 'Value' }} />
+          <Chart
+            series={data ?? placeholderData}
+            height={100}
+            scales={{
+              leftTitle: 'Total', rightTitle: 'Value', leftEnabled: true, rightEnabled: true,
+            }}
+          />
           <Filters
             title="Time"
             items={filters}

@@ -58,8 +58,10 @@ Default.args = {
         data: times(10, () => faker.datatype.number({ min: 0, max: 300 })),
       },
     ],
-    labels: times(10, (i) => format(addDays(new Date(), i), 'dd/MM/yyyy')),
+    labels: times(10, (i) => format(addDays(new Date(), i), 'dd/MM')),
   },
-  height: 100,
-  scales: { left: 'Line scale', right: 'Bar scale' },
+  height: 300,
+  scales: {
+    leftEnabled: true, rightEnabled: true,
+  },
 };

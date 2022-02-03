@@ -47,12 +47,13 @@ function Chart({
         items={legendItems}
         onItemClick={toggleDataSetVisibility}
       />
-      <ReactChart
-        type="bar"
-        options={getChartOptions({ scales })}
-        data={chartData}
-        height={height}
-      />
+      <div style={{ height }}>
+        <ReactChart
+          type="bar"
+          options={getChartOptions({ scales })}
+          data={chartData}
+        />
+      </div>
     </>
   );
 }

@@ -1,22 +1,24 @@
 import { ChartType } from 'chart.js';
 
 export enum Colors {
-  blue = '#5e80ab',
-  green = '#aedfd2',
-  orange = '#f7b68f',
+  blue = '#1D4E89',
+  green = '#7DCFB6',
+  orange = '#F79256',
 }
 
 export type YAxis = 'left' | 'right';
 
 export interface Scales {
-  left?: string,
-  right?: string,
+  leftTitle?: string;
+  leftEnabled?: boolean;
+  rightTitle?: string;
+  rightEnabled?: boolean;
 }
 
 export interface ChartDataset {
   type: ChartType;
   label: string;
-  color: string;
+  color: Colors;
   yAxis: YAxis;
   data: number[];
 }
