@@ -27,6 +27,7 @@ function Chart({
       previousValue: isNumber(previousValue) ? previousValue : null,
       active: !hiddenDatasets.includes(dataset.label),
       color: dataset.color,
+      type: dataset.type,
     };
   });
 

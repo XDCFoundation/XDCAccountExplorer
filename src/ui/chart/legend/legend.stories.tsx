@@ -18,6 +18,7 @@ Default.args = {
       active: true,
       value: 500,
       previousValue: 100,
+      type: 'line',
     },
     {
       label: 'Bar 1',
@@ -25,6 +26,7 @@ Default.args = {
       active: false,
       value: 100,
       previousValue: 1000,
+      type: 'bar',
     },
     {
       label: 'Bar 2',
@@ -32,6 +34,7 @@ Default.args = {
       active: true,
       value: 0,
       previousValue: 0,
+      type: 'bar',
     },
   ],
   onItemClick: noop,
