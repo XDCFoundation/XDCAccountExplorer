@@ -9,37 +9,35 @@ interface FiltersItems {
 }
 
 interface FiltersProps {
-  title: string | null,
-  items: FiltersItems[],
-  value: FilterValue,
-  onSelect: (value: FilterValue) => void,
+  title?: string;
+  items: FiltersItems[];
+  value: FilterValue;
+  onSelect: (value: FilterValue) => void;
 }
 
-function Filters(props: FiltersProps) {
-  const { title, onSelect } = props;
-  const filterTitle = title || null;
-  const { items } = props;
-  const { value } = props;
-
+function Filters({
+  title, items, value, onSelect,
+}: FiltersProps) {
   return (
-    <div className={styles.chartFilters}>
-      { title !== null && <div className={styles.title}>{filterTitle}</div> }
-      <div className={styles.items}>
-        {!!items.length && items.map((item, idx: number) => (
-          <div
-            role="button"
-            tabIndex={idx}
-            key={item.value}
-            className={classNames({
-              [styles.selected]: value === item.value,
-            })}
-            onClick={() => onSelect(item.value)}
-            onKeyDown={() => onSelect(item.value)}
-          >
-            {item.name}
-          </div>
-        ))}
-      </div>
+    <div className={styles.container}>
+      {!!title && <div className={styles.title}>{title}</div>}
+      {!!items.length && (
+        <div className={styles.filters}>
+          {items.map((item) => (
+            <button
+              type="button"
+              key={item.value}
+              className={classNames({
+                [styles.filterButton]: true,
+                [styles.selected]: value === item.value,
+              })}
+              onClick={() => onSelect(item.value)}
+            >
+              {item.name}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
