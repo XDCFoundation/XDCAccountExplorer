@@ -32,33 +32,67 @@ export default {
 
 const Template: ComponentStory<typeof Chart> = (args) => <Chart {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
+export const LineChart = Template.bind({});
+LineChart.args = {
+  series: {
+    datasets: [
+      {
+        type: 'line',
+        label: 'Line 1',
+        color: Colors.orange,
+        yAxis: 'right',
+        data: times(7, () => faker.datatype.number({ min: 100, max: 5000 })),
+      },
+      {
+        type: 'line',
+        label: 'Line 2',
+        color: Colors.green,
+        yAxis: 'right',
+        data: times(7, () => faker.datatype.number({ min: 100, max: 2000 })),
+      },
+      {
+        type: 'line',
+        label: 'Line 3',
+        color: Colors.blue,
+        yAxis: 'right',
+        data: times(7, () => faker.datatype.number({ min: 100, max: 2000 })),
+      },
+    ],
+    labels: times(7, (i) => format(addDays(new Date(), i), 'dd/MM')),
+  },
+  height: 300,
+  scales: {
+    rightEnabled: true,
+  },
+};
+
+export const MixedChart = Template.bind({});
+MixedChart.args = {
   series: {
     datasets: [
       {
         type: 'line',
         label: 'Line',
         color: Colors.orange,
-        yAxis: 'left',
-        data: times(10, () => faker.datatype.number({ min: 0, max: 500 })),
+        yAxis: 'right',
+        data: times(7, () => faker.datatype.number({ min: 0, max: 500 })),
       },
       {
         type: 'bar',
         label: 'Bar 1',
         color: Colors.green,
-        yAxis: 'right',
-        data: times(10, () => faker.datatype.number({ min: 0, max: 200 })),
+        yAxis: 'left',
+        data: times(7, () => faker.datatype.number({ min: 0, max: 200 })),
       },
       {
         type: 'bar',
         label: 'Bar 2',
         color: Colors.blue,
-        yAxis: 'right',
-        data: times(10, () => faker.datatype.number({ min: 0, max: 300 })),
+        yAxis: 'left',
+        data: times(7, () => faker.datatype.number({ min: 0, max: 300 })),
       },
     ],
-    labels: times(10, (i) => format(addDays(new Date(), i), 'dd/MM')),
+    labels: times(7, (i) => format(addDays(new Date(), i), 'dd/MM')),
   },
   height: 300,
   scales: {
