@@ -1,6 +1,10 @@
-import { Card, CardBody, CardTitle } from 'reactstrap';
-
+import {
+  Card,
+  CardBody,
+  CardTitle,
+} from 'reactstrap';
 import DateInfo from 'ui/common/dateInfo';
+import PopoverHover from 'ui/common/popoverHover';
 import AccountsPanel from './accountsPanel';
 
 function DashboardPage() {
@@ -16,7 +20,15 @@ function DashboardPage() {
           <Card>
             <CardTitle>
               <span className="font-bold">Masternodes</span>
-              <i className="icon icon-question ml-2" />
+              <PopoverHover
+                placement="top"
+                header="Masternodes"
+                content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                  et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                  ultricies nec, pellentesque eu, pretium."
+                element={<i className="icon icon-question ml-2" />}
+              />
               <DateInfo date={new Date()} />
             </CardTitle>
             <CardBody>
