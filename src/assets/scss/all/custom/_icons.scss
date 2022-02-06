@@ -1,0 +1,23 @@
+.icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.icon-logo {
+  background-image: url('../../../images/icons/icon_logo.svg');
+  width: 28px;
+  height: 28px;
+}
+
+.icon-filter {
+  background-image: url('../../../images/icons/icon_filter.svg');
+  width: 14px;
+  height: 13px;
+}
+
+.icon-question {
+  background-image: url('../../../images/icons/icon_question.svg');
+  width: 13px;
+  height: 13px;
+}
