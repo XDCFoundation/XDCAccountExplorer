@@ -1,5 +1,6 @@
 import { Card, CardBody, CardTitle } from 'reactstrap';
 
+import DateInfo from 'ui/common/dateInfo';
 import AccountsPanel from './accountsPanel';
 
 function DashboardPage() {
@@ -13,8 +14,10 @@ function DashboardPage() {
       <div className="row">
         <div className="col-6">
           <Card>
-            <CardTitle className="bg-light border-bottom p-3 mb-0">
-              Masternodes
+            <CardTitle>
+              <span className="font-bold">Masternodes</span>
+              <i className="icon icon-question ml-2" />
+              <DateInfo date={new Date()} />
             </CardTitle>
             <CardBody>
               todo: content here
@@ -23,8 +26,9 @@ function DashboardPage() {
         </div>
         <div className="col-6">
           <Card>
-            <CardTitle className="bg-light border-bottom p-3 mb-0">
-              Burnt vs Minted
+            <CardTitle>
+              <span className="font-bold">Burnt vs Minted</span>
+              <DateInfo date={new Date()} />
             </CardTitle>
             <CardBody>
               todo: content here

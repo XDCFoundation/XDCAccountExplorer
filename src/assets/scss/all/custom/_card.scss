@@ -1,6 +1,7 @@
 .card {
   margin-bottom: $card-bottom-margin;
-  @extend %card-shadow;
+
+  background-color: unset;
   .card-subtitle {
     font-weight: $font-weight-light;
     margin-bottom: 10px;
@@ -9,6 +10,13 @@
   .card-title {
     position: relative;
     font-weight: $font-weight-medium;
+    padding: .5rem 0;
+    margin-bottom: 0;
+  }
+  .card-body {
+    @extend %card-shadow;
+    background-color: white;
+    border-radius: $card-border-radius;
   }
   .card-actions {
     float: $rgt;

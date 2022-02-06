@@ -6,6 +6,7 @@ import { get, FetchException } from 'helpers/api';
 import Chart, { Colors } from 'ui/chart/chart';
 import { ChartData } from 'ui/chart/types';
 import Filters, { FilterValue } from 'ui/chart/filters';
+import DateInfo from 'ui/common/dateInfo';
 
 interface AccountsStatsDataObject {
   date: string,
@@ -86,17 +87,10 @@ function AccountsPanel() {
   return (
     <div>
       <Card>
-        <CardTitle className="bg-light border-bottom p-3 mb-0">
+        <CardTitle>
           <div className="float-left">
-            <span>Accounts</span>
-            <span className="small ml-2">todo some date here</span>
-          </div>
-          <div className="float-right">
-            <span>
-              <i className="fa fa-filter text-primary" />
-              {' '}
-              todo filters
-            </span>
+            <span className="font-bold">Accounts</span>
+            <DateInfo date={new Date()} />
           </div>
         </CardTitle>
         <CardBody>

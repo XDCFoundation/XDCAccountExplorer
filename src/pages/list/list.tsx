@@ -75,9 +75,8 @@ function ListPage() {
       <Row>
         <Col xs="12" md="12">
           <Card>
-            <CardTitle className="bg-light border-bottom p-3 mb-0">
-              <i className="mdi mdi-priority-high mr-2"> </i>
-              Popovers
+            <CardTitle>
+              <span className="font-bold">Popovers</span>
             </CardTitle>
             <CardBody>
               {popovers.map((popover, i) => {

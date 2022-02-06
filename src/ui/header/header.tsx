@@ -20,7 +20,8 @@ function Header({
       <Navbar className="top-navbar" dark expand="md">
         <div className="navbar-header">
           <div className="navbar-brand">
-            Logo here XDC FE
+            <i className="icon icon-logo mr-2" />
+            <span>XDC</span>
           </div>
         </div>
         <Collapse className="navbarbg" navbar data-navbarbg="skin1">
@@ -33,7 +34,7 @@ function Header({
                 <NavItem key={key}>
                   <NavLink
                     to={prop.path}
-                    className={(navData) => (navData.isActive ? 'nav-link ml-1 mr-1 font-bold' : 'nav-link ml-1 mr-1')}
+                    className={(navData) => (navData.isActive ? 'nav-link ml-5 active' : 'nav-link ml-5')}
                   >
                     <i className={prop.icon} />
                     {' '}
