@@ -37,18 +37,18 @@ function AccountsPanel() {
           type: 'line',
           label: 'Total',
           color: Colors.orange,
-          yAxis: 'left',
+          yAxis: 'right',
           data: [] as number[],
         },
         {
-          type: 'bar',
+          type: 'line',
           label: 'Contracts',
           color: Colors.green,
           yAxis: 'right',
           data: [] as number[],
         },
         {
-          type: 'bar',
+          type: 'line',
           label: 'Token',
           color: Colors.blue,
           yAxis: 'right',
@@ -97,13 +97,10 @@ function AccountsPanel() {
         <CardBody>
           <Chart
             series={data ?? placeholderData}
-            height={100}
-            scales={{
-              leftTitle: 'Total', rightTitle: 'Value', leftEnabled: true, rightEnabled: true,
-            }}
+            height={300}
+            scales={{ rightEnabled: true }}
           />
           <Filters
-            title="Time"
             items={filters}
             value={timeFilter}
             onSelect={(value) => setTimeFilter(value)}
