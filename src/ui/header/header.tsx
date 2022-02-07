@@ -7,6 +7,7 @@ import {
 
 import { NavLink } from 'react-router-dom';
 import { RouteConfig } from 'routes/types';
+import { ReactComponent as IconLogo } from 'assets/images/icons/icon_logo.svg';
 
 type HeaderProps = {
   routes: RouteConfig[];
@@ -20,7 +21,7 @@ function Header({
       <Navbar className="top-navbar" dark expand="md">
         <div className="navbar-header">
           <div className="navbar-brand">
-            <i className="icon icon-logo mr-2" />
+            <IconLogo className="mr-2" />
             <span>XDC</span>
           </div>
         </div>

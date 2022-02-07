@@ -5,6 +5,7 @@ import {
 } from 'reactstrap';
 import DateInfo from 'ui/common/dateInfo';
 import PopoverHover from 'ui/common/popoverHover';
+import { ReactComponent as IconQuestion } from 'assets/images/icons/icon_question.svg';
 import AccountsPanel from './accountsPanel';
 
 function DashboardPage() {
@@ -27,7 +28,7 @@ function DashboardPage() {
                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
                   et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                   ultricies nec, pellentesque eu, pretium."
-                element={<i className="icon icon-question ml-2" />}
+                element={<IconQuestion className="ml-2" />}
               />
               <DateInfo date={new Date()} />
             </CardTitle>
