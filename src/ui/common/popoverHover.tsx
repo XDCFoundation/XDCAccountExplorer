@@ -17,7 +17,8 @@ interface PopoverHoverProps {
 function PopoverHover(props: PopoverHoverProps) {
   const [popoverId] = useState(() => uniqueId('popover-'));
   const [popoverOpen, setPopoverOpen] = useState(false);
-  const toggle = () => setPopoverOpen(!popoverOpen);
+  const show = () => setPopoverOpen(true);
+  const hide = () => setPopoverOpen(false);
   const {
     header,
     content,
@@ -27,14 +28,13 @@ function PopoverHover(props: PopoverHoverProps) {
 
   return (
     <span>
-      <span role="presentation" id={popoverId} onMouseEnter={toggle} onMouseLeave={toggle}>
+      <span role="presentation" id={popoverId} onMouseEnter={show} onMouseLeave={hide}>
         {element}
       </span>
       <Popover
         placement={placement}
         isOpen={popoverOpen}
         target={popoverId}
-        toggle={toggle}
       >
         { header !== null && <PopoverHeader>{header}</PopoverHeader> }
         <PopoverBody>{content}</PopoverBody>

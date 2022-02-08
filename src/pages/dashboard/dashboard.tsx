@@ -7,6 +7,7 @@ import DateInfo from 'ui/common/dateInfo';
 import PopoverHover from 'ui/common/popoverHover';
 import { ReactComponent as IconQuestion } from 'assets/images/icons/icon_question.svg';
 import AccountsPanel from './accountsPanel';
+import styles from './dashboard.module.scss';
 
 function DashboardPage() {
   return (
@@ -19,7 +20,7 @@ function DashboardPage() {
       <div className="row">
         <div className="col-6">
           <Card>
-            <CardTitle>
+            <CardTitle className={styles.masternodesCard}>
               <span className="font-bold">Masternodes</span>
               <PopoverHover
                 placement="top"
