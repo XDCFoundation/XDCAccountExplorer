@@ -26,13 +26,7 @@ const get = async <Type>(
   filters: { [key: string]: string; },
 ): Promise<Type> => new Promise<Type>((resolve, reject) => {
   Axios.get(`${resource}?${queryString(filters)}`)
-    .then((response) => {
-      if (response.status === 200) {
-        return response.data;
-      }
-      throw new FetchException(response.statusText, response.status);
-    })
-    .then((json) => resolve(json))
+    .then((res) => resolve(res.data))
     .catch((err) => {
       if (err.message === 'Failed to fetch') {
         reject(new FetchException(err.message, 0));
