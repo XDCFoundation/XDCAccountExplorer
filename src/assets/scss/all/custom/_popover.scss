@@ -1,0 +1,18 @@
+.popover {
+  max-width: 390px;
+  background-color: #707070;
+  font-size: 0.7rem;
+
+  .popover-header {
+    font-weight: normal;
+    padding: 0.65rem 1rem;
+    color: white;
+    background-color: unset;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .popover-body {
+    padding: 0.35rem 1rem 0.65rem;
+    color: white;
+  }
+}

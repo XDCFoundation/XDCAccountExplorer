@@ -3,22 +3,23 @@
 
 /*Theme Colors*/
 
-$themecolor: #2962ff;
+$themecolor: #2149B9;
 $themecolor-dark: #028ee1;
 $themecolor-alt: #26c6da;
 $theme-light: #fff;
 $theme-dark: #212529;
 
-$skin1: #2962ff;
+$skin1: #2149B9;
 
 /*Topbar Colors*/
 
 $topbar: $theme-light;
-$topbar-height: 64px;
+$topbar-height: 60px;
 $topbar-navlink-padding: 0px 15px;
 $topbar-navlink-font-size: 0.875rem;
-$topbar-navlink-height: 64px;
-$topbar-navbrand-padding: 0 10px 0 10px;
+$topbar-navlink-height: 52px;
+$topbar-navbar-padding: 0 50px 0 0;
+$topbar-navbrand-padding: 0 15px;
 $topbar-shadow: 1px 0px 7px rgba(0, 0, 0, 0.05);
 %topbar-shadow {
   box-shadow: $topbar-shadow;
@@ -35,7 +36,7 @@ $boxed-width: 1200px;
 
 /*Shadow*/
 
-$shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
+$shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 
 /* transitions */
 $transitions: 0.2s ease-in;
@@ -78,7 +79,7 @@ $theme-colors: map-merge(
     'primary': #5e72e4,
     'secondary': $gray-600,
     'success': #2dce89,
-    'info': #2962ff,
+    'info': #2149B9,
     'warning': #fb6340,
     'danger': #f62d51,
     'light': $gray-100,
@@ -115,7 +116,7 @@ $enable-gradients: false !default;
 
 // Body
 $main-body-bg: #fff !default;
-$body-bg: #eef5f9;
+$body-bg: #fff;
 $body-color: #3e5569 !default;
 
 $box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075) !default;
@@ -159,7 +160,7 @@ $breadcrumb-margin-bottom: 1.5rem;
 // Cards
 $card-border-width: 0px !default;
 $card-border-color: transparent !default;
-$card-border-radius: 4px !default;
+$card-border-radius: 8px !default;
 $card-bottom-margin: 30px !default;
 %card-shadow {
   box-shadow: $shadow;
@@ -255,7 +256,7 @@ $grid-breakpoints: (
   xlg: 1600px
 ) !default;
 // Navbar
-$navbar-dark-color: rgba($white, 0.8) !default;
+$navbar-dark-color: rgba($white, 1) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
 // Modal
 $modal-content-box-shadow-xs: 0 0.25rem 0.5rem rgba($black, 0.2) !default;

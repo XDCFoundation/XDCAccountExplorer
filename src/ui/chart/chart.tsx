@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { set } from 'lodash';
+import 'chart.js/auto';
 import { Chart as ReactChart } from 'react-chartjs-2';
 import classNames from 'classnames';
 import {
