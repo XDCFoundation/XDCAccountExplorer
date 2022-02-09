@@ -40,6 +40,10 @@ $fontSize: 16px;
     outline: 0;
   }
 
+  & > * {
+    flex: 1;
+  }
+
   &.inactive {
     border-color: $borderInactive;
   }
@@ -73,5 +77,6 @@ $fontSize: 16px;
 
 .amount {
   font-size: 1.5em;
+  margin: 0 0.2em;
   font-weight: bold;
 }
