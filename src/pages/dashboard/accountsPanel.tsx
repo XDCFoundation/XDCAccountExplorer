@@ -1,15 +1,14 @@
 import { Card, CardBody, CardTitle } from 'reactstrap';
 import { format, subDays } from 'date-fns';
-import { useEffect, useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 import Chart from 'ui/chart/chart';
-import { ChartData } from 'ui/chart/types';
 import Filters, { FilterValue } from 'ui/chart/filters';
-import { getAccountsChartData } from 'domains/accounts';
+import { useAccounts } from 'domains/accounts/api';
+import { AccountsFilters } from 'domains/accounts/types';
 
 const dateFormat = 'yyyy-MM-dd';
 
 function AccountsPanel() {
-  const [data, setData] = useState<ChartData>({ datasets: [] });
   const [filters] = useState([
     { name: '7D', value: 7 },
     { name: '1M', value: 30 },
@@ -19,17 +18,16 @@ function AccountsPanel() {
   ]);
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
-  // on filter change
-  const loadData = useCallback(async () => {
-    const filtersObj: { [key: string]: string; } = {};
+  const getFilters = useCallback(() => {
+    const filtersObj: AccountsFilters = {};
     filtersObj.date_lte = format(Date.now(), dateFormat);
     if (timeFilter) {
       filtersObj.date_gte = format(subDays(Date.now(), timeFilter as number), dateFormat);
     }
-    const dataObj: ChartData = await getAccountsChartData(filtersObj);
-    setData(dataObj);
+    return filtersObj;
   }, [timeFilter]);
-  useEffect(() => { loadData(); }, [loadData]);
+
+  const { data } = useAccounts(getFilters());
 
   return (
     <div>
@@ -47,15 +45,18 @@ function AccountsPanel() {
             </span>
           </div>
         </CardTitle>
-        <CardBody>
-          <Chart data={data} height={100} scales={{ left: 'Total', right: 'Value' }} />
-          <Filters
-            title="Time"
-            items={filters}
-            value={timeFilter}
-            onSelect={(value) => setTimeFilter(value)}
-          />
-        </CardBody>
+        {data
+          && (
+            <CardBody>
+              <Chart data={data} height={100} scales={{ left: 'Total', right: 'Value' }} />
+              <Filters
+                title="Time"
+                items={filters}
+                value={timeFilter}
+                onSelect={(value) => setTimeFilter(value)}
+              />
+            </CardBody>
+          )}
       </Card>
     </div>
   );

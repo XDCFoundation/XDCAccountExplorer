@@ -4,6 +4,7 @@ import Axios from 'axios';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import HttpErrorToastInterceptor from 'helpers/interceptors/HttpErrorToastInterceptor';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 Axios.defaults.baseURL = process.env.REACT_APP_API_URL;
 Axios.interceptors.response.use(
@@ -13,8 +14,10 @@ Axios.interceptors.response.use(
 function App() {
   return (
     <BrowserRouter>
-      <XdcExplorer />
-      <ToastContainer />
+      <QueryClientProvider client={new QueryClient()}>
+        <XdcExplorer />
+        <ToastContainer />
+      </QueryClientProvider>
     </BrowserRouter>
   );
 }

@@ -1,13 +1,8 @@
 import { get } from 'helpers/api';
 import { ChartData } from 'ui/chart/types';
 import { Colors } from 'ui/chart/chart';
-
-interface AccountsStatsDataObject {
-  date: string,
-  contract: number,
-  token: number,
-  total: number,
-}
+import { useQuery } from 'react-query';
+import { AccountsStatsDataObject, AccountsFilters } from './types';
 
 const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartData => {
   const labels: string[] = [];
@@ -47,8 +42,16 @@ const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartData =
   return output;
 };
 
-const getAccountsChartData = async (filters: { [key: string]: string; }): Promise<ChartData> => get<AccountsStatsDataObject[]>('accountStats', filters)
+const getAccountsChartData = async (filters: AccountsFilters): Promise<ChartData> => get<AccountsStatsDataObject[]>('accountStats', filters)
   .then((response) => transposeToChartFormat(response));
 
+function useAccounts(filters: AccountsFilters) {
+  return useQuery(
+    ['accounts', filters],
+    () => getAccountsChartData(filters),
+    { initialData: { datasets: [] } },
+  );
+}
+
 export default {};
-export { getAccountsChartData };
+export { getAccountsChartData, useAccounts };
