@@ -1,0 +1,77 @@
+@import 'src/assets/scss/all/bootstrap/bootstrap';
+
+$border: #2149B9;
+$borderInactive: #E7EAF3;
+$background: transparent;
+
+$fontColor: #252525;
+$fontSize: 16px;
+
+.chartLegend {
+  @extend .flex-wrap;
+  @extend .flex-md-nowrap;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 1 320px;
+
+  height: 40px;
+  background: $background;
+  border: 1px solid $border;
+  border-radius: 6px;
+  padding: 0.2em 1em;
+  cursor: pointer;
+  color: $fontColor;
+  font-size: $fontSize;
+  margin: 0.2em;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  // Show outline for keyboard users
+  &:focus:not(:focus-visible) {
+    outline: 0;
+  }
+
+  &.inactive {
+    border-color: $borderInactive;
+  }
+}
+
+.series {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  vertical-align: middle;
+  white-space: nowrap;
+  
+  text-align: left;
+  font-size: 0.8em;
+
+  .color {
+    margin-right: 8px;
+    
+    &.line {
+      width: 20px;
+      height: 2px;      
+    }
+
+    &.bar {
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+
+
+.amount {
+  font-size: 1.5em;
+  font-weight: bold;
+}

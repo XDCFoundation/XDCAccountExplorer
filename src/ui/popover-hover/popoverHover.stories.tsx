@@ -4,7 +4,7 @@ import { ReactComponent as IconQuestion } from 'assets/images/icons/icon_questio
 import PopoverHover from './popoverHover';
 
 export default {
-  title: 'Common/PopoverHover',
+  title: 'UI/PopoverHover',
   component: PopoverHover,
 } as ComponentMeta<typeof PopoverHover>;
 
