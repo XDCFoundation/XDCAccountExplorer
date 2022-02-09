@@ -1,18 +1,10 @@
 import { Card, CardBody, CardTitle } from 'reactstrap';
 import { format, subDays } from 'date-fns';
-import { toast } from 'react-toastify';
 import { useEffect, useCallback, useState } from 'react';
-import { get, FetchException } from 'helpers/api';
-import Chart, { Colors } from 'ui/chart/chart';
+import Chart from 'ui/chart/chart';
 import { ChartData } from 'ui/chart/types';
 import Filters, { FilterValue } from 'ui/chart/filters';
-
-interface AccountsStatsDataObject {
-  date: string,
-  contract: number,
-  token: number,
-  total: number,
-}
+import { getAccountsChartData } from 'domains/accounts';
 
 const dateFormat = 'yyyy-MM-dd';
 
@@ -27,44 +19,6 @@ function AccountsPanel() {
   ]);
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
-  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]) => {
-    const labels: string[] = [];
-    const output: ChartData = {
-      datasets: [
-        {
-          type: 'line',
-          label: 'Total',
-          color: Colors.orange,
-          yAxisID: 'left',
-          data: [] as number[],
-        },
-        {
-          type: 'bar',
-          label: 'Contracts',
-          color: Colors.green,
-          yAxisID: 'right',
-          data: [] as number[],
-        },
-        {
-          type: 'bar',
-          label: 'Token',
-          color: Colors.blue,
-          yAxisID: 'right',
-          data: [] as number[],
-        },
-      ],
-    };
-    dataObj.forEach((row) => {
-      labels.push(row.date);
-      output.datasets[0].data.push(row.total);
-      output.datasets[1].data.push(row.contract);
-      output.datasets[2].data.push(row.token);
-    });
-    output.labels = labels;
-
-    return output;
-  };
-
   // on filter change
   const loadData = useCallback(async () => {
     const filtersObj: { [key: string]: string; } = {};
@@ -72,14 +26,8 @@ function AccountsPanel() {
     if (timeFilter) {
       filtersObj.date_gte = format(subDays(Date.now(), timeFilter as number), dateFormat);
     }
-
-    const dataObj = await get<AccountsStatsDataObject[]>('accountStats', filtersObj)
-      .then((response) => transposeToChartFormat(response))
-      .catch((err) => {
-        const msg = (err instanceof FetchException) ? 'Fetching data error' : 'Unexpected exception';
-        toast.error(msg);
-      });
-    setData(dataObj as ChartData);
+    const dataObj: ChartData = await getAccountsChartData(filtersObj);
+    setData(dataObj);
   }, [timeFilter]);
   useEffect(() => { loadData(); }, [loadData]);
 

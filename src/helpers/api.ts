@@ -27,13 +27,7 @@ const get = async <Type>(
 ): Promise<Type> => new Promise<Type>((resolve, reject) => {
   Axios.get(`${resource}?${queryString(filters)}`)
     .then((res) => resolve(res.data))
-    .catch((err) => {
-      if (err.message === 'Failed to fetch') {
-        reject(new FetchException(err.message, 0));
-      } else {
-        reject(err);
-      }
-    });
+    .catch((err) => reject(err));
 });
 
 export { get, FetchException };
