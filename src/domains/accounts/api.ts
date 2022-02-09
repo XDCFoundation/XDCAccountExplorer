@@ -1,7 +1,7 @@
 import { get } from 'helpers/api';
 import { ChartData } from 'ui/chart/types';
 import { Colors } from 'ui/chart/chart';
-import { useQuery } from 'react-query';
+import { useQuery, UseQueryResult } from 'react-query';
 import { AccountsStatsDataObject, AccountsFilters } from './types';
 
 const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartData => {
@@ -45,7 +45,7 @@ const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartData =
 const getAccountsChartData = async (filters: AccountsFilters): Promise<ChartData> => get<AccountsStatsDataObject[]>('accountStats', filters)
   .then((response) => transposeToChartFormat(response));
 
-function useAccounts(filters: AccountsFilters) {
+function useAccounts(filters: AccountsFilters): UseQueryResult<ChartData, Error> {
   return useQuery(
     ['accounts', filters],
     () => getAccountsChartData(filters),
