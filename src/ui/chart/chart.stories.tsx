@@ -1,29 +1,9 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react';
-import {
-  BarElement,
-  CategoryScale,
-  Chart as ChartJS,
-  Legend,
-  LinearScale,
-  LineElement,
-  PointElement,
-  Tooltip,
-} from 'chart.js';
-import { times } from 'lodash';
 import faker from '@faker-js/faker';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { addDays, format } from 'date-fns';
+import { times } from 'lodash';
 import Chart from './chart';
 import { Colors } from './chart.types';
-
-ChartJS.register(
-  LinearScale,
-  CategoryScale,
-  BarElement,
-  PointElement,
-  LineElement,
-  Legend,
-  Tooltip,
-);
 
 export default {
   title: 'UI/Chart',
