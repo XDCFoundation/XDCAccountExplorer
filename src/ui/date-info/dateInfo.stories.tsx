@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import DateInfo from './dateInfo';
 
 export default {
-  title: 'Common/DateInfo',
+  title: 'UI/DateInfo',
   component: DateInfo,
 } as ComponentMeta<typeof DateInfo>;
 
