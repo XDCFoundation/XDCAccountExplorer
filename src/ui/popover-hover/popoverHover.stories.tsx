@@ -20,7 +20,6 @@ Default.args = {
 
 export const Icon = Template.bind({});
 Icon.args = {
-  header: null,
   content: 'popover without header',
   element: <IconQuestion />,
   placement: 'right',

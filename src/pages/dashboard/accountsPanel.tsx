@@ -6,7 +6,7 @@ import { get, FetchException } from 'helpers/api';
 import Chart, { Colors } from 'ui/chart/chart';
 import { ChartData } from 'ui/chart/types';
 import Filters, { FilterValue } from 'ui/chart/filters';
-import DateInfo from 'ui/common/dateInfo';
+import DateInfo from 'ui/date-info/dateInfo';
 
 interface AccountsStatsDataObject {
   date: string,

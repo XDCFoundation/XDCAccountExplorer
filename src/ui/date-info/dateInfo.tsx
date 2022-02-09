@@ -4,10 +4,9 @@ interface DateInfoProps {
   date: Date,
 }
 
-function DateInfo(props: DateInfoProps) {
-  const { date } = props;
-  const dateFormat = 'd/M/yyyy';
+const dateFormat = 'd/M/yyyy';
 
+function DateInfo({ date }: DateInfoProps) {
   return (
     <span className="small ml-2 mr-2">
       {format(date, dateFormat)}

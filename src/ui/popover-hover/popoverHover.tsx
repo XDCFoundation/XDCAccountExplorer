@@ -8,23 +8,22 @@ import {
 } from 'reactstrap';
 
 interface PopoverHoverProps {
-  header: string | null,
+  header?: string,
   content: string,
   placement: Placement
   element: React.ReactNode,
 }
 
-function PopoverHover(props: PopoverHoverProps) {
+function PopoverHover({
+  header,
+  content,
+  placement,
+  element,
+}: PopoverHoverProps) {
   const [popoverId] = useState(() => uniqueId('popover-'));
   const [popoverOpen, setPopoverOpen] = useState(false);
   const show = () => setPopoverOpen(true);
   const hide = () => setPopoverOpen(false);
-  const {
-    header,
-    content,
-    placement,
-    element,
-  } = props;
 
   return (
     <span>
@@ -36,7 +35,7 @@ function PopoverHover(props: PopoverHoverProps) {
         isOpen={popoverOpen}
         target={popoverId}
       >
-        { header !== null && <PopoverHeader>{header}</PopoverHeader> }
+        { !!header && <PopoverHeader>{header}</PopoverHeader> }
         <PopoverBody>{content}</PopoverBody>
       </Popover>
     </span>

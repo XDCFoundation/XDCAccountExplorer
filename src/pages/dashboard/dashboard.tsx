@@ -3,8 +3,8 @@ import {
   CardBody,
   CardTitle,
 } from 'reactstrap';
-import DateInfo from 'ui/common/dateInfo';
-import PopoverHover from 'ui/common/popoverHover';
+import DateInfo from 'ui/date-info/dateInfo';
+import PopoverHover from 'ui/popover-hover/popoverHover';
 import { ReactComponent as IconQuestion } from 'assets/images/icons/icon_question.svg';
 import AccountsPanel from './accountsPanel';
 import styles from './dashboard.module.scss';
@@ -20,7 +20,7 @@ function DashboardPage() {
       <div className="row">
         <div className="col-6">
           <Card>
-            <CardTitle className={styles.masternodesCard}>
+            <CardTitle>
               <span className="font-bold">Masternodes</span>
               <PopoverHover
                 placement="top"
@@ -29,7 +29,7 @@ function DashboardPage() {
                   Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
                   et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                   ultricies nec, pellentesque eu, pretium."
-                element={<IconQuestion className="ml-2" />}
+                element={<IconQuestion className={styles.iconQuestion} />}
               />
               <DateInfo date={new Date()} />
             </CardTitle>
