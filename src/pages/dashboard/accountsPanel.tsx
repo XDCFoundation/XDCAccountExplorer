@@ -1,12 +1,11 @@
 import { Card, CardBody, CardTitle } from 'reactstrap';
-import { format, subDays } from 'date-fns';
-import { useCallback, useState } from 'react';
-import Chart from 'ui/chart/chart';
+import { subDays } from 'date-fns';
+import { useState, useMemo } from 'react';
 import Filters, { FilterValue } from 'ui/chart/filters';
-import { useAccounts } from 'domains/accounts/api';
-import { AccountsFilters } from 'domains/accounts/types';
-
-const dateFormat = 'yyyy-MM-dd';
+import { AccountsFilters, AccountsStatsDataObject } from 'domains/accounts/types';
+import Chart, { Colors } from 'ui/chart/chart';
+import { ChartData } from 'ui/chart/types';
+import useAccounts from 'domains/accounts/useAccounts';
 
 function AccountsPanel() {
   const [filters] = useState([
@@ -18,16 +17,55 @@ function AccountsPanel() {
   ]);
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
-  const getFilters = useCallback(() => {
-    const filtersObj: AccountsFilters = {};
-    filtersObj.date_lte = format(Date.now(), dateFormat);
+  const getFilters = useMemo(() => {
+    const filtersObj: AccountsFilters = { date_lte: new Date(), date_gte: new Date() };
     if (timeFilter) {
-      filtersObj.date_gte = format(subDays(Date.now(), timeFilter as number), dateFormat);
+      filtersObj.date_gte = subDays(Date.now(), timeFilter as number);
     }
     return filtersObj;
   }, [timeFilter]);
 
-  const { data } = useAccounts(getFilters());
+  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartData => {
+    const labels: string[] = [];
+    const output: ChartData = {
+      datasets: [
+        {
+          type: 'line',
+          label: 'Total',
+          color: Colors.orange,
+          yAxisID: 'left',
+          data: [] as number[],
+        },
+        {
+          type: 'bar',
+          label: 'Contracts',
+          color: Colors.green,
+          yAxisID: 'right',
+          data: [] as number[],
+        },
+        {
+          type: 'bar',
+          label: 'Token',
+          color: Colors.blue,
+          yAxisID: 'right',
+          data: [] as number[],
+        },
+      ],
+    };
+    dataObj.forEach((row) => {
+      labels.push(row.date);
+      output.datasets[0].data.push(row.total);
+      output.datasets[1].data.push(row.contract);
+      output.datasets[2].data.push(row.token);
+    });
+    output.labels = labels;
+
+    return output;
+  };
+
+  const { data } = useAccounts.useAccounts(getFilters);
+
+  const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
 
   return (
     <div>
@@ -45,10 +83,10 @@ function AccountsPanel() {
             </span>
           </div>
         </CardTitle>
-        {data
+        {chartData
           && (
             <CardBody>
-              <Chart data={data} height={100} scales={{ left: 'Total', right: 'Value' }} />
+              <Chart data={chartData} height={100} scales={{ left: 'Total', right: 'Value' }} />
               <Filters
                 title="Time"
                 items={filters}

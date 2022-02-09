@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import backend from 'api/api';
 
 const queryString = (data: { [key: string]: string; }) => {
   const ret: string[] = [];
@@ -10,7 +10,7 @@ const queryString = (data: { [key: string]: string; }) => {
 };
 
 const get = async <Type>(url: string): Promise<Type> => new Promise<Type>((resolve, reject) => {
-  Axios.get(url)
+  backend.get(url)
     .then((res) => resolve(res.data))
     .catch((err) => reject(err));
 });

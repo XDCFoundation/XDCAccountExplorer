@@ -5,6 +5,7 @@ interface AccountsStatsDataObject {
   total: number,
 }
 interface AccountsFilters {
-  [key: string]: string;
+  date_lte: Date;
+  date_gte: Date;
 }
 export { AccountsStatsDataObject, AccountsFilters };
