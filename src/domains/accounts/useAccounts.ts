@@ -6,7 +6,7 @@ function useAccounts(filters: AccountsFilters): UseQueryResult<AccountsStatsData
   return useQuery(
     ['accounts', filters],
     () => getAccountsStats(filters),
-    { initialData: [] },
+    { initialData: [], retry: false },
   );
 }
 

@@ -1,18 +1,22 @@
 import backend from 'api/api';
+import { format } from 'date-fns';
 
-const queryString = (data: { [key: string]: string; }) => {
-  const ret: string[] = [];
-  Object.keys(data).forEach((key) => {
-    ret.push(`${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`);
-  });
+const dateFormat = 'yyyy-MM-dd';
 
-  return ret.join('&');
+const mapDateValueToString = ([key, value]: [string, QueryValue]) => {
+  if (value instanceof Date) {
+    return [key, format(value, dateFormat)];
+  }
+  return [key, value];
+};
+const buildURLQuery = (obj: QueryableObject) => Object.entries(obj)
+  .map(mapDateValueToString)
+  .map((pair) => pair.map(encodeURIComponent).join('='))
+  .join('&');
+
+const get = async <Type>(url: string): Promise<Type> => {
+  const response = await backend.get(url);
+  return response.data;
 };
 
-const get = async <Type>(url: string): Promise<Type> => new Promise<Type>((resolve, reject) => {
-  backend.get(url)
-    .then((res) => resolve(res.data))
-    .catch((err) => reject(err));
-});
-
-export { get, queryString };
+export { get, buildURLQuery };

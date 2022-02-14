@@ -6,6 +6,6 @@ interface AccountsStatsDataObject {
 }
 interface AccountsFilters {
   date_lte: Date;
-  date_gte: Date;
+  date_gte?: Date;
 }
 export { AccountsStatsDataObject, AccountsFilters };

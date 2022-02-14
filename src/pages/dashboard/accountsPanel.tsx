@@ -18,7 +18,7 @@ function AccountsPanel() {
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
   const getFilters = useMemo(() => {
-    const filtersObj: AccountsFilters = { date_lte: new Date(), date_gte: new Date() };
+    const filtersObj: AccountsFilters = { date_lte: new Date() };
     if (timeFilter) {
       filtersObj.date_gte = subDays(Date.now(), timeFilter as number);
     }
