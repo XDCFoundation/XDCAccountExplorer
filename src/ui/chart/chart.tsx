@@ -1,185 +1,62 @@
-import { useEffect, useRef, useState } from 'react';
-import { set } from 'lodash';
+import 'chart.js/auto';
+import { isNumber } from 'lodash';
+import { useState } from 'react';
 import { Chart as ReactChart } from 'react-chartjs-2';
-import classNames from 'classnames';
-import {
-  ChartLegendItem,
-  ChartJsData,
-  ChartData,
-  ChartJsOptions,
-  ChartOptions,
-  ChartPlugin, ChartJsDataset,
-} from './types';
-import styles from './chart.module.scss';
-
-enum Colors {
-  blue = '#5e80ab',
-  green = '#aedfd2',
-  orange = '#f7b68f',
-}
-
-interface ChartPropsScales {
-  left?: string,
-  right?: string,
-}
+import { getChartOptions, mapToChartData } from './chart.helpers';
+import { ChartSeries, Scales } from './chart.types';
+import Legend, { LegendItem } from './legend/legend';
 
 interface ChartProps {
-  data: ChartData,
-  scales: ChartPropsScales,
-  height: string | number,
+  series: ChartSeries;
+  scales: Scales;
+  height: string | number;
 }
 
-function Chart(props: ChartProps) {
-  // eslint-disable-next-line
-  const chartRef = useRef<any>(null);
-  const { scales, data, height } = props;
-  const [legend, setLegend] = useState<ChartLegendItem[]>([]);
-  const [options, setOptions] = useState<ChartOptions>({
-    plugins: {
-      legend: {
-        display: false,
-      },
-      tooltip: {
-        mode: 'index',
-        position: 'nearest',
-      },
-    },
-    scales: {
-      left: {
-        display: true,
-        type: 'linear',
-        position: 'left',
-        align: 'center',
-        title: {
-          display: true,
-          text: '',
-        },
-      },
-      right: {
-        display: true,
-        type: 'linear',
-        position: 'right',
-        title: {
-          display: true,
-          text: '',
-        },
-        grid: {
-          drawOnChartArea: false,
-        },
-      },
-      x: {
-        display: false,
-      },
-    },
+function Chart({
+  series, scales, height,
+}: ChartProps) {
+  const [hiddenDatasets, setHiddenDatasets] = useState<string[]>([]);
+
+  const legendItems = series.datasets.map((dataset): LegendItem => {
+    const value = Number(dataset.data[dataset.data.length - 1]);
+    const previousValue = Number(dataset.data[dataset.data.length - 2]);
+
+    return {
+      label: dataset.label,
+      value: isNumber(value) ? value : null,
+      previousValue: isNumber(previousValue) ? previousValue : null,
+      active: !hiddenDatasets.includes(dataset.label),
+      color: dataset.color,
+      type: dataset.type,
+    };
   });
-  const transposeDataObject = (dataObj: ChartData): ChartData => {
-    const obj = dataObj?.datasets ? { ...dataObj } : { datasets: [] };
 
-    obj.datasets = obj.datasets.map((dataset) => {
-      const color = dataset.color || dataset.backgroundColor || dataset.borderColor;
-      const ds = { ...dataset };
+  const chartData = mapToChartData({ series, hiddenDatasets });
 
-      delete ds.color;
-      ds.backgroundColor = color;
-      ds.borderColor = color;
-
-      if (ds.type === 'line') {
-        ds.pointRadius = ds.pointRadius || 1;
-        ds.pointRadius = ds.pointRadius || 6;
-
-        ds.tension = ds.tension || 0.1;
+  const toggleDataSetVisibility = (legendItem: LegendItem) => {
+    setHiddenDatasets((prev) => {
+      if (prev.includes(legendItem.label)) {
+        return prev.filter((dataSetLabel) => dataSetLabel !== legendItem.label);
       }
-
-      return ds;
+      return [...prev, legendItem.label];
     });
-
-    return obj;
   };
-  const handleLegendClick = (legendItem: ChartLegendItem) => {
-    const chart = chartRef?.current;
-    if (chart) {
-      let displayAxis = false;
-      const axisId = chart.data.datasets[legendItem.datasetIndex].yAxisID;
-      chart.data.datasets = chart.data.datasets.map((dataset: ChartJsDataset) => {
-        const ds = { ...dataset };
-        if (ds.label === legendItem.text) {
-          ds.hidden = !ds.hidden;
-        }
-        if (ds.yAxisID === axisId) {
-          displayAxis = displayAxis || !ds.hidden;
-        }
-
-        return ds;
-      });
-
-      options.scales[axisId].display = displayAxis;
-      chart.update();
-      setLegend(chart.legend.legendItems);
-    }
-  };
-
-  // on chart mount
-  useEffect(() => {
-    const chart = chartRef?.current;
-    if (chart) {
-      setLegend(chart.legend.legendItems);
-      if (scales) {
-        const o = { ...options };
-        set(o, 'scales.left.title.text', scales.left || '');
-        set(o, 'scales.right.title.text', scales.right || '');
-        setOptions(o);
-
-        chart.update();
-      }
-    }
-  }, [scales]);
-
-  const chartData = transposeDataObject(data);
-  const plugins: ChartPlugin[] = [/* chartScaleIconPlugin */];
 
   return (
     <>
-      <div className={styles.chartLegend}>
-        {legend.length > 0 && legend.map((item: ChartLegendItem, idx: number) => (
-          <div
-            role="link"
-            tabIndex={idx}
-            key={item.text}
-            onClick={() => handleLegendClick(item)}
-            onKeyDown={() => handleLegendClick(item)}
-            className={classNames({
-              [styles.item]: true,
-              [styles.inactive]: item.hidden,
-            })}
-          >
-            <div className={styles.color}>
-              <div style={{ backgroundColor: item.fillStyle as string }} />
-            </div>
-            <div className={styles.label}>{item.text}</div>
-            <div className={styles.amount}>123 456</div>
-            <div className={classNames({
-              [styles.change]: true,
-              [styles.down]: item.datasetIndex % 2,
-              [styles.up]: !(item.datasetIndex % 2),
-            })}
-            >
-              +23
-            </div>
-          </div>
-        ))}
-      </div>
-      <ReactChart
-        type="bar"
-        ref={chartRef}
-        options={options as ChartJsOptions}
-        data={chartData as ChartJsData}
-        plugins={plugins}
-        height={height}
+      <Legend
+        items={legendItems}
+        onItemClick={toggleDataSetVisibility}
       />
+      <div style={{ height }}>
+        <ReactChart
+          type="bar"
+          options={getChartOptions({ scales })}
+          data={chartData}
+        />
+      </div>
     </>
   );
 }
 
 export default Chart;
-
-export { Colors };

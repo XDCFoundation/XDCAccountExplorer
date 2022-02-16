@@ -1,6 +1,5 @@
 import { ReactElement } from 'react';
 import routes from 'routes/routes';
-import Footer from 'ui/footer/footer';
 import Header from 'ui/header/header';
 
 interface FullLayoutProps {
@@ -27,7 +26,6 @@ function Fulllayout({ children }: FullLayoutProps) {
         <div className="page-content container-fluid">
           {children}
         </div>
-        <Footer />
       </div>
     </div>
   );

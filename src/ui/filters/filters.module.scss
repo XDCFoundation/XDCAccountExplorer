@@ -1,0 +1,37 @@
+$fontColor: #252525;
+$fontSize: 16px;
+
+$activeColor: #2149B9;
+
+.container {
+  width: 100%;
+  text-align: center;
+
+  font-size: $fontSize;
+  color: $fontColor;
+}
+
+.filters {
+  width: 100%;
+  text-align: center;
+}
+
+.filterButton {
+  font-size: 0.8em;
+  color: $fontColor;
+  margin-right: 1em;
+  cursor: pointer;
+  border: none;
+  background: none;
+
+  // Show outline for keyboard users
+  &:focus:not(:focus-visible) {
+    outline: 0;
+  }
+
+  &.selected {
+    color: $activeColor;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}

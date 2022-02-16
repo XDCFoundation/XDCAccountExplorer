@@ -7,6 +7,7 @@ import {
 
 import { NavLink } from 'react-router-dom';
 import { RouteConfig } from 'routes/types';
+import { ReactComponent as IconLogo } from 'assets/images/icons/icon_logo.svg';
 
 type HeaderProps = {
   routes: RouteConfig[];
@@ -17,10 +18,11 @@ function Header({
 }: HeaderProps) {
   return (
     <header className="topbar navbarbg" data-navbarbg="skin1">
-      <Navbar className="top-navbar" dark expand="md">
+      <Navbar className="top-navbar" dark expand>
         <div className="navbar-header">
           <div className="navbar-brand">
-            Logo here XDC FE
+            <IconLogo className="mr-2" />
+            <span>XDC</span>
           </div>
         </div>
         <Collapse className="navbarbg" navbar data-navbarbg="skin1">
@@ -33,7 +35,7 @@ function Header({
                 <NavItem key={key}>
                   <NavLink
                     to={prop.path}
-                    className={(navData) => (navData.isActive ? 'nav-link ml-1 mr-1 font-bold' : 'nav-link ml-1 mr-1')}
+                    className={(navData) => (navData.isActive ? 'nav-link ml-5 active' : 'nav-link ml-5')}
                   >
                     <i className={prop.icon} />
                     {' '}

@@ -1,0 +1,11 @@
+.change {
+  text-align: right;
+  font-weight: bold;
+
+  &.up {
+    color: #28a745;
+  }
+  &.down {
+    color: #dc3545;
+  }
+}

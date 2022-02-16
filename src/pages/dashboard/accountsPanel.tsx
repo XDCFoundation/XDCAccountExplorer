@@ -1,11 +1,14 @@
 import { Card, CardBody, CardTitle } from 'reactstrap';
 import { subDays } from 'date-fns';
 import { useState, useMemo } from 'react';
-import Filters, { FilterValue } from 'ui/chart/filters';
+import Filters, { FilterValue } from 'ui/filters/filters';
 import { AccountsFilters, AccountsStatsDataObject } from 'domains/accounts/types';
-import Chart, { Colors } from 'ui/chart/chart';
-import { ChartData } from 'ui/chart/types';
+import Chart from 'ui/chart/chart';
+import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import useAccounts from 'domains/accounts/useAccounts';
+import DateInfo from 'ui/date-info/dateInfo';
+
+const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
 
 function AccountsPanel() {
   const [filters] = useState([
@@ -25,40 +28,39 @@ function AccountsPanel() {
     return filtersObj;
   }, [timeFilter]);
 
-  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartData => {
-    const labels: string[] = [];
-    const output: ChartData = {
+  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]) => {
+    const output: ChartSeries = {
       datasets: [
         {
           type: 'line',
           label: 'Total',
           color: Colors.orange,
-          yAxisID: 'left',
+          yAxis: 'right',
           data: [] as number[],
         },
         {
-          type: 'bar',
+          type: 'line',
           label: 'Contracts',
           color: Colors.green,
-          yAxisID: 'right',
+          yAxis: 'right',
           data: [] as number[],
         },
         {
-          type: 'bar',
+          type: 'line',
           label: 'Token',
           color: Colors.blue,
-          yAxisID: 'right',
+          yAxis: 'right',
           data: [] as number[],
         },
       ],
+      labels: [],
     };
     dataObj.forEach((row) => {
-      labels.push(row.date);
+      output.labels.push(row.date);
       output.datasets[0].data.push(row.total);
       output.datasets[1].data.push(row.contract);
       output.datasets[2].data.push(row.token);
     });
-    output.labels = labels;
 
     return output;
   };
@@ -70,31 +72,24 @@ function AccountsPanel() {
   return (
     <div>
       <Card>
-        <CardTitle className="bg-light border-bottom p-3 mb-0">
+        <CardTitle>
           <div className="float-left">
-            <span>Accounts</span>
-            <span className="small ml-2">todo some date here</span>
-          </div>
-          <div className="float-right">
-            <span>
-              <i className="fa fa-filter text-primary" />
-              {' '}
-              todo filters
-            </span>
+            <span className="font-bold">Accounts</span>
+            <DateInfo date={new Date()} />
           </div>
         </CardTitle>
-        {chartData
-          && (
-            <CardBody>
-              <Chart data={chartData} height={100} scales={{ left: 'Total', right: 'Value' }} />
-              <Filters
-                title="Time"
-                items={filters}
-                value={timeFilter}
-                onSelect={(value) => setTimeFilter(value)}
-              />
-            </CardBody>
-          )}
+        <CardBody>
+          <Chart
+            series={chartData ?? placeholderData}
+            height={300}
+            scales={{ rightEnabled: true }}
+          />
+          <Filters
+            items={filters}
+            value={timeFilter}
+            onSelect={(value) => setTimeFilter(value)}
+          />
+        </CardBody>
       </Card>
     </div>
   );
