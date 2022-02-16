@@ -18,7 +18,7 @@ function Header({
 }: HeaderProps) {
   return (
     <header className="topbar navbarbg" data-navbarbg="skin1">
-      <Navbar className="top-navbar" dark expand="md">
+      <Navbar className="top-navbar" dark expand>
         <div className="navbar-header">
           <div className="navbar-brand">
             <IconLogo className="mr-2" />
