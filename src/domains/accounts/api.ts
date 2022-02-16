@@ -5,7 +5,7 @@ const ACCOUNT_STATS_ENDPOINT: string = 'accountStats';
 
 const getAccountsStats = async (filters: AccountsFilters)
 : Promise<AccountsStatsDataObject[]> => {
-  const url: string = `${ACCOUNT_STATS_ENDPOINT}?${buildURLQuery(filters as unknown as QueryableObject)}`;
+  const url: string = `${ACCOUNT_STATS_ENDPOINT}?${buildURLQuery(filters)}`;
   return get<AccountsStatsDataObject[]>(url);
 };
 

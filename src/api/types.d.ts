@@ -1,2 +1,2 @@
-type QueryableObject = { [key: string]: QueryValue; };
+type QueryableObject = Partial<Record<string, QueryValue>>;
 type QueryValue = string | Date | number | boolean;

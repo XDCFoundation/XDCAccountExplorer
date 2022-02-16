@@ -9,7 +9,10 @@ const mapDateValueToString = ([key, value]: [string, QueryValue]) => {
   }
   return [key, value];
 };
+
 const buildURLQuery = (obj: QueryableObject) => Object.entries(obj)
+  .filter(([, value]) => !!value)
+  .map(([key, value]) => [key, value] as [string, QueryValue])
   .map(mapDateValueToString)
   .map((pair) => pair.map(encodeURIComponent).join('='))
   .join('&');
