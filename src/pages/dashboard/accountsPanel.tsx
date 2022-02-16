@@ -1,26 +1,16 @@
-import { format, subDays } from 'date-fns';
-import { FetchException, get } from 'helpers/api';
-import { useCallback, useEffect, useState } from 'react';
-import { toast } from 'react-toastify';
 import { Card, CardBody, CardTitle } from 'reactstrap';
+import { subDays } from 'date-fns';
+import { useState, useMemo } from 'react';
+import Filters, { FilterValue } from 'ui/filters/filters';
+import { AccountsFilters, AccountsStatsDataObject } from 'domains/accounts/types';
 import Chart from 'ui/chart/chart';
 import { ChartSeries, Colors } from 'ui/chart/chart.types';
+import useAccounts from 'domains/accounts/useAccounts';
 import DateInfo from 'ui/date-info/dateInfo';
-import Filters, { FilterValue } from 'ui/filters/filters';
-
-interface AccountsStatsDataObject {
-  date: string,
-  contract: number,
-  token: number,
-  total: number,
-}
-
-const dateFormat = 'yyyy-MM-dd';
 
 const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
 
 function AccountsPanel() {
-  const [data, setData] = useState<ChartSeries | null>(null);
   const [filters] = useState([
     { name: '7D', value: 7 },
     { name: '1M', value: 30 },
@@ -29,6 +19,14 @@ function AccountsPanel() {
     { name: 'MAX', value: null },
   ]);
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
+
+  const getFilters = useMemo(() => {
+    const filtersObj: AccountsFilters = { date_lte: new Date() };
+    if (timeFilter) {
+      filtersObj.date_gte = subDays(Date.now(), timeFilter as number);
+    }
+    return filtersObj;
+  }, [timeFilter]);
 
   const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]) => {
     const output: ChartSeries = {
@@ -67,23 +65,9 @@ function AccountsPanel() {
     return output;
   };
 
-  // on filter change
-  const loadData = useCallback(async () => {
-    const filtersObj: { [key: string]: string; } = {};
-    filtersObj.date_lte = format(Date.now(), dateFormat);
-    if (timeFilter) {
-      filtersObj.date_gte = format(subDays(Date.now(), timeFilter as number), dateFormat);
-    }
+  const { data } = useAccounts.useAccounts(getFilters);
 
-    const dataObj = await get<AccountsStatsDataObject[]>('accountStats', filtersObj)
-      .then((response) => transposeToChartFormat(response))
-      .catch((err) => {
-        const msg = (err instanceof FetchException) ? 'Fetching data error' : 'Unexpected exception';
-        toast.error(msg);
-      });
-    setData(dataObj ?? null);
-  }, [timeFilter]);
-  useEffect(() => { loadData(); }, [loadData]);
+  const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
 
   return (
     <div>
@@ -96,7 +80,7 @@ function AccountsPanel() {
         </CardTitle>
         <CardBody>
           <Chart
-            series={data ?? placeholderData}
+            series={chartData ?? placeholderData}
             height={300}
             scales={{ rightEnabled: true }}
           />
