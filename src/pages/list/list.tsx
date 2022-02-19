@@ -5,6 +5,7 @@ import {
   Row,
   Col,
 } from 'reactstrap';
+import RankingPanel from './rankingPanel';
 
 function ListPage() {
   return (
@@ -21,14 +22,7 @@ function ListPage() {
           </Card>
         </Col>
         <Col xs="12" md="3">
-          <Card>
-            <CardTitle>
-              <span className="font-bold">Ranking</span>
-            </CardTitle>
-            <CardBody>
-              todo ranking
-            </CardBody>
-          </Card>
+          <RankingPanel />
         </Col>
       </Row>
     </div>

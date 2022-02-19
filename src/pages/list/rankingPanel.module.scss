@@ -1,0 +1,7 @@
+.invalid {
+  border-color: red !important;
+
+  &:focus {
+    border-color: red !important;
+  }
+}
