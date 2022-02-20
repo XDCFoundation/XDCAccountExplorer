@@ -1,0 +1,18 @@
+$balancePercentageBg: #2149B9;
+
+.rightAlign {
+  text-align: end;
+  white-space: nowrap;
+}
+
+.balancePercentage {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .color {
+    background: $balancePercentageBg;
+    height: 4px;
+  }
+}
