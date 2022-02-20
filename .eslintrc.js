@@ -37,5 +37,6 @@ module.exports = {
     'react/require-default-props': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
     'import/no-relative-parent-imports': 'error',
+    'import/prefer-default-export': 'off',
   }
 };
