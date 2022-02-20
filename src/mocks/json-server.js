@@ -3,10 +3,11 @@ const jsonServer = require('json-server');
 
 const server = jsonServer.create();
 const accountStats = require('./account-stats.json');
+const masternodes = require('./masternodes.json');
 
 const router = jsonServer.router({
   accountStats,
-  // ... add more resources ...
+  masternodes, // ... add more resources ...
 });
 const middlewares = jsonServer.defaults();
 
