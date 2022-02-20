@@ -11,7 +11,6 @@ function useAccountsByTranche(): UseQueryResult<AccountTranche[]> {
 
       return parseAccountsByTrancheDTOs(accountsByTrancheDtos);
     },
-    { retry: false },
   );
 }
 
