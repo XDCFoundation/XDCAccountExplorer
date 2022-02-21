@@ -8,16 +8,12 @@ import {
   InputGroup,
   Label,
 } from 'reactstrap';
-import RankingTrend from 'ui/ranking/ranking-trend/rankingTrend';
-import RankingTop from 'ui/ranking/ranking-top/rankingTop';
-import RankingAccountResult from 'ui/ranking/ranking-account-result/rankingAccountResult';
-import RankingAmountResult from 'ui/ranking/ranking-amount-result/rankingAmountResult';
 import { useMemo, useState } from 'react';
+import { ReactComponent as IconMagnifier } from 'assets/images/icons/icon_maginifier.svg';
+import { ResultAccount } from 'domains/ranking/types';
 import classNames from 'classnames';
 import styles from './rankingPanel.module.scss';
-
-const SEARCH_TYPE_ACCOUNT = 'account';
-const SEARCH_TYPE_AMOUNT = 'amount';
+import RankingResults from './rankingResults';
 
 const isAddress = (address: string) => /^(xdc)?[0-9a-f]{40}$/i.test(address);
 
@@ -39,13 +35,16 @@ function RankingPanel() {
 
     return false;
   }, [searchValue]);
-  const searchType = useMemo(() => {
-    if (searchValid) {
-      return isAddress(searchValue) ? SEARCH_TYPE_ACCOUNT : SEARCH_TYPE_AMOUNT;
-    }
 
-    return null;
-  }, [searchValid]);
+  // @todo: fetch mocked data
+  const results = {
+    type: 'account',
+    balance: 123546,
+    transactions: 534,
+    account: 'xdc12315q8b3aw57865s52qw31as5d78v98bvas6490',
+    accountsRicher: 1234,
+    accountsPoorer: 4568,
+  } as ResultAccount;
 
   return (
     <Card>
@@ -56,7 +55,7 @@ function RankingPanel() {
       </CardTitle>
       <CardBody>
         {/* filters section */}
-        <InputGroup>
+        <InputGroup className={styles.rankingSearch}>
           <Input
             type="text"
             placeholder="Account Number or XDC amount"
@@ -66,7 +65,14 @@ function RankingPanel() {
               [styles.invalid]: !searchValid,
             })}
           />
-          <Button type="button" color="primary" className="ml-3 primary">TD</Button>
+          <Button
+            type="button"
+            color="primary"
+            className="primary ml-3"
+            disabled={!searchValid}
+          >
+            <IconMagnifier />
+          </Button>
         </InputGroup>
         <FormGroup check className="m-2">
           <Input type="checkbox" color="primary" id="cb-foundation" />
@@ -85,25 +91,7 @@ function RankingPanel() {
         <hr />
 
         {/* results section */}
-        <b>Results</b>
-        {
-          searchType === SEARCH_TYPE_ACCOUNT
-          && <RankingAccountResult account={searchValue} transactions={231} xdc={12345123} />
-        }
-        {searchType !== SEARCH_TYPE_ACCOUNT && <RankingAmountResult xdc={12345123} />}
-
-        <div className="mb-2">
-          <RankingTrend value={245} description="Accounts have more XDC than you" />
-        </div>
-        <div className="mb-2">
-          <RankingTop percent={55.6} />
-        </div>
-        <div>
-          <RankingTrend value={2343010} description="Accounts have more XDC than you" negative />
-        </div>
-        <div className="text-center mt-4 mb-4">
-          TODO big fish badge?
-        </div>
+        <RankingResults result={results} />
       </CardBody>
     </Card>
   );

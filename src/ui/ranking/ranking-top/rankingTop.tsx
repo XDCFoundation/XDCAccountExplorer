@@ -1,3 +1,4 @@
+import { ReactComponent as IconTrophy } from 'assets/images/icons/icon_trophy.svg';
 import styles from './rankingTop.module.scss';
 
 interface RankingTopProps {
@@ -18,7 +19,7 @@ function RankingTop({ percent }: RankingTopProps) {
           %
         </div>
         <div>
-          ico
+          <IconTrophy />
         </div>
       </span>
       <span>

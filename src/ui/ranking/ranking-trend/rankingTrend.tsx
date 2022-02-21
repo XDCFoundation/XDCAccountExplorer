@@ -1,3 +1,5 @@
+import { ReactComponent as IconCaretUp } from 'assets/images/icons/icon_caret_up.svg';
+import { ReactComponent as IconCaretDown } from 'assets/images/icons/icon_caret_down.svg';
 import classNames from 'classnames';
 import styles from './rankingTrend.module.scss';
 
@@ -15,7 +17,8 @@ function RankingTrend({ negative, value, description }: RankingTrendProps) {
         [styles.up]: !negative,
       })}
       >
-        T
+        {!negative && <IconCaretUp />}
+        {negative && <IconCaretDown />}
       </span>
       <b className="ml-2 mr-3">
         {value.toLocaleString()}

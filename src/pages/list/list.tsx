@@ -5,7 +5,7 @@ import {
   Row,
   Col,
 } from 'reactstrap';
-import RankingPanel from './rankingPanel';
+import RankingPanel from './ranking-panel/rankingPanel';
 
 function ListPage() {
   return (

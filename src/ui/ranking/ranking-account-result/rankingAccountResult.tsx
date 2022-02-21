@@ -1,16 +1,23 @@
+import { useMemo } from 'react';
 import styles from './rankingAccountResult.module.scss';
 
 interface RankingAccountResultProps {
   account: string;
   transactions: number;
-  xdc: number;
+  balance: number;
 }
 
-function RankingAccountResult({ account, transactions, xdc }: RankingAccountResultProps) {
+function RankingAccountResult({ account, transactions, balance }: RankingAccountResultProps) {
+  const accountShortened = useMemo(() => {
+    const prefix = account.substring(0, 13);
+    const suffix = account.substring(account.length - 10);
+    return `${prefix}...${suffix}`;
+  }, [account]);
+
   return (
     <div className="text-center mt-2 mb-3">
       <h4>
-        {account}
+        {accountShortened}
       </h4>
       <div className={styles.stat}>
         <span>
@@ -25,7 +32,8 @@ function RankingAccountResult({ account, transactions, xdc }: RankingAccountResu
           Balance:
         </span>
         <span>
-          {xdc.toLocaleString()}
+          {balance.toLocaleString()}
+          {' XDC'}
         </span>
       </div>
     </div>

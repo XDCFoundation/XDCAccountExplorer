@@ -17,6 +17,6 @@ Positive.args = {
 export const Negative = Template.bind({});
 Negative.args = {
   negative: true,
-  value: 831,
+  value: 2343010,
   description: 'Accounts have less XDC than you',
 };

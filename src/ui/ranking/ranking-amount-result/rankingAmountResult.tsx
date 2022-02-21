@@ -1,14 +1,14 @@
 interface RankingAmountResultProps {
-  xdc: number;
+  balance: number;
 }
 
-function RankingAmountResult({ xdc }: RankingAmountResultProps) {
+function RankingAmountResult({ balance }: RankingAmountResultProps) {
   return (
     <div className="text-center mt-2 mb-3">
       <h4>
         With account balance of
         <br />
-        {xdc.toLocaleString()}
+        {balance.toLocaleString()}
         {' '}
         XDC
       </h4>
