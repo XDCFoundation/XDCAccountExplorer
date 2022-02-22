@@ -2,22 +2,22 @@ import { Card, CardTitle, CardBody } from 'reactstrap';
 import DateInfo from 'ui/date-info/dateInfo';
 import PopoverHover from 'ui/popover-hover/popoverHover';
 import { ReactComponent as IconQuestion } from 'assets/images/icons/icon_question.svg';
-import Filters, { FilterValue, DEFAULT_FILTERS } from 'ui/filters/filters';
+import Filters, { FilterValue } from 'ui/filters/filters';
 import { subDays } from 'date-fns';
 import { useState, useMemo } from 'react';
 import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import Chart from 'ui/chart/chart';
 import useMasternodes from 'domains/masternodes/useMasternodes';
-import styles from './dashboard.module.scss';
+import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
+import styles from './masternodesPanel.module.scss';
 
 const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
 
 function MasternodesPanel() {
-  const [filters] = useState(DEFAULT_FILTERS);
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
   const getFilters = useMemo(() => {
-    const filtersObj: MasternodesFilters = { date_lte: new Date() };
+    const filtersObj: TimeFilters = { date_lte: new Date() };
     if (timeFilter) {
       filtersObj.date_gte = subDays(Date.now(), timeFilter as number);
     }
@@ -78,9 +78,9 @@ function MasternodesPanel() {
           scales={{ rightEnabled: true }}
         />
         <Filters
-          items={filters}
+          items={DEFAULT_TIME_FILTERS}
           value={timeFilter}
-          onSelect={(value) => setTimeFilter(value)}
+          onSelect={setTimeFilter}
         />
       </CardBody>
     </Card>
