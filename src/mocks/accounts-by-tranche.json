@@ -1,0 +1,191 @@
+[
+  {
+    "balanceFrom": 0,
+    "balanceTo": 4999,
+    "accounts": 488575,
+    "accountsWithGreaterBalance": 508925,
+    "balancePercentage": 0.02,
+    "usdBalance": 157112,
+    "xdcAverageBalance": 769,
+    "xdcBalance": 1404112
+  },
+  {
+    "balanceFrom": 5000,
+    "balanceTo": 9999,
+    "accounts": 1691,
+    "accountsWithGreaterBalance": 4208,
+    "balancePercentage": 0.01,
+    "usdBalance": 87540,
+    "xdcAverageBalance": 6999,
+    "xdcBalance": 1780998
+  },
+  {
+    "balanceFrom": 10000,
+    "balanceTo": 24999,
+    "accounts": 657,
+    "accountsWithGreaterBalance": 2517,
+    "balancePercentage": 0.01,
+    "usdBalance": 127540,
+    "xdcAverageBalance": 15786,
+    "xdcBalance": 6780998
+  },
+  {
+    "balanceFrom": 25000,
+    "balanceTo": 49999,
+    "accounts": 235,
+    "accountsWithGreaterBalance": 1860,
+    "balancePercentage": 0.01,
+    "usdBalance": 8183487,
+    "xdcAverageBalance": 35789,
+    "xdcBalance": 74890734
+  },
+  {
+    "balanceFrom": 50000,
+    "balanceTo": 74999,
+    "accounts": 218,
+    "accountsWithGreaterBalance": 1055,
+    "balancePercentage": 0.01,
+    "usdBalance": 8276098,
+    "xdcAverageBalance": 59234,
+    "xdcBalance": 73996234
+  },
+  {
+    "balanceFrom": 75000,
+    "balanceTo": 99999,
+    "accounts": 105,
+    "accountsWithGreaterBalance": 949,
+    "balancePercentage": 0.02,
+    "usdBalance": 5747319,
+    "xdcAverageBalance": 87056,
+    "xdcBalance": 51363957
+  },
+  {
+    "balanceFrom": 100000,
+    "balanceTo": 249999,
+    "accounts": 1432,
+    "accountsWithGreaterBalance": 864,
+    "balancePercentage": 0.03,
+    "usdBalance": 17334266,
+    "xdcAverageBalance": 245786,
+    "xdcBalance": 218090849
+  },
+  {
+    "balanceFrom": 500000,
+    "balanceTo": 999999,
+    "accounts": 64,
+    "accountsWithGreaterBalance": 793,
+    "balancePercentage": 0.04,
+    "usdBalance": 3213659,
+    "xdcAverageBalance": 923551,
+    "xdcBalance": 25516789
+  },
+  {
+    "balanceFrom": 1000000,
+    "balanceTo": 1999999,
+    "accounts": 436,
+    "accountsWithGreaterBalance": 729,
+    "balancePercentage": 0.05,
+    "usdBalance": 62136559,
+    "xdcAverageBalance": 1273551,
+    "xdcBalance": 555316789
+  },
+  {
+    "balanceFrom": 2000000,
+    "balanceTo": 2999999,
+    "accounts": 103,
+    "accountsWithGreaterBalance": 293,
+    "balancePercentage": 0.06,
+    "usdBalance": 26658678,
+    "xdcAverageBalance": 2313101,
+    "xdcBalance": 28834054
+  },
+  {
+    "balanceFrom": 3000000,
+    "balanceTo": 3999999,
+    "accounts": 49,
+    "accountsWithGreaterBalance": 190,
+    "balancePercentage": 0.07,
+    "usdBalance": 18435601,
+    "xdcAverageBalance": 33945654,
+    "xdcBalance": 166543555
+  },
+  {
+    "balanceFrom": 4000000,
+    "balanceTo": 4999999,
+    "accounts": 32,
+    "accountsWithGreaterBalance": 141,
+    "balancePercentage": 0.08,
+    "usdBalance": 15436576,
+    "xdcAverageBalance": 4399345,
+    "xdcBalance": 140791123
+  },
+  {
+    "balanceFrom": 5000000,
+    "balanceTo": 9999999,
+    "accounts": 51,
+    "accountsWithGreaterBalance": 109,
+    "balancePercentage": 0.1,
+    "usdBalance": 36203243,
+    "xdcAverageBalance": 6244282,
+    "xdcBalance": 363203243
+  },
+  {
+    "balanceFrom": 10000000,
+    "balanceTo": 19999999,
+    "accounts": 29,
+    "accountsWithGreaterBalance": 58,
+    "balancePercentage": 0.18,
+    "usdBalance": 40280100,
+    "xdcAverageBalance": 12432457,
+    "xdcBalance": 359985554
+  },
+  {
+    "balanceFrom": 20000000,
+    "balanceTo": 49999999,
+    "accounts": 10,
+    "accountsWithGreaterBalance": 29,
+    "balancePercentage": 0.2,
+    "usdBalance": 33804345,
+    "xdcAverageBalance": 30211491,
+    "xdcBalance": 302114908
+  },
+  {
+    "balanceFrom": 50000000,
+    "balanceTo": 99999999,
+    "accounts": 4,
+    "accountsWithGreaterBalance": 19,
+    "balancePercentage": 0.25,
+    "usdBalance": 30301260,
+    "xdcAverageBalance": 67700814,
+    "xdcBalance": 270803257
+  },
+  {
+    "balanceFrom": 100000000,
+    "balanceTo": 499999999,
+    "accounts": 6,
+    "accountsWithGreaterBalance": 15,
+    "balancePercentage": 0.3,
+    "usdBalance": 184060895,
+    "xdcAverageBalance": 274159614,
+    "xdcBalance": 1644957686
+  },
+  {
+    "balanceFrom": 500000000,
+    "balanceTo": 999999999,
+    "accounts": 2,
+    "accountsWithGreaterBalance": 9,
+    "balancePercentage": 0.6,
+    "usdBalance": 111894000,
+    "xdcAverageBalance": 500000000,
+    "xdcBalance": 1000000000
+  },
+  {
+    "balanceFrom": 1000000000,
+    "accounts": 7,
+    "accountsWithGreaterBalance": 7,
+    "balancePercentage": 1,
+    "usdBalance": 3518102312,
+    "xdcAverageBalance": 2147483647,
+    "xdcBalance": 31442384814
+  }
+]
