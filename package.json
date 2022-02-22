@@ -37,6 +37,7 @@
     "json-server": "node src/mocks/json-server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:ci": "npm run test -- --watchAll=false",
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .ts,.tsx,.js,.jsx",
     "lint:fix": "npm run lint -- --fix",

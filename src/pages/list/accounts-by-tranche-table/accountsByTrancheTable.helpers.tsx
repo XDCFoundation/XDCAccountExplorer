@@ -8,8 +8,8 @@ function RightAlignedText({ children }: PropsWithChildren<unknown>) {
   return <div className={styles.rightAlign}>{children}</div>;
 }
 
-function NumberCell({ value }: CellProps<AccountTranche, number>) {
-  return <RightAlignedText>{value.toLocaleString()}</RightAlignedText>;
+function NumberCell({ value }: CellProps<AccountTranche, number | undefined>) {
+  return <RightAlignedText>{value?.toLocaleString() ?? '-'}</RightAlignedText>;
 }
 
 // Column specific cells
@@ -23,7 +23,7 @@ function Tranche(cell: CellProps<AccountTranche>) {
   return <RightAlignedText>{formattedBalance}</RightAlignedText>;
 }
 
-function BalancePercentage({ value }: CellProps<AccountTranche, number>) {
+function BalancePercentage({ value = 0 }: CellProps<AccountTranche, number | undefined>) {
   const percentage = Math.floor(value * 100);
 
   return (

@@ -3,8 +3,8 @@ export type AccountTranche = {
   accountsWithGreaterBalance: number;
   balanceFrom: number;
   balanceTo: number;
-  balancePercentage: number;
+  balancePercentage?: number;
   usdBalance: number;
-  xdcAverageBalance: number;
+  xdcAverageBalance?: number;
   xdcBalance: number;
 };
