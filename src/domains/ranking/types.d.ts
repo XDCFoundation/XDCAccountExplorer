@@ -13,8 +13,15 @@ interface AccountRanking extends Ranking {
 interface AmountRanking extends Ranking {
   type: 'amount',
 }
+type RankingFilters = {
+  type: RankingType;
+  input: string;
+  includeFoundationAccounts: boolean,
+  includeZeroBalanceAccounts: boolean,
+};
 
 export {
   AccountRanking,
   AmountRanking,
+  RankingFilters,
 };

@@ -1,6 +1,6 @@
 import Trend from 'ui/ranking/trend/trend';
 import Placement from 'ui/ranking/placement/placement';
-import { AccountRanking, AmountRanking } from 'domains/ranking/ranking.types';
+import { AccountRanking, AmountRanking } from 'domains/ranking/types';
 import RankingAccountResult from './ranking-account-result/rankingAccountResult';
 import RankingAmountResult from './ranking-amount-result/rankingAmountResult';
 
