@@ -1,12 +1,12 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import RankingTrend from './rankingTrend';
+import Trend from './trend';
 
 export default {
-  title: 'UI/Ranking/RankingTrend',
-  component: RankingTrend,
-} as ComponentMeta<typeof RankingTrend>;
+  title: 'UI/Ranking/Trend',
+  component: Trend,
+} as ComponentMeta<typeof Trend>;
 
-const Template: ComponentStory<typeof RankingTrend> = (args) => <RankingTrend {...args} />;
+const Template: ComponentStory<typeof Trend> = (args) => <Trend {...args} />;
 
 export const Positive = Template.bind({});
 Positive.args = {

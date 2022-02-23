@@ -1,13 +1,13 @@
 import { ReactComponent as IconTrophy } from 'assets/images/icons/icon_trophy.svg';
-import styles from './rankingTop.module.scss';
+import styles from './placement.module.scss';
 
-interface RankingTopProps {
+interface PlacementProps {
   percent: number;
 }
 
-function RankingTop({ percent }: RankingTopProps) {
-  const val = Math.ceil(percent);
-  const piePerc = { '--perc': val } as React.CSSProperties;
+function Placement({ percent }: PlacementProps) {
+  const roundedPercent = Math.ceil(percent);
+  const pieChartStyle = { '--perc': roundedPercent } as React.CSSProperties;
 
   return (
     <div className={styles.container}>
@@ -15,7 +15,7 @@ function RankingTop({ percent }: RankingTopProps) {
         <div className={styles.percent}>
           TOP
           {' '}
-          {val.toLocaleString()}
+          {roundedPercent.toLocaleString()}
           %
         </div>
         <div>
@@ -23,10 +23,10 @@ function RankingTop({ percent }: RankingTopProps) {
         </div>
       </span>
       <span>
-        <div className={styles.pie} style={piePerc} />
+        <div className={styles.pie} style={pieChartStyle} />
       </span>
     </div>
   );
 }
 
-export default RankingTop;
+export default Placement;

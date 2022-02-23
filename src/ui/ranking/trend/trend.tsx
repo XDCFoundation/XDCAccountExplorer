@@ -1,7 +1,7 @@
 import { ReactComponent as IconCaretUp } from 'assets/images/icons/icon_caret_up.svg';
 import { ReactComponent as IconCaretDown } from 'assets/images/icons/icon_caret_down.svg';
 import classNames from 'classnames';
-import styles from './rankingTrend.module.scss';
+import styles from './trend.module.scss';
 
 interface RankingTrendProps {
   negative?: boolean;
@@ -9,7 +9,7 @@ interface RankingTrendProps {
   description: string;
 }
 
-function RankingTrend({ negative, value, description }: RankingTrendProps) {
+function Trend({ negative, value, description }: RankingTrendProps) {
   return (
     <div className={styles.container}>
       <span className={classNames({
@@ -30,4 +30,4 @@ function RankingTrend({ negative, value, description }: RankingTrendProps) {
   );
 }
 
-export default RankingTrend;
+export default Trend;

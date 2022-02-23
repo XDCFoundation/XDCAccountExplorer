@@ -10,26 +10,28 @@ import {
 } from 'reactstrap';
 import { useMemo, useState } from 'react';
 import { ReactComponent as IconMagnifier } from 'assets/images/icons/icon_maginifier.svg';
-import { ResultAccount } from 'domains/ranking/types';
+import { AccountRanking } from 'domains/ranking/ranking.types';
+import { isEmpty } from 'lodash';
 import classNames from 'classnames';
 import styles from './rankingPanel.module.scss';
-import RankingResults from './rankingResults';
+import RankingResult from './rankingResult';
 
-const isAddress = (address: string) => /^(xdc)?[0-9a-f]{40}$/i.test(address);
+const isAccountNumber = (accountNumber: string) => /^(xdc)?[0-9a-f]{40}$/i.test(accountNumber);
+const isNumericString = (string: string) => string.replace(/ /g, '').match(/^[0-9]+$/) !== null;
 
 function RankingPanel() {
   const [searchValue, setSearchValue] = useState<string>('');
   const searchChange = (event: React.FormEvent<HTMLInputElement>) => {
     setSearchValue(event.currentTarget.value);
   };
-  const searchValid = useMemo(() => {
-    if (!searchValue.length) {
+  const searchInputValid = useMemo(() => {
+    if (isEmpty(searchValue)) {
       return true;
     }
-    if (isAddress(searchValue)) {
+    if (isAccountNumber(searchValue)) {
       return true;
     }
-    if (searchValue.replace(/ /g, '').match(/^[0-9]+$/) !== null) {
+    if (isNumericString(searchValue)) {
       return true;
     }
 
@@ -37,14 +39,14 @@ function RankingPanel() {
   }, [searchValue]);
 
   // @todo: fetch mocked data
-  const results = {
+  const ranking = {
     type: 'account',
     balance: 123546,
     transactions: 534,
     account: 'xdc12315q8b3aw57865s52qw31as5d78v98bvas6490',
     accountsRicher: 1234,
     accountsPoorer: 4568,
-  } as ResultAccount;
+  } as AccountRanking;
 
   return (
     <Card>
@@ -62,14 +64,14 @@ function RankingPanel() {
             value={searchValue}
             onChange={searchChange}
             className={classNames({
-              [styles.invalid]: !searchValid,
+              [styles.invalid]: !searchInputValid,
             })}
           />
           <Button
             type="button"
             color="primary"
             className="primary ml-3"
-            disabled={!searchValid}
+            disabled={!searchInputValid}
           >
             <IconMagnifier />
           </Button>
@@ -91,7 +93,7 @@ function RankingPanel() {
         <hr />
 
         {/* results section */}
-        <RankingResults result={results} />
+        <RankingResult ranking={ranking} />
       </CardBody>
     </Card>
   );
