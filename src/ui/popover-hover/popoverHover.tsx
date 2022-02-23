@@ -6,7 +6,6 @@ import {
   PopoverBody,
   PopoverHeader,
 } from 'reactstrap';
-import styles from './popover.module.scss';
 
 interface PopoverHoverProps {
   header?: string,
@@ -32,14 +31,13 @@ function PopoverHover({
         {element}
       </span>
       <Popover
-        innerClassName={styles.popover}
         placement={placement}
         isOpen={popoverOpen}
         target={popoverId}
       >
         {!!header
-          && <PopoverHeader cssModule={styles}>{header}</PopoverHeader>}
-        <PopoverBody className={styles.body}>{content}</PopoverBody>
+          && <PopoverHeader>{header}</PopoverHeader>}
+        <PopoverBody>{content}</PopoverBody>
       </Popover>
     </span>
   );
