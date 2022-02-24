@@ -35,7 +35,8 @@ function PopoverHover({
         isOpen={popoverOpen}
         target={popoverId}
       >
-        { !!header && <PopoverHeader>{header}</PopoverHeader> }
+        {!!header
+          && <PopoverHeader>{header}</PopoverHeader>}
         <PopoverBody>{content}</PopoverBody>
       </Popover>
     </span>
