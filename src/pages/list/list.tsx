@@ -6,6 +6,7 @@ import {
   Col,
 } from 'reactstrap';
 import AccountsByTrancheTable from './accounts-by-tranche-table/accountsByTrancheTable';
+import RankingPanel from './ranking-panel/rankingPanel';
 
 function ListPage() {
   return (
@@ -21,14 +22,7 @@ function ListPage() {
         </Card>
       </Col>
       <Col xs="12" md="3">
-        <Card>
-          <CardTitle>
-            <span className="font-bold">Ranking</span>
-          </CardTitle>
-          <CardBody>
-            todo ranking
-          </CardBody>
-        </Card>
+        <RankingPanel />
       </Col>
     </Row>
   );

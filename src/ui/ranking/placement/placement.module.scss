@@ -1,0 +1,34 @@
+$color: #1D4E89;
+$border: 1px solid #E7EAF3;
+
+.container {
+  border: $border;
+  border-radius: 5px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $color;
+
+  span {
+    width: 50%;
+    text-align: center;
+
+    &:first-child {
+      border-right: $border;
+    }
+  }
+}
+
+.percent {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.pie {
+  margin: 0 auto;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  background: conic-gradient($color calc(var(--perc) * 1%), #E7EAF3 0);
+}

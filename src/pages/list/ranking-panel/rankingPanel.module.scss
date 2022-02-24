@@ -1,0 +1,21 @@
+$radius: 4px;
+$invalid-color: red;
+
+.rankingSearch {
+    input {
+      font-size: 0.7rem;
+      border-radius: $radius !important;
+
+      &.invalid {
+        border-color: $invalid-color;
+
+        &:focus {
+          border-color: $invalid-color;
+        }
+      }
+    }
+
+    button {
+      border-radius: $radius;
+    }
+}
