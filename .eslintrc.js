@@ -3,7 +3,14 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ["airbnb", "airbnb-typescript", "plugin:react/recommended", "plugin:react/jsx-runtime", "plugin:storybook/recommended"],
+  extends: [
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:storybook/recommended",
+    "plugin:react-hooks/recommended",
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -29,6 +36,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
-    'import/no-relative-parent-imports': 'error'
+    'import/no-relative-parent-imports': 'error',
+    'import/prefer-default-export': 'off',
   }
 };

@@ -1,0 +1,134 @@
+[
+  {
+    "balanceFrom": 0,
+    "balanceTo": 4999,
+    "accounts": 488575,
+    "usdBalance": 157112,
+    "xdcBalance": 1404112
+  },
+  {
+    "balanceFrom": 5000,
+    "balanceTo": 9999,
+    "accounts": 1691,
+    "usdBalance": 87540,
+    "xdcBalance": 1780998
+  },
+  {
+    "balanceFrom": 10000,
+    "balanceTo": 24999,
+    "accounts": 657,
+    "usdBalance": 127540,
+    "xdcBalance": 6780998
+  },
+  {
+    "balanceFrom": 25000,
+    "balanceTo": 49999,
+    "accounts": 2350,
+    "usdBalance": 8183487,
+    "xdcBalance": 74890734
+  },
+  {
+    "balanceFrom": 50000,
+    "balanceTo": 74999,
+    "accounts": 218,
+    "usdBalance": 8276098,
+    "xdcBalance": 73996234
+  },
+  {
+    "balanceFrom": 75000,
+    "balanceTo": 99999,
+    "accounts": 105,
+    "usdBalance": 5747319,
+    "xdcBalance": 51363957
+  },
+  {
+    "balanceFrom": 100000,
+    "balanceTo": 249999,
+    "accounts": 1432,
+    "usdBalance": 17334266,
+    "xdcBalance": 218090849
+  },
+  {
+    "balanceFrom": 500000,
+    "balanceTo": 999999,
+    "accounts": 64,
+    "usdBalance": 3213659,
+    "xdcBalance": 25516789
+  },
+  {
+    "balanceFrom": 1000000,
+    "balanceTo": 1999999,
+    "accounts": 436,
+    "usdBalance": 62136559,
+    "xdcBalance": 555316789
+  },
+  {
+    "balanceFrom": 2000000,
+    "balanceTo": 2999999,
+    "accounts": 0,
+    "usdBalance": 0,
+    "xdcBalance": 0
+  },
+  {
+    "balanceFrom": 3000000,
+    "balanceTo": 3999999,
+    "accounts": 49,
+    "usdBalance": 18435601,
+    "xdcBalance": 166543555
+  },
+  {
+    "balanceFrom": 4000000,
+    "balanceTo": 4999999,
+    "accounts": 32,
+    "usdBalance": 15436576,
+    "xdcBalance": 140791123
+  },
+  {
+    "balanceFrom": 5000000,
+    "balanceTo": 9999999,
+    "accounts": 51,
+    "usdBalance": 36203243,
+    "xdcBalance": 363203243
+  },
+  {
+    "balanceFrom": 10000000,
+    "balanceTo": 19999999,
+    "accounts": 29,
+    "usdBalance": 40280100,
+    "xdcBalance": 359985554
+  },
+  {
+    "balanceFrom": 20000000,
+    "balanceTo": 49999999,
+    "accounts": 10,
+    "usdBalance": 33804345,
+    "xdcBalance": 302114908
+  },
+  {
+    "balanceFrom": 50000000,
+    "balanceTo": 99999999,
+    "accounts": 4,
+    "usdBalance": 30301260,
+    "xdcBalance": 270803257
+  },
+  {
+    "balanceFrom": 100000000,
+    "balanceTo": 499999999,
+    "accounts": 6,
+    "usdBalance": 184060895,
+    "xdcBalance": 1644957686
+  },
+  {
+    "balanceFrom": 500000000,
+    "balanceTo": 999999999,
+    "accounts": 20,
+    "usdBalance": 111894000,
+    "xdcBalance": 1000000000
+  },
+  {
+    "balanceFrom": 1000000000,
+    "accounts": 2,
+    "usdBalance": 351810312,
+    "xdcBalance": 3144238814
+  }
+]

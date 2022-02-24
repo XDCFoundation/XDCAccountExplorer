@@ -5,13 +5,13 @@ import {
 } from 'reactstrap';
 import { useState } from 'react';
 import { RankingFilters } from 'domains/ranking/types';
-import getRanking from 'domains/ranking/getRanking';
+import useRanking from 'domains/ranking/useRanking';
 import RankingResult from './rankingResult';
 import RankingForm from './rankingForm';
 
 function RankingPanel() {
   const [formFilters, setFormFilters] = useState<RankingFilters>({} as RankingFilters);
-  const { data } = getRanking(formFilters);
+  const { data } = useRanking(formFilters);
 
   return (
     <Card>

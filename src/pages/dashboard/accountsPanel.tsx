@@ -2,26 +2,20 @@ import { Card, CardBody, CardTitle } from 'reactstrap';
 import { subDays } from 'date-fns';
 import { useState, useMemo } from 'react';
 import Filters, { FilterValue } from 'ui/filters/filters';
-import { AccountsFilters, AccountsStatsDataObject } from 'domains/accounts/types';
+import { AccountsStatsDataObject } from 'domains/accounts/accounts.types';
 import Chart from 'ui/chart/chart';
 import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import useAccounts from 'domains/accounts/useAccounts';
 import DateInfo from 'ui/date-info/dateInfo';
+import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
 
 const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
 
 function AccountsPanel() {
-  const [filters] = useState([
-    { name: '7D', value: 7 },
-    { name: '1M', value: 30 },
-    { name: '3M', value: 90 },
-    { name: '1Y', value: 365 },
-    { name: 'MAX', value: null },
-  ]);
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
   const getFilters = useMemo(() => {
-    const filtersObj: AccountsFilters = { date_lte: new Date() };
+    const filtersObj: TimeFilters = { date_lte: new Date() };
     if (timeFilter) {
       filtersObj.date_gte = subDays(Date.now(), timeFilter as number);
     }
@@ -85,9 +79,9 @@ function AccountsPanel() {
             scales={{ rightEnabled: true }}
           />
           <Filters
-            items={filters}
+            items={DEFAULT_TIME_FILTERS}
             value={timeFilter}
-            onSelect={(value) => setTimeFilter(value)}
+            onSelect={setTimeFilter}
           />
         </CardBody>
       </Card>

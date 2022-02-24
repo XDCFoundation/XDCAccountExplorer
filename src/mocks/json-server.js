@@ -3,6 +3,8 @@ const jsonServer = require('json-server');
 
 const server = jsonServer.create();
 const accountStats = require('./account-stats.json');
+const accountsByTranche = require('./accounts-by-tranche.json');
+const masternodes = require('./masternodes.json');
 const { calculateAmountStats } = require('./calculate-amount-stats');
 
 const middlewares = jsonServer.defaults();
@@ -17,7 +19,6 @@ server.get('/amountRanking', (req, res) => {
 
   res.jsonp(result);
 });
-
 server.get('/accountRanking', (req, res) => {
   const { query } = req;
   query.balance = Math.round(10000000 + Math.random() * 10000000);
@@ -32,10 +33,12 @@ server.get('/accountRanking', (req, res) => {
 
 const router = jsonServer.router({
   accountStats,
+  masternodes,
+  accountsByTranche,
   // ... add more resources ...
 });
-server.use(router);
 
+server.use(router);
 server.listen(5000, () => {
   console.log('JSON Server is running');
 });
