@@ -14,7 +14,7 @@ server.get('/amountRanking', (req, res) => {
   const { query } = req;
   query.balance = Number.parseInt(query.input, 10);
 
-  const result = calculateAmountStats(query);
+  const result = calculateAmountStats(query, accountsByTranche);
   result.type = 'amount';
 
   res.jsonp(result);
@@ -23,7 +23,7 @@ server.get('/accountRanking', (req, res) => {
   const { query } = req;
   query.balance = Math.round(10000000 + Math.random() * 10000000);
 
-  const result = calculateAmountStats(query);
+  const result = calculateAmountStats(query, accountsByTranche);
   result.type = 'account';
   result.account = query.input;
   result.transactions = Math.round(100 + Math.random() * 1000);
