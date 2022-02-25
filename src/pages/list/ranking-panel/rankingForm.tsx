@@ -8,7 +8,7 @@ import {
 import classNames from 'classnames';
 import { ReactComponent as IconMagnifier } from 'assets/images/icons/icon_maginifier.svg';
 import { useMemo, useState } from 'react';
-import { RankingFilters } from 'domains/ranking/types';
+import { RankingFilters } from 'domains/ranking/ranking.types';
 import { isEmpty } from 'lodash';
 import styles from './rankingForm.module.scss';
 

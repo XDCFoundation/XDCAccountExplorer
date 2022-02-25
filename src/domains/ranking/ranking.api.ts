@@ -1,5 +1,5 @@
 import { get, buildURLQuery } from 'api/api.helpers';
-import { RankingFilters } from './types';
+import { RankingFilters } from './ranking.types';
 
 const ACCOUNT_RANKING_ENDPOINT: string = 'accountRanking';
 const AMOUNT_RANKING_ENDPOINT: string = 'amountRanking';
