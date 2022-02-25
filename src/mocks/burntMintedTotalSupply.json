@@ -1,0 +1,5606 @@
+[
+  {
+    "date": "2020-06-10",
+    "burnt": 300,
+    "minted": 100,
+    "totalSupply": 1000
+  },
+  {
+    "date": "2020-06-11",
+    "burnt": 332,
+    "minted": 220,
+    "totalSupply": 2744
+  },
+  {
+    "date": "2020-06-12",
+    "burnt": 431,
+    "minted": 470,
+    "totalSupply": 2711
+  },
+  {
+    "date": "2020-06-13",
+    "burnt": 1149,
+    "minted": 634,
+    "totalSupply": 3611
+  },
+  {
+    "date": "2020-06-14",
+    "burnt": 1838,
+    "minted": 883,
+    "totalSupply": 4221
+  },
+  {
+    "date": "2020-06-15",
+    "burnt": 2562,
+    "minted": 1048,
+    "totalSupply": 6397
+  },
+  {
+    "date": "2020-06-16",
+    "burnt": 3098,
+    "minted": 1006,
+    "totalSupply": 8433
+  },
+  {
+    "date": "2020-06-17",
+    "burnt": 3790,
+    "minted": 1009,
+    "totalSupply": 9117
+  },
+  {
+    "date": "2020-06-18",
+    "burnt": 3625,
+    "minted": 1064,
+    "totalSupply": 10175
+  },
+  {
+    "date": "2020-06-19",
+    "burnt": 4227,
+    "minted": 1140,
+    "totalSupply": 11439
+  },
+  {
+    "date": "2020-06-20",
+    "burnt": 4735,
+    "minted": 1366,
+    "totalSupply": 13230
+  },
+  {
+    "date": "2020-06-21",
+    "burnt": 5366,
+    "minted": 1571,
+    "totalSupply": 14573
+  },
+  {
+    "date": "2020-06-22",
+    "burnt": 5880,
+    "minted": 1720,
+    "totalSupply": 15195
+  },
+  {
+    "date": "2020-06-23",
+    "burnt": 6152,
+    "minted": 1968,
+    "totalSupply": 17395
+  },
+  {
+    "date": "2020-06-24",
+    "burnt": 6618,
+    "minted": 1956,
+    "totalSupply": 19274
+  },
+  {
+    "date": "2020-06-25",
+    "burnt": 6818,
+    "minted": 2071,
+    "totalSupply": 19018
+  },
+  {
+    "date": "2020-06-26",
+    "burnt": 7414,
+    "minted": 2291,
+    "totalSupply": 20164
+  },
+  {
+    "date": "2020-06-27",
+    "burnt": 7445,
+    "minted": 2371,
+    "totalSupply": 21742
+  },
+  {
+    "date": "2020-06-28",
+    "burnt": 8137,
+    "minted": 2486,
+    "totalSupply": 21850
+  },
+  {
+    "date": "2020-06-29",
+    "burnt": 8859,
+    "minted": 2465,
+    "totalSupply": 23197
+  },
+  {
+    "date": "2020-06-30",
+    "burnt": 8800,
+    "minted": 2647,
+    "totalSupply": 25092
+  },
+  {
+    "date": "2020-07-01",
+    "burnt": 9012,
+    "minted": 2896,
+    "totalSupply": 25213
+  },
+  {
+    "date": "2020-07-02",
+    "burnt": 9514,
+    "minted": 3057,
+    "totalSupply": 27443
+  },
+  {
+    "date": "2020-07-03",
+    "burnt": 9800,
+    "minted": 3019,
+    "totalSupply": 27694
+  },
+  {
+    "date": "2020-07-04",
+    "burnt": 10171,
+    "minted": 3001,
+    "totalSupply": 27098
+  },
+  {
+    "date": "2020-07-05",
+    "burnt": 10912,
+    "minted": 3216,
+    "totalSupply": 27543
+  },
+  {
+    "date": "2020-07-06",
+    "burnt": 10775,
+    "minted": 3420,
+    "totalSupply": 27266
+  },
+  {
+    "date": "2020-07-07",
+    "burnt": 11421,
+    "minted": 3427,
+    "totalSupply": 26755
+  },
+  {
+    "date": "2020-07-08",
+    "burnt": 11482,
+    "minted": 3388,
+    "totalSupply": 28346
+  },
+  {
+    "date": "2020-07-09",
+    "burnt": 11313,
+    "minted": 3584,
+    "totalSupply": 29332
+  },
+  {
+    "date": "2020-07-10",
+    "burnt": 11249,
+    "minted": 3729,
+    "totalSupply": 29408
+  },
+  {
+    "date": "2020-07-11",
+    "burnt": 11257,
+    "minted": 3903,
+    "totalSupply": 29912
+  },
+  {
+    "date": "2020-07-12",
+    "burnt": 11341,
+    "minted": 3883,
+    "totalSupply": 30082
+  },
+  {
+    "date": "2020-07-13",
+    "burnt": 12074,
+    "minted": 3846,
+    "totalSupply": 31708
+  },
+  {
+    "date": "2020-07-14",
+    "burnt": 12093,
+    "minted": 3907,
+    "totalSupply": 33655
+  },
+  {
+    "date": "2020-07-15",
+    "burnt": 12525,
+    "minted": 4007,
+    "totalSupply": 34966
+  },
+  {
+    "date": "2020-07-16",
+    "burnt": 12694,
+    "minted": 4130,
+    "totalSupply": 36110
+  },
+  {
+    "date": "2020-07-17",
+    "burnt": 12913,
+    "minted": 4191,
+    "totalSupply": 36276
+  },
+  {
+    "date": "2020-07-18",
+    "burnt": 13204,
+    "minted": 4381,
+    "totalSupply": 38225
+  },
+  {
+    "date": "2020-07-19",
+    "burnt": 13097,
+    "minted": 4388,
+    "totalSupply": 37861
+  },
+  {
+    "date": "2020-07-20",
+    "burnt": 13822,
+    "minted": 4602,
+    "totalSupply": 38134
+  },
+  {
+    "date": "2020-07-21",
+    "burnt": 14389,
+    "minted": 4638,
+    "totalSupply": 39873
+  },
+  {
+    "date": "2020-07-22",
+    "burnt": 14770,
+    "minted": 4724,
+    "totalSupply": 40486
+  },
+  {
+    "date": "2020-07-23",
+    "burnt": 14895,
+    "minted": 4964,
+    "totalSupply": 41907
+  },
+  {
+    "date": "2020-07-24",
+    "burnt": 15123,
+    "minted": 5000,
+    "totalSupply": 43703
+  },
+  {
+    "date": "2020-07-25",
+    "burnt": 14999,
+    "minted": 5165,
+    "totalSupply": 44420
+  },
+  {
+    "date": "2020-07-26",
+    "burnt": 15237,
+    "minted": 5298,
+    "totalSupply": 45816
+  },
+  {
+    "date": "2020-07-27",
+    "burnt": 15561,
+    "minted": 5475,
+    "totalSupply": 46298
+  },
+  {
+    "date": "2020-07-28",
+    "burnt": 16003,
+    "minted": 5616,
+    "totalSupply": 46470
+  },
+  {
+    "date": "2020-07-29",
+    "burnt": 15864,
+    "minted": 5591,
+    "totalSupply": 48024
+  },
+  {
+    "date": "2020-07-30",
+    "burnt": 16388,
+    "minted": 5806,
+    "totalSupply": 47943
+  },
+  {
+    "date": "2020-07-31",
+    "burnt": 16854,
+    "minted": 5882,
+    "totalSupply": 50265
+  },
+  {
+    "date": "2020-08-01",
+    "burnt": 17287,
+    "minted": 5964,
+    "totalSupply": 49861
+  },
+  {
+    "date": "2020-08-02",
+    "burnt": 17426,
+    "minted": 5912,
+    "totalSupply": 51852
+  },
+  {
+    "date": "2020-08-03",
+    "burnt": 17595,
+    "minted": 6026,
+    "totalSupply": 51338
+  },
+  {
+    "date": "2020-08-04",
+    "burnt": 17604,
+    "minted": 6204,
+    "totalSupply": 51476
+  },
+  {
+    "date": "2020-08-05",
+    "burnt": 17905,
+    "minted": 6249,
+    "totalSupply": 51014
+  },
+  {
+    "date": "2020-08-06",
+    "burnt": 18266,
+    "minted": 6216,
+    "totalSupply": 52300
+  },
+  {
+    "date": "2020-08-07",
+    "burnt": 18147,
+    "minted": 6398,
+    "totalSupply": 53281
+  },
+  {
+    "date": "2020-08-08",
+    "burnt": 18651,
+    "minted": 6606,
+    "totalSupply": 54279
+  },
+  {
+    "date": "2020-08-09",
+    "burnt": 18532,
+    "minted": 6546,
+    "totalSupply": 56437
+  },
+  {
+    "date": "2020-08-10",
+    "burnt": 18979,
+    "minted": 6693,
+    "totalSupply": 57136
+  },
+  {
+    "date": "2020-08-11",
+    "burnt": 19476,
+    "minted": 6711,
+    "totalSupply": 58647
+  },
+  {
+    "date": "2020-08-12",
+    "burnt": 19445,
+    "minted": 6955,
+    "totalSupply": 58484
+  },
+  {
+    "date": "2020-08-13",
+    "burnt": 19808,
+    "minted": 7146,
+    "totalSupply": 58800
+  },
+  {
+    "date": "2020-08-14",
+    "burnt": 20388,
+    "minted": 7230,
+    "totalSupply": 59311
+  },
+  {
+    "date": "2020-08-15",
+    "burnt": 20747,
+    "minted": 7396,
+    "totalSupply": 59312
+  },
+  {
+    "date": "2020-08-16",
+    "burnt": 20993,
+    "minted": 7478,
+    "totalSupply": 61387
+  },
+  {
+    "date": "2020-08-17",
+    "burnt": 21571,
+    "minted": 7550,
+    "totalSupply": 61710
+  },
+  {
+    "date": "2020-08-18",
+    "burnt": 21851,
+    "minted": 7624,
+    "totalSupply": 62914
+  },
+  {
+    "date": "2020-08-19",
+    "burnt": 21789,
+    "minted": 7830,
+    "totalSupply": 63278
+  },
+  {
+    "date": "2020-08-20",
+    "burnt": 22366,
+    "minted": 7966,
+    "totalSupply": 63446
+  },
+  {
+    "date": "2020-08-21",
+    "burnt": 22951,
+    "minted": 8143,
+    "totalSupply": 65225
+  },
+  {
+    "date": "2020-08-22",
+    "burnt": 23594,
+    "minted": 8210,
+    "totalSupply": 67712
+  },
+  {
+    "date": "2020-08-23",
+    "burnt": 23496,
+    "minted": 8454,
+    "totalSupply": 69601
+  },
+  {
+    "date": "2020-08-24",
+    "burnt": 23620,
+    "minted": 8597,
+    "totalSupply": 70745
+  },
+  {
+    "date": "2020-08-25",
+    "burnt": 24366,
+    "minted": 8681,
+    "totalSupply": 71786
+  },
+  {
+    "date": "2020-08-26",
+    "burnt": 24643,
+    "minted": 8661,
+    "totalSupply": 73020
+  },
+  {
+    "date": "2020-08-27",
+    "burnt": 24687,
+    "minted": 8637,
+    "totalSupply": 75238
+  },
+  {
+    "date": "2020-08-28",
+    "burnt": 25326,
+    "minted": 8720,
+    "totalSupply": 77311
+  },
+  {
+    "date": "2020-08-29",
+    "burnt": 26041,
+    "minted": 8887,
+    "totalSupply": 77159
+  },
+  {
+    "date": "2020-08-30",
+    "burnt": 26617,
+    "minted": 8838,
+    "totalSupply": 79437
+  },
+  {
+    "date": "2020-08-31",
+    "burnt": 26689,
+    "minted": 8923,
+    "totalSupply": 80093
+  },
+  {
+    "date": "2020-09-01",
+    "burnt": 26995,
+    "minted": 9096,
+    "totalSupply": 81266
+  },
+  {
+    "date": "2020-09-02",
+    "burnt": 27352,
+    "minted": 9197,
+    "totalSupply": 83070
+  },
+  {
+    "date": "2020-09-03",
+    "burnt": 27738,
+    "minted": 9301,
+    "totalSupply": 82564
+  },
+  {
+    "date": "2020-09-04",
+    "burnt": 28278,
+    "minted": 9401,
+    "totalSupply": 84033
+  },
+  {
+    "date": "2020-09-05",
+    "burnt": 28574,
+    "minted": 9456,
+    "totalSupply": 84809
+  },
+  {
+    "date": "2020-09-06",
+    "burnt": 28783,
+    "minted": 9680,
+    "totalSupply": 85251
+  },
+  {
+    "date": "2020-09-07",
+    "burnt": 29196,
+    "minted": 9779,
+    "totalSupply": 86789
+  },
+  {
+    "date": "2020-09-08",
+    "burnt": 29426,
+    "minted": 9975,
+    "totalSupply": 87638
+  },
+  {
+    "date": "2020-09-09",
+    "burnt": 30124,
+    "minted": 10141,
+    "totalSupply": 88163
+  },
+  {
+    "date": "2020-09-10",
+    "burnt": 30160,
+    "minted": 10215,
+    "totalSupply": 89470
+  },
+  {
+    "date": "2020-09-11",
+    "burnt": 30795,
+    "minted": 10381,
+    "totalSupply": 88912
+  },
+  {
+    "date": "2020-09-12",
+    "burnt": 31127,
+    "minted": 10544,
+    "totalSupply": 89977
+  },
+  {
+    "date": "2020-09-13",
+    "burnt": 31424,
+    "minted": 10646,
+    "totalSupply": 92168
+  },
+  {
+    "date": "2020-09-14",
+    "burnt": 32098,
+    "minted": 10835,
+    "totalSupply": 92533
+  },
+  {
+    "date": "2020-09-15",
+    "burnt": 32002,
+    "minted": 11071,
+    "totalSupply": 93921
+  },
+  {
+    "date": "2020-09-16",
+    "burnt": 32112,
+    "minted": 11226,
+    "totalSupply": 95980
+  },
+  {
+    "date": "2020-09-17",
+    "burnt": 32160,
+    "minted": 11294,
+    "totalSupply": 98373
+  },
+  {
+    "date": "2020-09-18",
+    "burnt": 32015,
+    "minted": 11312,
+    "totalSupply": 100172
+  },
+  {
+    "date": "2020-09-19",
+    "burnt": 31977,
+    "minted": 11473,
+    "totalSupply": 100149
+  },
+  {
+    "date": "2020-09-20",
+    "burnt": 32489,
+    "minted": 11699,
+    "totalSupply": 101903
+  },
+  {
+    "date": "2020-09-21",
+    "burnt": 32771,
+    "minted": 11925,
+    "totalSupply": 102158
+  },
+  {
+    "date": "2020-09-22",
+    "burnt": 32997,
+    "minted": 12109,
+    "totalSupply": 101702
+  },
+  {
+    "date": "2020-09-23",
+    "burnt": 32968,
+    "minted": 12332,
+    "totalSupply": 103311
+  },
+  {
+    "date": "2020-09-24",
+    "burnt": 33233,
+    "minted": 12460,
+    "totalSupply": 103324
+  },
+  {
+    "date": "2020-09-25",
+    "burnt": 33700,
+    "minted": 12455,
+    "totalSupply": 105054
+  },
+  {
+    "date": "2020-09-26",
+    "burnt": 34190,
+    "minted": 12503,
+    "totalSupply": 105418
+  },
+  {
+    "date": "2020-09-27",
+    "burnt": 34709,
+    "minted": 12621,
+    "totalSupply": 106317
+  },
+  {
+    "date": "2020-09-28",
+    "burnt": 35083,
+    "minted": 12805,
+    "totalSupply": 108050
+  },
+  {
+    "date": "2020-09-29",
+    "burnt": 35184,
+    "minted": 12807,
+    "totalSupply": 109761
+  },
+  {
+    "date": "2020-09-30",
+    "burnt": 35928,
+    "minted": 12967,
+    "totalSupply": 111931
+  },
+  {
+    "date": "2020-10-01",
+    "burnt": 35866,
+    "minted": 13167,
+    "totalSupply": 111621
+  },
+  {
+    "date": "2020-10-02",
+    "burnt": 36160,
+    "minted": 13314,
+    "totalSupply": 111584
+  },
+  {
+    "date": "2020-10-03",
+    "burnt": 36880,
+    "minted": 13402,
+    "totalSupply": 112002
+  },
+  {
+    "date": "2020-10-04",
+    "burnt": 37117,
+    "minted": 13620,
+    "totalSupply": 113037
+  },
+  {
+    "date": "2020-10-05",
+    "burnt": 36979,
+    "minted": 13653,
+    "totalSupply": 114167
+  },
+  {
+    "date": "2020-10-06",
+    "burnt": 37445,
+    "minted": 13726,
+    "totalSupply": 115655
+  },
+  {
+    "date": "2020-10-07",
+    "burnt": 37529,
+    "minted": 13825,
+    "totalSupply": 116399
+  },
+  {
+    "date": "2020-10-08",
+    "burnt": 37945,
+    "minted": 13877,
+    "totalSupply": 117467
+  },
+  {
+    "date": "2020-10-09",
+    "burnt": 37954,
+    "minted": 13818,
+    "totalSupply": 118118
+  },
+  {
+    "date": "2020-10-10",
+    "burnt": 38458,
+    "minted": 13805,
+    "totalSupply": 118690
+  },
+  {
+    "date": "2020-10-11",
+    "burnt": 39198,
+    "minted": 13745,
+    "totalSupply": 118124
+  },
+  {
+    "date": "2020-10-12",
+    "burnt": 39642,
+    "minted": 13984,
+    "totalSupply": 119730
+  },
+  {
+    "date": "2020-10-13",
+    "burnt": 39951,
+    "minted": 14118,
+    "totalSupply": 120089
+  },
+  {
+    "date": "2020-10-14",
+    "burnt": 40465,
+    "minted": 14336,
+    "totalSupply": 120470
+  },
+  {
+    "date": "2020-10-15",
+    "burnt": 40688,
+    "minted": 14413,
+    "totalSupply": 120909
+  },
+  {
+    "date": "2020-10-16",
+    "burnt": 40689,
+    "minted": 14550,
+    "totalSupply": 120893
+  },
+  {
+    "date": "2020-10-17",
+    "burnt": 40696,
+    "minted": 14634,
+    "totalSupply": 122300
+  },
+  {
+    "date": "2020-10-18",
+    "burnt": 41180,
+    "minted": 14681,
+    "totalSupply": 122753
+  },
+  {
+    "date": "2020-10-19",
+    "burnt": 41235,
+    "minted": 14712,
+    "totalSupply": 124057
+  },
+  {
+    "date": "2020-10-20",
+    "burnt": 41169,
+    "minted": 14752,
+    "totalSupply": 124339
+  },
+  {
+    "date": "2020-10-21",
+    "burnt": 41317,
+    "minted": 14768,
+    "totalSupply": 123934
+  },
+  {
+    "date": "2020-10-22",
+    "burnt": 41788,
+    "minted": 14858,
+    "totalSupply": 124976
+  },
+  {
+    "date": "2020-10-23",
+    "burnt": 42119,
+    "minted": 14839,
+    "totalSupply": 124424
+  },
+  {
+    "date": "2020-10-24",
+    "burnt": 42268,
+    "minted": 14999,
+    "totalSupply": 123842
+  },
+  {
+    "date": "2020-10-25",
+    "burnt": 42855,
+    "minted": 14983,
+    "totalSupply": 123954
+  },
+  {
+    "date": "2020-10-26",
+    "burnt": 43272,
+    "minted": 15086,
+    "totalSupply": 124748
+  },
+  {
+    "date": "2020-10-27",
+    "burnt": 43279,
+    "minted": 15039,
+    "totalSupply": 125594
+  },
+  {
+    "date": "2020-10-28",
+    "burnt": 43526,
+    "minted": 15163,
+    "totalSupply": 125465
+  },
+  {
+    "date": "2020-10-29",
+    "burnt": 43745,
+    "minted": 15151,
+    "totalSupply": 127148
+  },
+  {
+    "date": "2020-10-30",
+    "burnt": 44039,
+    "minted": 15379,
+    "totalSupply": 126723
+  },
+  {
+    "date": "2020-10-31",
+    "burnt": 44618,
+    "minted": 15567,
+    "totalSupply": 127531
+  },
+  {
+    "date": "2020-11-01",
+    "burnt": 45347,
+    "minted": 15589,
+    "totalSupply": 128865
+  },
+  {
+    "date": "2020-11-02",
+    "burnt": 45604,
+    "minted": 15648,
+    "totalSupply": 131078
+  },
+  {
+    "date": "2020-11-03",
+    "burnt": 45848,
+    "minted": 15867,
+    "totalSupply": 132102
+  },
+  {
+    "date": "2020-11-04",
+    "burnt": 45888,
+    "minted": 15914,
+    "totalSupply": 133561
+  },
+  {
+    "date": "2020-11-05",
+    "burnt": 46271,
+    "minted": 16119,
+    "totalSupply": 134819
+  },
+  {
+    "date": "2020-11-06",
+    "burnt": 46100,
+    "minted": 16114,
+    "totalSupply": 136635
+  },
+  {
+    "date": "2020-11-07",
+    "burnt": 46447,
+    "minted": 16177,
+    "totalSupply": 138301
+  },
+  {
+    "date": "2020-11-08",
+    "burnt": 46732,
+    "minted": 16299,
+    "totalSupply": 139329
+  },
+  {
+    "date": "2020-11-09",
+    "burnt": 47232,
+    "minted": 16286,
+    "totalSupply": 140735
+  },
+  {
+    "date": "2020-11-10",
+    "burnt": 47843,
+    "minted": 16404,
+    "totalSupply": 141693
+  },
+  {
+    "date": "2020-11-11",
+    "burnt": 48174,
+    "minted": 16632,
+    "totalSupply": 141654
+  },
+  {
+    "date": "2020-11-12",
+    "burnt": 48421,
+    "minted": 16725,
+    "totalSupply": 141588
+  },
+  {
+    "date": "2020-11-13",
+    "burnt": 48931,
+    "minted": 16777,
+    "totalSupply": 143647
+  },
+  {
+    "date": "2020-11-14",
+    "burnt": 48914,
+    "minted": 16927,
+    "totalSupply": 143636
+  },
+  {
+    "date": "2020-11-15",
+    "burnt": 48874,
+    "minted": 17125,
+    "totalSupply": 144591
+  },
+  {
+    "date": "2020-11-16",
+    "burnt": 48746,
+    "minted": 17315,
+    "totalSupply": 145435
+  },
+  {
+    "date": "2020-11-17",
+    "burnt": 49377,
+    "minted": 17404,
+    "totalSupply": 147226
+  },
+  {
+    "date": "2020-11-18",
+    "burnt": 50118,
+    "minted": 17537,
+    "totalSupply": 148257
+  },
+  {
+    "date": "2020-11-19",
+    "burnt": 50539,
+    "minted": 17741,
+    "totalSupply": 149175
+  },
+  {
+    "date": "2020-11-20",
+    "burnt": 50958,
+    "minted": 17846,
+    "totalSupply": 149689
+  },
+  {
+    "date": "2020-11-21",
+    "burnt": 50918,
+    "minted": 18096,
+    "totalSupply": 151399
+  },
+  {
+    "date": "2020-11-22",
+    "burnt": 50911,
+    "minted": 18132,
+    "totalSupply": 152761
+  },
+  {
+    "date": "2020-11-23",
+    "burnt": 51151,
+    "minted": 18232,
+    "totalSupply": 152571
+  },
+  {
+    "date": "2020-11-24",
+    "burnt": 51068,
+    "minted": 18200,
+    "totalSupply": 154644
+  },
+  {
+    "date": "2020-11-25",
+    "burnt": 50905,
+    "minted": 18221,
+    "totalSupply": 154959
+  },
+  {
+    "date": "2020-11-26",
+    "burnt": 50992,
+    "minted": 18335,
+    "totalSupply": 156281
+  },
+  {
+    "date": "2020-11-27",
+    "burnt": 50944,
+    "minted": 18389,
+    "totalSupply": 158116
+  },
+  {
+    "date": "2020-11-28",
+    "burnt": 51020,
+    "minted": 18425,
+    "totalSupply": 160105
+  },
+  {
+    "date": "2020-11-29",
+    "burnt": 51342,
+    "minted": 18588,
+    "totalSupply": 162124
+  },
+  {
+    "date": "2020-11-30",
+    "burnt": 51529,
+    "minted": 18620,
+    "totalSupply": 163518
+  },
+  {
+    "date": "2020-12-01",
+    "burnt": 51952,
+    "minted": 18803,
+    "totalSupply": 163620
+  },
+  {
+    "date": "2020-12-02",
+    "burnt": 52550,
+    "minted": 18996,
+    "totalSupply": 165413
+  },
+  {
+    "date": "2020-12-03",
+    "burnt": 53294,
+    "minted": 19050,
+    "totalSupply": 167623
+  },
+  {
+    "date": "2020-12-04",
+    "burnt": 53491,
+    "minted": 19081,
+    "totalSupply": 169351
+  },
+  {
+    "date": "2020-12-05",
+    "burnt": 54238,
+    "minted": 19160,
+    "totalSupply": 169571
+  },
+  {
+    "date": "2020-12-06",
+    "burnt": 54836,
+    "minted": 19268,
+    "totalSupply": 170286
+  },
+  {
+    "date": "2020-12-07",
+    "burnt": 55347,
+    "minted": 19499,
+    "totalSupply": 171928
+  },
+  {
+    "date": "2020-12-08",
+    "burnt": 55842,
+    "minted": 19702,
+    "totalSupply": 171620
+  },
+  {
+    "date": "2020-12-09",
+    "burnt": 56358,
+    "minted": 19850,
+    "totalSupply": 172584
+  },
+  {
+    "date": "2020-12-10",
+    "burnt": 56341,
+    "minted": 19976,
+    "totalSupply": 174644
+  },
+  {
+    "date": "2020-12-11",
+    "burnt": 56900,
+    "minted": 20123,
+    "totalSupply": 174178
+  },
+  {
+    "date": "2020-12-12",
+    "burnt": 56920,
+    "minted": 20197,
+    "totalSupply": 173877
+  },
+  {
+    "date": "2020-12-13",
+    "burnt": 56967,
+    "minted": 20345,
+    "totalSupply": 174178
+  },
+  {
+    "date": "2020-12-14",
+    "burnt": 57177,
+    "minted": 20357,
+    "totalSupply": 174584
+  },
+  {
+    "date": "2020-12-15",
+    "burnt": 57775,
+    "minted": 20445,
+    "totalSupply": 174685
+  },
+  {
+    "date": "2020-12-16",
+    "burnt": 58354,
+    "minted": 20651,
+    "totalSupply": 175417
+  },
+  {
+    "date": "2020-12-17",
+    "burnt": 59070,
+    "minted": 20628,
+    "totalSupply": 177092
+  },
+  {
+    "date": "2020-12-18",
+    "burnt": 59482,
+    "minted": 20755,
+    "totalSupply": 177919
+  },
+  {
+    "date": "2020-12-19",
+    "burnt": 59988,
+    "minted": 20798,
+    "totalSupply": 178808
+  },
+  {
+    "date": "2020-12-20",
+    "burnt": 60453,
+    "minted": 20869,
+    "totalSupply": 179222
+  },
+  {
+    "date": "2020-12-21",
+    "burnt": 60985,
+    "minted": 20974,
+    "totalSupply": 179740
+  },
+  {
+    "date": "2020-12-22",
+    "burnt": 61337,
+    "minted": 20960,
+    "totalSupply": 180703
+  },
+  {
+    "date": "2020-12-23",
+    "burnt": 61736,
+    "minted": 21171,
+    "totalSupply": 180600
+  },
+  {
+    "date": "2020-12-24",
+    "burnt": 62066,
+    "minted": 21379,
+    "totalSupply": 181680
+  },
+  {
+    "date": "2020-12-25",
+    "burnt": 62344,
+    "minted": 21527,
+    "totalSupply": 182473
+  },
+  {
+    "date": "2020-12-26",
+    "burnt": 62531,
+    "minted": 21517,
+    "totalSupply": 184253
+  },
+  {
+    "date": "2020-12-27",
+    "burnt": 62985,
+    "minted": 21744,
+    "totalSupply": 183945
+  },
+  {
+    "date": "2020-12-28",
+    "burnt": 63554,
+    "minted": 21687,
+    "totalSupply": 184648
+  },
+  {
+    "date": "2020-12-29",
+    "burnt": 63902,
+    "minted": 21897,
+    "totalSupply": 185027
+  },
+  {
+    "date": "2020-12-30",
+    "burnt": 64387,
+    "minted": 22098,
+    "totalSupply": 186204
+  },
+  {
+    "date": "2020-12-31",
+    "burnt": 64585,
+    "minted": 22252,
+    "totalSupply": 186572
+  },
+  {
+    "date": "2021-01-01",
+    "burnt": 64772,
+    "minted": 22400,
+    "totalSupply": 186732
+  },
+  {
+    "date": "2021-01-02",
+    "burnt": 64843,
+    "minted": 22605,
+    "totalSupply": 186650
+  },
+  {
+    "date": "2021-01-03",
+    "burnt": 65311,
+    "minted": 22605,
+    "totalSupply": 186830
+  },
+  {
+    "date": "2021-01-04",
+    "burnt": 65156,
+    "minted": 22830,
+    "totalSupply": 186364
+  },
+  {
+    "date": "2021-01-05",
+    "burnt": 65651,
+    "minted": 22903,
+    "totalSupply": 186272
+  },
+  {
+    "date": "2021-01-06",
+    "burnt": 65898,
+    "minted": 22972,
+    "totalSupply": 186144
+  },
+  {
+    "date": "2021-01-07",
+    "burnt": 65914,
+    "minted": 23059,
+    "totalSupply": 185616
+  },
+  {
+    "date": "2021-01-08",
+    "burnt": 66436,
+    "minted": 23036,
+    "totalSupply": 188001
+  },
+  {
+    "date": "2021-01-09",
+    "burnt": 66326,
+    "minted": 23031,
+    "totalSupply": 188441
+  },
+  {
+    "date": "2021-01-10",
+    "burnt": 66168,
+    "minted": 23116,
+    "totalSupply": 189805
+  },
+  {
+    "date": "2021-01-11",
+    "burnt": 66729,
+    "minted": 23277,
+    "totalSupply": 190298
+  },
+  {
+    "date": "2021-01-12",
+    "burnt": 66625,
+    "minted": 23254,
+    "totalSupply": 190965
+  },
+  {
+    "date": "2021-01-13",
+    "burnt": 66484,
+    "minted": 23285,
+    "totalSupply": 191592
+  },
+  {
+    "date": "2021-01-15",
+    "burnt": 67271,
+    "minted": 23275,
+    "totalSupply": 193498
+  },
+  {
+    "date": "2021-01-16",
+    "burnt": 67436,
+    "minted": 23434,
+    "totalSupply": 193694
+  },
+  {
+    "date": "2021-01-17",
+    "burnt": 67865,
+    "minted": 23648,
+    "totalSupply": 195632
+  },
+  {
+    "date": "2021-01-18",
+    "burnt": 67937,
+    "minted": 23640,
+    "totalSupply": 197872
+  },
+  {
+    "date": "2021-01-19",
+    "burnt": 68284,
+    "minted": 23846,
+    "totalSupply": 198643
+  },
+  {
+    "date": "2021-01-20",
+    "burnt": 68346,
+    "minted": 23888,
+    "totalSupply": 200698
+  },
+  {
+    "date": "2021-01-21",
+    "burnt": 68598,
+    "minted": 23871,
+    "totalSupply": 201870
+  },
+  {
+    "date": "2021-01-22",
+    "burnt": 69132,
+    "minted": 24012,
+    "totalSupply": 202806
+  },
+  {
+    "date": "2021-01-23",
+    "burnt": 69015,
+    "minted": 24010,
+    "totalSupply": 203718
+  },
+  {
+    "date": "2021-01-24",
+    "burnt": 69418,
+    "minted": 24094,
+    "totalSupply": 205164
+  },
+  {
+    "date": "2021-01-25",
+    "burnt": 69746,
+    "minted": 24194,
+    "totalSupply": 206109
+  },
+  {
+    "date": "2021-01-26",
+    "burnt": 70358,
+    "minted": 24275,
+    "totalSupply": 206588
+  },
+  {
+    "date": "2021-01-27",
+    "burnt": 70355,
+    "minted": 24379,
+    "totalSupply": 206950
+  },
+  {
+    "date": "2021-01-28",
+    "burnt": 70485,
+    "minted": 24617,
+    "totalSupply": 208768
+  },
+  {
+    "date": "2021-01-29",
+    "burnt": 70852,
+    "minted": 24750,
+    "totalSupply": 210527
+  },
+  {
+    "date": "2021-01-30",
+    "burnt": 70801,
+    "minted": 24900,
+    "totalSupply": 212149
+  },
+  {
+    "date": "2021-01-31",
+    "burnt": 71157,
+    "minted": 25115,
+    "totalSupply": 211913
+  },
+  {
+    "date": "2021-02-01",
+    "burnt": 71684,
+    "minted": 25234,
+    "totalSupply": 213456
+  },
+  {
+    "date": "2021-02-02",
+    "burnt": 72056,
+    "minted": 25359,
+    "totalSupply": 213978
+  },
+  {
+    "date": "2021-02-03",
+    "burnt": 72005,
+    "minted": 25516,
+    "totalSupply": 215228
+  },
+  {
+    "date": "2021-02-04",
+    "burnt": 72141,
+    "minted": 25752,
+    "totalSupply": 215815
+  },
+  {
+    "date": "2021-02-05",
+    "burnt": 72029,
+    "minted": 25798,
+    "totalSupply": 215675
+  },
+  {
+    "date": "2021-02-06",
+    "burnt": 72539,
+    "minted": 26031,
+    "totalSupply": 217583
+  },
+  {
+    "date": "2021-02-07",
+    "burnt": 73090,
+    "minted": 26221,
+    "totalSupply": 219867
+  },
+  {
+    "date": "2021-02-08",
+    "burnt": 73718,
+    "minted": 26416,
+    "totalSupply": 221111
+  },
+  {
+    "date": "2021-02-09",
+    "burnt": 74155,
+    "minted": 26554,
+    "totalSupply": 222914
+  },
+  {
+    "date": "2021-02-10",
+    "burnt": 74391,
+    "minted": 26562,
+    "totalSupply": 223107
+  },
+  {
+    "date": "2021-02-11",
+    "burnt": 75111,
+    "minted": 26767,
+    "totalSupply": 223475
+  },
+  {
+    "date": "2021-02-12",
+    "burnt": 75397,
+    "minted": 26830,
+    "totalSupply": 223073
+  },
+  {
+    "date": "2021-02-13",
+    "burnt": 75976,
+    "minted": 26947,
+    "totalSupply": 223686
+  },
+  {
+    "date": "2021-02-14",
+    "burnt": 76425,
+    "minted": 26910,
+    "totalSupply": 225891
+  },
+  {
+    "date": "2021-02-15",
+    "burnt": 77009,
+    "minted": 26918,
+    "totalSupply": 226441
+  },
+  {
+    "date": "2021-02-16",
+    "burnt": 77557,
+    "minted": 27097,
+    "totalSupply": 226403
+  },
+  {
+    "date": "2021-02-17",
+    "burnt": 78030,
+    "minted": 27068,
+    "totalSupply": 227072
+  },
+  {
+    "date": "2021-02-18",
+    "burnt": 78194,
+    "minted": 27010,
+    "totalSupply": 226500
+  },
+  {
+    "date": "2021-02-19",
+    "burnt": 78016,
+    "minted": 27113,
+    "totalSupply": 227972
+  },
+  {
+    "date": "2021-02-20",
+    "burnt": 77849,
+    "minted": 27209,
+    "totalSupply": 229956
+  },
+  {
+    "date": "2021-02-21",
+    "burnt": 78562,
+    "minted": 27433,
+    "totalSupply": 229761
+  },
+  {
+    "date": "2021-02-22",
+    "burnt": 78536,
+    "minted": 27594,
+    "totalSupply": 231335
+  },
+  {
+    "date": "2021-02-23",
+    "burnt": 78697,
+    "minted": 27788,
+    "totalSupply": 232972
+  },
+  {
+    "date": "2021-02-24",
+    "burnt": 79035,
+    "minted": 28005,
+    "totalSupply": 235220
+  },
+  {
+    "date": "2021-02-25",
+    "burnt": 78899,
+    "minted": 28017,
+    "totalSupply": 235223
+  },
+  {
+    "date": "2021-02-26",
+    "burnt": 79286,
+    "minted": 28188,
+    "totalSupply": 237417
+  },
+  {
+    "date": "2021-02-27",
+    "burnt": 79292,
+    "minted": 28284,
+    "totalSupply": 238903
+  },
+  {
+    "date": "2021-02-28",
+    "burnt": 79976,
+    "minted": 28467,
+    "totalSupply": 238698
+  },
+  {
+    "date": "2021-03-01",
+    "burnt": 80078,
+    "minted": 28500,
+    "totalSupply": 238804
+  },
+  {
+    "date": "2021-03-02",
+    "burnt": 80792,
+    "minted": 28631,
+    "totalSupply": 240034
+  },
+  {
+    "date": "2021-03-03",
+    "burnt": 80960,
+    "minted": 28608,
+    "totalSupply": 240013
+  },
+  {
+    "date": "2021-03-04",
+    "burnt": 80962,
+    "minted": 28727,
+    "totalSupply": 240079
+  },
+  {
+    "date": "2021-03-05",
+    "burnt": 80788,
+    "minted": 28841,
+    "totalSupply": 242110
+  },
+  {
+    "date": "2021-03-06",
+    "burnt": 80734,
+    "minted": 29063,
+    "totalSupply": 244166
+  },
+  {
+    "date": "2021-03-07",
+    "burnt": 80895,
+    "minted": 29041,
+    "totalSupply": 244535
+  },
+  {
+    "date": "2021-03-08",
+    "burnt": 80947,
+    "minted": 29050,
+    "totalSupply": 246953
+  },
+  {
+    "date": "2021-03-09",
+    "burnt": 81505,
+    "minted": 29013,
+    "totalSupply": 246516
+  },
+  {
+    "date": "2021-03-10",
+    "burnt": 81534,
+    "minted": 29090,
+    "totalSupply": 247943
+  },
+  {
+    "date": "2021-03-11",
+    "burnt": 81452,
+    "minted": 29229,
+    "totalSupply": 249677
+  },
+  {
+    "date": "2021-03-12",
+    "burnt": 82138,
+    "minted": 29364,
+    "totalSupply": 251907
+  },
+  {
+    "date": "2021-03-13",
+    "burnt": 82886,
+    "minted": 29581,
+    "totalSupply": 253673
+  },
+  {
+    "date": "2021-03-14",
+    "burnt": 82849,
+    "minted": 29773,
+    "totalSupply": 253947
+  },
+  {
+    "date": "2021-03-15",
+    "burnt": 83493,
+    "minted": 29756,
+    "totalSupply": 253403
+  },
+  {
+    "date": "2021-03-16",
+    "burnt": 83313,
+    "minted": 29908,
+    "totalSupply": 253846
+  },
+  {
+    "date": "2021-03-17",
+    "burnt": 83443,
+    "minted": 30036,
+    "totalSupply": 256010
+  },
+  {
+    "date": "2021-03-18",
+    "burnt": 84013,
+    "minted": 30204,
+    "totalSupply": 258266
+  },
+  {
+    "date": "2021-03-19",
+    "burnt": 84498,
+    "minted": 30208,
+    "totalSupply": 259001
+  },
+  {
+    "date": "2021-03-20",
+    "burnt": 85119,
+    "minted": 30336,
+    "totalSupply": 261497
+  },
+  {
+    "date": "2021-03-21",
+    "burnt": 85128,
+    "minted": 30454,
+    "totalSupply": 262976
+  },
+  {
+    "date": "2021-03-22",
+    "burnt": 85717,
+    "minted": 30598,
+    "totalSupply": 265152
+  },
+  {
+    "date": "2021-03-23",
+    "burnt": 85693,
+    "minted": 30626,
+    "totalSupply": 266081
+  },
+  {
+    "date": "2021-03-24",
+    "burnt": 86176,
+    "minted": 30628,
+    "totalSupply": 267414
+  },
+  {
+    "date": "2021-03-25",
+    "burnt": 86020,
+    "minted": 30824,
+    "totalSupply": 268968
+  },
+  {
+    "date": "2021-03-26",
+    "burnt": 86231,
+    "minted": 31037,
+    "totalSupply": 271018
+  },
+  {
+    "date": "2021-03-27",
+    "burnt": 86273,
+    "minted": 31056,
+    "totalSupply": 273178
+  },
+  {
+    "date": "2021-03-28",
+    "burnt": 86829,
+    "minted": 31016,
+    "totalSupply": 274010
+  },
+  {
+    "date": "2021-03-29",
+    "burnt": 87181,
+    "minted": 30968,
+    "totalSupply": 274761
+  },
+  {
+    "date": "2021-03-30",
+    "burnt": 87401,
+    "minted": 31175,
+    "totalSupply": 276650
+  },
+  {
+    "date": "2021-03-31",
+    "burnt": 88021,
+    "minted": 31118,
+    "totalSupply": 276774
+  },
+  {
+    "date": "2021-04-01",
+    "burnt": 88052,
+    "minted": 31148,
+    "totalSupply": 278214
+  },
+  {
+    "date": "2021-04-02",
+    "burnt": 88404,
+    "minted": 31364,
+    "totalSupply": 279104
+  },
+  {
+    "date": "2021-04-03",
+    "burnt": 88939,
+    "minted": 31600,
+    "totalSupply": 279071
+  },
+  {
+    "date": "2021-04-04",
+    "burnt": 89085,
+    "minted": 31561,
+    "totalSupply": 279721
+  },
+  {
+    "date": "2021-04-05",
+    "burnt": 89469,
+    "minted": 31597,
+    "totalSupply": 279464
+  },
+  {
+    "date": "2021-04-06",
+    "burnt": 89326,
+    "minted": 31569,
+    "totalSupply": 281024
+  },
+  {
+    "date": "2021-04-07",
+    "burnt": 89621,
+    "minted": 31698,
+    "totalSupply": 282602
+  },
+  {
+    "date": "2021-04-08",
+    "burnt": 89507,
+    "minted": 31687,
+    "totalSupply": 284080
+  },
+  {
+    "date": "2021-04-09",
+    "burnt": 89731,
+    "minted": 31832,
+    "totalSupply": 285475
+  },
+  {
+    "date": "2021-04-10",
+    "burnt": 90014,
+    "minted": 31865,
+    "totalSupply": 287261
+  },
+  {
+    "date": "2021-04-11",
+    "burnt": 89880,
+    "minted": 32031,
+    "totalSupply": 286790
+  },
+  {
+    "date": "2021-04-12",
+    "burnt": 90617,
+    "minted": 32056,
+    "totalSupply": 289080
+  },
+  {
+    "date": "2021-04-13",
+    "burnt": 91326,
+    "minted": 32211,
+    "totalSupply": 290326
+  },
+  {
+    "date": "2021-04-14",
+    "burnt": 91634,
+    "minted": 32415,
+    "totalSupply": 291945
+  },
+  {
+    "date": "2021-04-15",
+    "burnt": 91493,
+    "minted": 32548,
+    "totalSupply": 293594
+  },
+  {
+    "date": "2021-04-16",
+    "burnt": 91623,
+    "minted": 32693,
+    "totalSupply": 295985
+  },
+  {
+    "date": "2021-04-17",
+    "burnt": 91625,
+    "minted": 32939,
+    "totalSupply": 298216
+  },
+  {
+    "date": "2021-04-18",
+    "burnt": 91846,
+    "minted": 33117,
+    "totalSupply": 299355
+  },
+  {
+    "date": "2021-04-19",
+    "burnt": 91839,
+    "minted": 33206,
+    "totalSupply": 301485
+  },
+  {
+    "date": "2021-04-20",
+    "burnt": 91682,
+    "minted": 33171,
+    "totalSupply": 303461
+  },
+  {
+    "date": "2021-04-21",
+    "burnt": 92026,
+    "minted": 33179,
+    "totalSupply": 303917
+  },
+  {
+    "date": "2021-04-22",
+    "burnt": 92622,
+    "minted": 33368,
+    "totalSupply": 303577
+  },
+  {
+    "date": "2021-04-23",
+    "burnt": 92808,
+    "minted": 33452,
+    "totalSupply": 304970
+  },
+  {
+    "date": "2021-04-24",
+    "burnt": 92712,
+    "minted": 33638,
+    "totalSupply": 305869
+  },
+  {
+    "date": "2021-04-25",
+    "burnt": 92615,
+    "minted": 33723,
+    "totalSupply": 305328
+  },
+  {
+    "date": "2021-04-26",
+    "burnt": 92974,
+    "minted": 33874,
+    "totalSupply": 305278
+  },
+  {
+    "date": "2021-04-27",
+    "burnt": 93717,
+    "minted": 34014,
+    "totalSupply": 306779
+  },
+  {
+    "date": "2021-04-28",
+    "burnt": 93778,
+    "minted": 34029,
+    "totalSupply": 308962
+  },
+  {
+    "date": "2021-04-29",
+    "burnt": 93782,
+    "minted": 34265,
+    "totalSupply": 308629
+  },
+  {
+    "date": "2021-04-30",
+    "burnt": 94310,
+    "minted": 34235,
+    "totalSupply": 310692
+  },
+  {
+    "date": "2021-05-01",
+    "burnt": 94921,
+    "minted": 34311,
+    "totalSupply": 311578
+  },
+  {
+    "date": "2021-05-02",
+    "burnt": 95670,
+    "minted": 34321,
+    "totalSupply": 312710
+  },
+  {
+    "date": "2021-05-03",
+    "burnt": 96359,
+    "minted": 34289,
+    "totalSupply": 313629
+  },
+  {
+    "date": "2021-05-04",
+    "burnt": 96338,
+    "minted": 34506,
+    "totalSupply": 314711
+  },
+  {
+    "date": "2021-05-05",
+    "burnt": 96295,
+    "minted": 34454,
+    "totalSupply": 315987
+  },
+  {
+    "date": "2021-05-06",
+    "burnt": 96979,
+    "minted": 34638,
+    "totalSupply": 317790
+  },
+  {
+    "date": "2021-05-07",
+    "burnt": 96876,
+    "minted": 34860,
+    "totalSupply": 319504
+  },
+  {
+    "date": "2021-05-08",
+    "burnt": 96996,
+    "minted": 34873,
+    "totalSupply": 319326
+  },
+  {
+    "date": "2021-05-09",
+    "burnt": 96837,
+    "minted": 35062,
+    "totalSupply": 320257
+  },
+  {
+    "date": "2021-05-10",
+    "burnt": 97205,
+    "minted": 35283,
+    "totalSupply": 320253
+  },
+  {
+    "date": "2021-05-11",
+    "burnt": 97481,
+    "minted": 35284,
+    "totalSupply": 321496
+  },
+  {
+    "date": "2021-05-12",
+    "burnt": 97374,
+    "minted": 35429,
+    "totalSupply": 323292
+  },
+  {
+    "date": "2021-05-13",
+    "burnt": 97361,
+    "minted": 35643,
+    "totalSupply": 324331
+  },
+  {
+    "date": "2021-05-14",
+    "burnt": 97882,
+    "minted": 35874,
+    "totalSupply": 323948
+  },
+  {
+    "date": "2021-05-15",
+    "burnt": 98364,
+    "minted": 35839,
+    "totalSupply": 326208
+  },
+  {
+    "date": "2021-05-16",
+    "burnt": 98340,
+    "minted": 36028,
+    "totalSupply": 326690
+  },
+  {
+    "date": "2021-05-17",
+    "burnt": 98811,
+    "minted": 35982,
+    "totalSupply": 328225
+  },
+  {
+    "date": "2021-05-18",
+    "burnt": 99309,
+    "minted": 35933,
+    "totalSupply": 328684
+  },
+  {
+    "date": "2021-05-19",
+    "burnt": 99594,
+    "minted": 36033,
+    "totalSupply": 330806
+  },
+  {
+    "date": "2021-05-20",
+    "burnt": 99635,
+    "minted": 36158,
+    "totalSupply": 330732
+  },
+  {
+    "date": "2021-05-21",
+    "burnt": 99489,
+    "minted": 36241,
+    "totalSupply": 332365
+  },
+  {
+    "date": "2021-05-22",
+    "burnt": 99862,
+    "minted": 36358,
+    "totalSupply": 332278
+  },
+  {
+    "date": "2021-05-23",
+    "burnt": 100427,
+    "minted": 36538,
+    "totalSupply": 334035
+  },
+  {
+    "date": "2021-05-24",
+    "burnt": 100688,
+    "minted": 36489,
+    "totalSupply": 333898
+  },
+  {
+    "date": "2021-05-25",
+    "burnt": 100873,
+    "minted": 36607,
+    "totalSupply": 333534
+  },
+  {
+    "date": "2021-05-26",
+    "burnt": 101138,
+    "minted": 36575,
+    "totalSupply": 335778
+  },
+  {
+    "date": "2021-05-27",
+    "burnt": 101630,
+    "minted": 36533,
+    "totalSupply": 335734
+  },
+  {
+    "date": "2021-05-28",
+    "burnt": 101458,
+    "minted": 36769,
+    "totalSupply": 338096
+  },
+  {
+    "date": "2021-05-29",
+    "burnt": 101495,
+    "minted": 36971,
+    "totalSupply": 339583
+  },
+  {
+    "date": "2021-05-30",
+    "burnt": 102192,
+    "minted": 37071,
+    "totalSupply": 341763
+  },
+  {
+    "date": "2021-05-31",
+    "burnt": 102257,
+    "minted": 37260,
+    "totalSupply": 342490
+  },
+  {
+    "date": "2021-06-01",
+    "burnt": 102528,
+    "minted": 37404,
+    "totalSupply": 343585
+  },
+  {
+    "date": "2021-06-02",
+    "burnt": 102860,
+    "minted": 37431,
+    "totalSupply": 344566
+  },
+  {
+    "date": "2021-06-03",
+    "burnt": 102750,
+    "minted": 37458,
+    "totalSupply": 346958
+  },
+  {
+    "date": "2021-06-04",
+    "burnt": 103370,
+    "minted": 37584,
+    "totalSupply": 346604
+  },
+  {
+    "date": "2021-06-05",
+    "burnt": 103512,
+    "minted": 37687,
+    "totalSupply": 348648
+  },
+  {
+    "date": "2021-06-06",
+    "burnt": 104035,
+    "minted": 37857,
+    "totalSupply": 348825
+  },
+  {
+    "date": "2021-06-07",
+    "burnt": 104149,
+    "minted": 38100,
+    "totalSupply": 351169
+  },
+  {
+    "date": "2021-06-08",
+    "burnt": 104394,
+    "minted": 38145,
+    "totalSupply": 350955
+  },
+  {
+    "date": "2021-06-09",
+    "burnt": 104649,
+    "minted": 38222,
+    "totalSupply": 351818
+  },
+  {
+    "date": "2021-06-10",
+    "burnt": 105086,
+    "minted": 38395,
+    "totalSupply": 351422
+  },
+  {
+    "date": "2021-06-11",
+    "burnt": 105638,
+    "minted": 38397,
+    "totalSupply": 353292
+  },
+  {
+    "date": "2021-06-12",
+    "burnt": 105888,
+    "minted": 38460,
+    "totalSupply": 355148
+  },
+  {
+    "date": "2021-06-13",
+    "burnt": 106500,
+    "minted": 38443,
+    "totalSupply": 356407
+  },
+  {
+    "date": "2021-06-14",
+    "burnt": 106758,
+    "minted": 38497,
+    "totalSupply": 356064
+  },
+  {
+    "date": "2021-06-15",
+    "burnt": 106919,
+    "minted": 38575,
+    "totalSupply": 355467
+  },
+  {
+    "date": "2021-06-16",
+    "burnt": 107622,
+    "minted": 38543,
+    "totalSupply": 357394
+  },
+  {
+    "date": "2021-06-17",
+    "burnt": 107925,
+    "minted": 38696,
+    "totalSupply": 357294
+  },
+  {
+    "date": "2021-06-18",
+    "burnt": 108599,
+    "minted": 38877,
+    "totalSupply": 357619
+  },
+  {
+    "date": "2021-06-19",
+    "burnt": 108470,
+    "minted": 39079,
+    "totalSupply": 359986
+  },
+  {
+    "date": "2021-06-20",
+    "burnt": 108619,
+    "minted": 39068,
+    "totalSupply": 360447
+  },
+  {
+    "date": "2021-06-21",
+    "burnt": 108466,
+    "minted": 39235,
+    "totalSupply": 360383
+  },
+  {
+    "date": "2021-06-22",
+    "burnt": 109047,
+    "minted": 39305,
+    "totalSupply": 362464
+  },
+  {
+    "date": "2021-06-23",
+    "burnt": 109239,
+    "minted": 39393,
+    "totalSupply": 364460
+  },
+  {
+    "date": "2021-06-24",
+    "burnt": 109322,
+    "minted": 39613,
+    "totalSupply": 364788
+  },
+  {
+    "date": "2021-06-25",
+    "burnt": 109172,
+    "minted": 39674,
+    "totalSupply": 366547
+  },
+  {
+    "date": "2021-06-26",
+    "burnt": 109779,
+    "minted": 39922,
+    "totalSupply": 368094
+  },
+  {
+    "date": "2021-06-27",
+    "burnt": 109712,
+    "minted": 40151,
+    "totalSupply": 370485
+  },
+  {
+    "date": "2021-06-28",
+    "burnt": 110093,
+    "minted": 40287,
+    "totalSupply": 370057
+  },
+  {
+    "date": "2021-06-29",
+    "burnt": 110184,
+    "minted": 40230,
+    "totalSupply": 372145
+  },
+  {
+    "date": "2021-06-30",
+    "burnt": 110684,
+    "minted": 40271,
+    "totalSupply": 374614
+  },
+  {
+    "date": "2021-07-01",
+    "burnt": 110605,
+    "minted": 40322,
+    "totalSupply": 376409
+  },
+  {
+    "date": "2021-07-02",
+    "burnt": 110879,
+    "minted": 40571,
+    "totalSupply": 378778
+  },
+  {
+    "date": "2021-07-03",
+    "burnt": 111593,
+    "minted": 40566,
+    "totalSupply": 379972
+  },
+  {
+    "date": "2021-07-04",
+    "burnt": 112317,
+    "minted": 40813,
+    "totalSupply": 379660
+  },
+  {
+    "date": "2021-07-05",
+    "burnt": 112746,
+    "minted": 40866,
+    "totalSupply": 379590
+  },
+  {
+    "date": "2021-07-06",
+    "burnt": 112854,
+    "minted": 40974,
+    "totalSupply": 381944
+  },
+  {
+    "date": "2021-07-07",
+    "burnt": 113465,
+    "minted": 40956,
+    "totalSupply": 382801
+  },
+  {
+    "date": "2021-07-08",
+    "burnt": 113915,
+    "minted": 40946,
+    "totalSupply": 382930
+  },
+  {
+    "date": "2021-07-09",
+    "burnt": 114158,
+    "minted": 41154,
+    "totalSupply": 384477
+  },
+  {
+    "date": "2021-07-10",
+    "burnt": 114313,
+    "minted": 41110,
+    "totalSupply": 386209
+  },
+  {
+    "date": "2021-07-11",
+    "burnt": 114255,
+    "minted": 41097,
+    "totalSupply": 387907
+  },
+  {
+    "date": "2021-07-12",
+    "burnt": 114140,
+    "minted": 41322,
+    "totalSupply": 390217
+  },
+  {
+    "date": "2021-07-13",
+    "burnt": 114117,
+    "minted": 41295,
+    "totalSupply": 389829
+  },
+  {
+    "date": "2021-07-14",
+    "burnt": 114521,
+    "minted": 41309,
+    "totalSupply": 389418
+  },
+  {
+    "date": "2021-07-15",
+    "burnt": 114986,
+    "minted": 41455,
+    "totalSupply": 390465
+  },
+  {
+    "date": "2021-07-16",
+    "burnt": 114946,
+    "minted": 41579,
+    "totalSupply": 390585
+  },
+  {
+    "date": "2021-07-17",
+    "burnt": 115039,
+    "minted": 41681,
+    "totalSupply": 390378
+  },
+  {
+    "date": "2021-07-18",
+    "burnt": 115766,
+    "minted": 41837,
+    "totalSupply": 390353
+  },
+  {
+    "date": "2021-07-19",
+    "burnt": 116369,
+    "minted": 42068,
+    "totalSupply": 391559
+  },
+  {
+    "date": "2021-07-20",
+    "burnt": 116979,
+    "minted": 42311,
+    "totalSupply": 392685
+  },
+  {
+    "date": "2021-07-21",
+    "burnt": 116964,
+    "minted": 42493,
+    "totalSupply": 393322
+  },
+  {
+    "date": "2021-07-22",
+    "burnt": 117429,
+    "minted": 42481,
+    "totalSupply": 394560
+  },
+  {
+    "date": "2021-07-23",
+    "burnt": 118037,
+    "minted": 42441,
+    "totalSupply": 396770
+  },
+  {
+    "date": "2021-07-24",
+    "burnt": 118521,
+    "minted": 42661,
+    "totalSupply": 397083
+  },
+  {
+    "date": "2021-07-25",
+    "burnt": 119187,
+    "minted": 42832,
+    "totalSupply": 399266
+  },
+  {
+    "date": "2021-07-26",
+    "burnt": 119176,
+    "minted": 43035,
+    "totalSupply": 401568
+  },
+  {
+    "date": "2021-07-27",
+    "burnt": 119624,
+    "minted": 43141,
+    "totalSupply": 402869
+  },
+  {
+    "date": "2021-07-28",
+    "burnt": 120292,
+    "minted": 43300,
+    "totalSupply": 404761
+  },
+  {
+    "date": "2021-07-29",
+    "burnt": 120152,
+    "minted": 43390,
+    "totalSupply": 405475
+  },
+  {
+    "date": "2021-07-30",
+    "burnt": 120358,
+    "minted": 43547,
+    "totalSupply": 407009
+  },
+  {
+    "date": "2021-07-31",
+    "burnt": 120410,
+    "minted": 43536,
+    "totalSupply": 408330
+  },
+  {
+    "date": "2021-08-01",
+    "burnt": 120806,
+    "minted": 43649,
+    "totalSupply": 410340
+  },
+  {
+    "date": "2021-08-02",
+    "burnt": 121124,
+    "minted": 43731,
+    "totalSupply": 410733
+  },
+  {
+    "date": "2021-08-03",
+    "burnt": 121565,
+    "minted": 43942,
+    "totalSupply": 412124
+  },
+  {
+    "date": "2021-08-04",
+    "burnt": 122197,
+    "minted": 44106,
+    "totalSupply": 412781
+  },
+  {
+    "date": "2021-08-05",
+    "burnt": 122515,
+    "minted": 44286,
+    "totalSupply": 413694
+  },
+  {
+    "date": "2021-08-06",
+    "burnt": 123231,
+    "minted": 44408,
+    "totalSupply": 414402
+  },
+  {
+    "date": "2021-08-07",
+    "burnt": 123658,
+    "minted": 44586,
+    "totalSupply": 415671
+  },
+  {
+    "date": "2021-08-08",
+    "burnt": 124403,
+    "minted": 44651,
+    "totalSupply": 417175
+  },
+  {
+    "date": "2021-08-09",
+    "burnt": 125011,
+    "minted": 44801,
+    "totalSupply": 416887
+  },
+  {
+    "date": "2021-08-10",
+    "burnt": 125135,
+    "minted": 44919,
+    "totalSupply": 418724
+  },
+  {
+    "date": "2021-08-11",
+    "burnt": 125177,
+    "minted": 45037,
+    "totalSupply": 419362
+  },
+  {
+    "date": "2021-08-12",
+    "burnt": 125275,
+    "minted": 45092,
+    "totalSupply": 421175
+  },
+  {
+    "date": "2021-08-13",
+    "burnt": 125362,
+    "minted": 45183,
+    "totalSupply": 422848
+  },
+  {
+    "date": "2021-08-14",
+    "burnt": 125360,
+    "minted": 45325,
+    "totalSupply": 422974
+  },
+  {
+    "date": "2021-08-15",
+    "burnt": 125761,
+    "minted": 45565,
+    "totalSupply": 424639
+  },
+  {
+    "date": "2021-08-16",
+    "burnt": 126154,
+    "minted": 45704,
+    "totalSupply": 426315
+  },
+  {
+    "date": "2021-08-17",
+    "burnt": 126832,
+    "minted": 45710,
+    "totalSupply": 426752
+  },
+  {
+    "date": "2021-08-18",
+    "burnt": 126991,
+    "minted": 45780,
+    "totalSupply": 427139
+  },
+  {
+    "date": "2021-08-19",
+    "burnt": 127147,
+    "minted": 45747,
+    "totalSupply": 428775
+  },
+  {
+    "date": "2021-08-20",
+    "burnt": 127675,
+    "minted": 45819,
+    "totalSupply": 428948
+  },
+  {
+    "date": "2021-08-21",
+    "burnt": 127629,
+    "minted": 45778,
+    "totalSupply": 429401
+  },
+  {
+    "date": "2021-08-22",
+    "burnt": 127605,
+    "minted": 45862,
+    "totalSupply": 429030
+  },
+  {
+    "date": "2021-08-23",
+    "burnt": 127729,
+    "minted": 45953,
+    "totalSupply": 430974
+  },
+  {
+    "date": "2021-08-24",
+    "burnt": 127885,
+    "minted": 46022,
+    "totalSupply": 433159
+  },
+  {
+    "date": "2021-08-25",
+    "burnt": 128195,
+    "minted": 46180,
+    "totalSupply": 433891
+  },
+  {
+    "date": "2021-08-26",
+    "burnt": 128175,
+    "minted": 46304,
+    "totalSupply": 434907
+  },
+  {
+    "date": "2021-08-27",
+    "burnt": 128527,
+    "minted": 46529,
+    "totalSupply": 434613
+  },
+  {
+    "date": "2021-08-28",
+    "burnt": 129261,
+    "minted": 46770,
+    "totalSupply": 437082
+  },
+  {
+    "date": "2021-08-29",
+    "burnt": 129840,
+    "minted": 46737,
+    "totalSupply": 439569
+  },
+  {
+    "date": "2021-08-30",
+    "burnt": 129823,
+    "minted": 46940,
+    "totalSupply": 439720
+  },
+  {
+    "date": "2021-08-31",
+    "burnt": 129907,
+    "minted": 46963,
+    "totalSupply": 442070
+  },
+  {
+    "date": "2021-09-01",
+    "burnt": 129959,
+    "minted": 47010,
+    "totalSupply": 442377
+  },
+  {
+    "date": "2021-09-02",
+    "burnt": 130105,
+    "minted": 46956,
+    "totalSupply": 444682
+  },
+  {
+    "date": "2021-09-03",
+    "burnt": 130390,
+    "minted": 47078,
+    "totalSupply": 446589
+  },
+  {
+    "date": "2021-09-04",
+    "burnt": 130929,
+    "minted": 47285,
+    "totalSupply": 448203
+  },
+  {
+    "date": "2021-09-05",
+    "burnt": 130845,
+    "minted": 47489,
+    "totalSupply": 447978
+  },
+  {
+    "date": "2021-09-06",
+    "burnt": 131043,
+    "minted": 47433,
+    "totalSupply": 449675
+  },
+  {
+    "date": "2021-09-07",
+    "burnt": 131206,
+    "minted": 47493,
+    "totalSupply": 449618
+  },
+  {
+    "date": "2021-09-08",
+    "burnt": 131174,
+    "minted": 47466,
+    "totalSupply": 450282
+  },
+  {
+    "date": "2021-09-09",
+    "burnt": 131315,
+    "minted": 47477,
+    "totalSupply": 450895
+  },
+  {
+    "date": "2021-09-10",
+    "burnt": 131821,
+    "minted": 47593,
+    "totalSupply": 451486
+  },
+  {
+    "date": "2021-09-11",
+    "burnt": 131840,
+    "minted": 47734,
+    "totalSupply": 453164
+  },
+  {
+    "date": "2021-09-12",
+    "burnt": 131928,
+    "minted": 47775,
+    "totalSupply": 454169
+  },
+  {
+    "date": "2021-09-13",
+    "burnt": 132172,
+    "minted": 47875,
+    "totalSupply": 454247
+  },
+  {
+    "date": "2021-09-14",
+    "burnt": 132357,
+    "minted": 47838,
+    "totalSupply": 456104
+  },
+  {
+    "date": "2021-09-15",
+    "burnt": 132520,
+    "minted": 47875,
+    "totalSupply": 457046
+  },
+  {
+    "date": "2021-09-16",
+    "burnt": 132576,
+    "minted": 47911,
+    "totalSupply": 458971
+  },
+  {
+    "date": "2021-09-17",
+    "burnt": 133041,
+    "minted": 47977,
+    "totalSupply": 461130
+  },
+  {
+    "date": "2021-09-18",
+    "burnt": 132929,
+    "minted": 48078,
+    "totalSupply": 461606
+  },
+  {
+    "date": "2021-09-19",
+    "burnt": 133351,
+    "minted": 48168,
+    "totalSupply": 461633
+  },
+  {
+    "date": "2021-09-20",
+    "burnt": 133241,
+    "minted": 48182,
+    "totalSupply": 462216
+  },
+  {
+    "date": "2021-09-21",
+    "burnt": 133141,
+    "minted": 48286,
+    "totalSupply": 462436
+  },
+  {
+    "date": "2021-09-22",
+    "burnt": 133757,
+    "minted": 48312,
+    "totalSupply": 462559
+  },
+  {
+    "date": "2021-09-23",
+    "burnt": 133820,
+    "minted": 48457,
+    "totalSupply": 462235
+  },
+  {
+    "date": "2021-09-24",
+    "burnt": 134038,
+    "minted": 48611,
+    "totalSupply": 461730
+  },
+  {
+    "date": "2021-09-25",
+    "burnt": 134607,
+    "minted": 48579,
+    "totalSupply": 464153
+  },
+  {
+    "date": "2021-09-26",
+    "burnt": 134704,
+    "minted": 48797,
+    "totalSupply": 465704
+  },
+  {
+    "date": "2021-09-27",
+    "burnt": 135068,
+    "minted": 48931,
+    "totalSupply": 466173
+  },
+  {
+    "date": "2021-09-28",
+    "burnt": 135597,
+    "minted": 49011,
+    "totalSupply": 466995
+  },
+  {
+    "date": "2021-09-29",
+    "burnt": 136331,
+    "minted": 49147,
+    "totalSupply": 468380
+  },
+  {
+    "date": "2021-09-30",
+    "burnt": 136807,
+    "minted": 49166,
+    "totalSupply": 469621
+  },
+  {
+    "date": "2021-10-01",
+    "burnt": 137377,
+    "minted": 49322,
+    "totalSupply": 469830
+  },
+  {
+    "date": "2021-10-02",
+    "burnt": 137655,
+    "minted": 49521,
+    "totalSupply": 469576
+  },
+  {
+    "date": "2021-10-03",
+    "burnt": 138130,
+    "minted": 49603,
+    "totalSupply": 470064
+  },
+  {
+    "date": "2021-10-04",
+    "burnt": 138243,
+    "minted": 49577,
+    "totalSupply": 471276
+  },
+  {
+    "date": "2021-10-05",
+    "burnt": 138229,
+    "minted": 49638,
+    "totalSupply": 471157
+  },
+  {
+    "date": "2021-10-06",
+    "burnt": 138302,
+    "minted": 49888,
+    "totalSupply": 471229
+  },
+  {
+    "date": "2021-10-07",
+    "burnt": 138302,
+    "minted": 49937,
+    "totalSupply": 472357
+  },
+  {
+    "date": "2021-10-08",
+    "burnt": 138709,
+    "minted": 50096,
+    "totalSupply": 474734
+  },
+  {
+    "date": "2021-10-09",
+    "burnt": 139356,
+    "minted": 50174,
+    "totalSupply": 475546
+  },
+  {
+    "date": "2021-10-10",
+    "burnt": 139465,
+    "minted": 50151,
+    "totalSupply": 475896
+  },
+  {
+    "date": "2021-10-11",
+    "burnt": 139734,
+    "minted": 50336,
+    "totalSupply": 476148
+  },
+  {
+    "date": "2021-10-12",
+    "burnt": 140306,
+    "minted": 50445,
+    "totalSupply": 477067
+  },
+  {
+    "date": "2021-10-13",
+    "burnt": 141014,
+    "minted": 50554,
+    "totalSupply": 476882
+  },
+  {
+    "date": "2021-10-14",
+    "burnt": 141655,
+    "minted": 50614,
+    "totalSupply": 477673
+  },
+  {
+    "date": "2021-10-15",
+    "burnt": 141672,
+    "minted": 50559,
+    "totalSupply": 479259
+  },
+  {
+    "date": "2021-10-16",
+    "burnt": 141856,
+    "minted": 50519,
+    "totalSupply": 480592
+  },
+  {
+    "date": "2021-10-17",
+    "burnt": 142461,
+    "minted": 50718,
+    "totalSupply": 482360
+  },
+  {
+    "date": "2021-10-18",
+    "burnt": 143074,
+    "minted": 50860,
+    "totalSupply": 483797
+  },
+  {
+    "date": "2021-10-19",
+    "burnt": 143015,
+    "minted": 50984,
+    "totalSupply": 485951
+  },
+  {
+    "date": "2021-10-20",
+    "burnt": 143442,
+    "minted": 50974,
+    "totalSupply": 486680
+  },
+  {
+    "date": "2021-10-21",
+    "burnt": 143570,
+    "minted": 51045,
+    "totalSupply": 489087
+  },
+  {
+    "date": "2021-10-22",
+    "burnt": 143739,
+    "minted": 51112,
+    "totalSupply": 489245
+  },
+  {
+    "date": "2021-10-23",
+    "burnt": 144396,
+    "minted": 51250,
+    "totalSupply": 489304
+  },
+  {
+    "date": "2021-10-24",
+    "burnt": 144689,
+    "minted": 51481,
+    "totalSupply": 490665
+  },
+  {
+    "date": "2021-10-25",
+    "burnt": 144940,
+    "minted": 51479,
+    "totalSupply": 491153
+  },
+  {
+    "date": "2021-10-26",
+    "burnt": 145424,
+    "minted": 51493,
+    "totalSupply": 492956
+  },
+  {
+    "date": "2021-10-27",
+    "burnt": 145848,
+    "minted": 51537,
+    "totalSupply": 492948
+  },
+  {
+    "date": "2021-10-28",
+    "burnt": 146508,
+    "minted": 51642,
+    "totalSupply": 493803
+  },
+  {
+    "date": "2021-10-29",
+    "burnt": 146827,
+    "minted": 51882,
+    "totalSupply": 494948
+  },
+  {
+    "date": "2021-10-30",
+    "burnt": 147419,
+    "minted": 52068,
+    "totalSupply": 495994
+  },
+  {
+    "date": "2021-10-31",
+    "burnt": 147667,
+    "minted": 52014,
+    "totalSupply": 495471
+  },
+  {
+    "date": "2021-11-01",
+    "burnt": 148076,
+    "minted": 52075,
+    "totalSupply": 495315
+  },
+  {
+    "date": "2021-11-02",
+    "burnt": 148495,
+    "minted": 52276,
+    "totalSupply": 497625
+  },
+  {
+    "date": "2021-11-03",
+    "burnt": 148411,
+    "minted": 52271,
+    "totalSupply": 498805
+  },
+  {
+    "date": "2021-11-04",
+    "burnt": 148588,
+    "minted": 52310,
+    "totalSupply": 499435
+  },
+  {
+    "date": "2021-11-05",
+    "burnt": 148860,
+    "minted": 52404,
+    "totalSupply": 498891
+  },
+  {
+    "date": "2021-11-06",
+    "burnt": 149023,
+    "minted": 52492,
+    "totalSupply": 500211
+  },
+  {
+    "date": "2021-11-07",
+    "burnt": 148884,
+    "minted": 52459,
+    "totalSupply": 500976
+  },
+  {
+    "date": "2021-11-08",
+    "burnt": 148754,
+    "minted": 52650,
+    "totalSupply": 503374
+  },
+  {
+    "date": "2021-11-09",
+    "burnt": 149425,
+    "minted": 52691,
+    "totalSupply": 504301
+  },
+  {
+    "date": "2021-11-10",
+    "burnt": 150166,
+    "minted": 52635,
+    "totalSupply": 504002
+  },
+  {
+    "date": "2021-11-11",
+    "burnt": 150471,
+    "minted": 52775,
+    "totalSupply": 506391
+  },
+  {
+    "date": "2021-11-12",
+    "burnt": 150796,
+    "minted": 52848,
+    "totalSupply": 508288
+  },
+  {
+    "date": "2021-11-13",
+    "burnt": 150834,
+    "minted": 52817,
+    "totalSupply": 509734
+  },
+  {
+    "date": "2021-11-14",
+    "burnt": 151433,
+    "minted": 52836,
+    "totalSupply": 509252
+  },
+  {
+    "date": "2021-11-15",
+    "burnt": 151867,
+    "minted": 52803,
+    "totalSupply": 511591
+  },
+  {
+    "date": "2021-11-16",
+    "burnt": 151874,
+    "minted": 52924,
+    "totalSupply": 513552
+  },
+  {
+    "date": "2021-11-17",
+    "burnt": 152189,
+    "minted": 53026,
+    "totalSupply": 513263
+  },
+  {
+    "date": "2021-11-18",
+    "burnt": 152721,
+    "minted": 53132,
+    "totalSupply": 512704
+  },
+  {
+    "date": "2021-11-19",
+    "burnt": 152872,
+    "minted": 53297,
+    "totalSupply": 514719
+  },
+  {
+    "date": "2021-11-20",
+    "burnt": 153565,
+    "minted": 53403,
+    "totalSupply": 514304
+  },
+  {
+    "date": "2021-11-21",
+    "burnt": 154092,
+    "minted": 53359,
+    "totalSupply": 514089
+  },
+  {
+    "date": "2021-11-22",
+    "burnt": 154279,
+    "minted": 53603,
+    "totalSupply": 514335
+  },
+  {
+    "date": "2021-11-23",
+    "burnt": 154982,
+    "minted": 53661,
+    "totalSupply": 516364
+  },
+  {
+    "date": "2021-11-24",
+    "burnt": 155315,
+    "minted": 53744,
+    "totalSupply": 516614
+  },
+  {
+    "date": "2021-11-25",
+    "burnt": 155212,
+    "minted": 53866,
+    "totalSupply": 518558
+  },
+  {
+    "date": "2021-11-26",
+    "burnt": 155297,
+    "minted": 54038,
+    "totalSupply": 521027
+  },
+  {
+    "date": "2021-11-27",
+    "burnt": 155523,
+    "minted": 54105,
+    "totalSupply": 523380
+  },
+  {
+    "date": "2021-11-28",
+    "burnt": 155536,
+    "minted": 54213,
+    "totalSupply": 524166
+  },
+  {
+    "date": "2021-11-29",
+    "burnt": 156048,
+    "minted": 54401,
+    "totalSupply": 525641
+  },
+  {
+    "date": "2021-11-30",
+    "burnt": 156307,
+    "minted": 54595,
+    "totalSupply": 526773
+  },
+  {
+    "date": "2021-12-01",
+    "burnt": 156359,
+    "minted": 54844,
+    "totalSupply": 528972
+  },
+  {
+    "date": "2021-12-02",
+    "burnt": 156353,
+    "minted": 54923,
+    "totalSupply": 528495
+  },
+  {
+    "date": "2021-12-03",
+    "burnt": 157014,
+    "minted": 55146,
+    "totalSupply": 529564
+  },
+  {
+    "date": "2021-12-04",
+    "burnt": 157650,
+    "minted": 55140,
+    "totalSupply": 529624
+  },
+  {
+    "date": "2021-12-05",
+    "burnt": 157643,
+    "minted": 55159,
+    "totalSupply": 530050
+  },
+  {
+    "date": "2021-12-06",
+    "burnt": 158184,
+    "minted": 55165,
+    "totalSupply": 531241
+  },
+  {
+    "date": "2021-12-07",
+    "burnt": 158038,
+    "minted": 55373,
+    "totalSupply": 530715
+  },
+  {
+    "date": "2021-12-08",
+    "burnt": 158414,
+    "minted": 55328,
+    "totalSupply": 532449
+  },
+  {
+    "date": "2021-12-09",
+    "burnt": 158498,
+    "minted": 55424,
+    "totalSupply": 531889
+  },
+  {
+    "date": "2021-12-10",
+    "burnt": 159119,
+    "minted": 55618,
+    "totalSupply": 533239
+  },
+  {
+    "date": "2021-12-11",
+    "burnt": 159672,
+    "minted": 55559,
+    "totalSupply": 534970
+  },
+  {
+    "date": "2021-12-12",
+    "burnt": 159529,
+    "minted": 55558,
+    "totalSupply": 535947
+  },
+  {
+    "date": "2021-12-13",
+    "burnt": 160193,
+    "minted": 55636,
+    "totalSupply": 535927
+  },
+  {
+    "date": "2021-12-14",
+    "burnt": 160748,
+    "minted": 55633,
+    "totalSupply": 537204
+  },
+  {
+    "date": "2021-12-15",
+    "burnt": 160691,
+    "minted": 55818,
+    "totalSupply": 538955
+  },
+  {
+    "date": "2021-12-16",
+    "burnt": 160669,
+    "minted": 56016,
+    "totalSupply": 540527
+  },
+  {
+    "date": "2021-12-17",
+    "burnt": 161295,
+    "minted": 56234,
+    "totalSupply": 542155
+  },
+  {
+    "date": "2021-12-18",
+    "burnt": 161894,
+    "minted": 56459,
+    "totalSupply": 544420
+  },
+  {
+    "date": "2021-12-19",
+    "burnt": 162314,
+    "minted": 56523,
+    "totalSupply": 546151
+  },
+  {
+    "date": "2021-12-20",
+    "burnt": 162629,
+    "minted": 56598,
+    "totalSupply": 547194
+  },
+  {
+    "date": "2021-12-21",
+    "burnt": 162824,
+    "minted": 56783,
+    "totalSupply": 546998
+  },
+  {
+    "date": "2021-12-22",
+    "burnt": 162953,
+    "minted": 56946,
+    "totalSupply": 546981
+  },
+  {
+    "date": "2021-12-23",
+    "burnt": 163329,
+    "minted": 56977,
+    "totalSupply": 547885
+  },
+  {
+    "date": "2021-12-24",
+    "burnt": 163685,
+    "minted": 57133,
+    "totalSupply": 548707
+  },
+  {
+    "date": "2021-12-25",
+    "burnt": 164283,
+    "minted": 57109,
+    "totalSupply": 548167
+  },
+  {
+    "date": "2021-12-26",
+    "burnt": 164403,
+    "minted": 57294,
+    "totalSupply": 549681
+  },
+  {
+    "date": "2021-12-27",
+    "burnt": 164446,
+    "minted": 57492,
+    "totalSupply": 551369
+  },
+  {
+    "date": "2021-12-28",
+    "burnt": 164913,
+    "minted": 57622,
+    "totalSupply": 551248
+  },
+  {
+    "date": "2021-12-29",
+    "burnt": 165369,
+    "minted": 57628,
+    "totalSupply": 552266
+  },
+  {
+    "date": "2021-12-30",
+    "burnt": 165210,
+    "minted": 57645,
+    "totalSupply": 552569
+  },
+  {
+    "date": "2021-12-31",
+    "burnt": 165284,
+    "minted": 57717,
+    "totalSupply": 553670
+  },
+  {
+    "date": "2022-01-01",
+    "burnt": 165547,
+    "minted": 57736,
+    "totalSupply": 554141
+  },
+  {
+    "date": "2022-01-02",
+    "burnt": 165736,
+    "minted": 57738,
+    "totalSupply": 554327
+  },
+  {
+    "date": "2022-01-03",
+    "burnt": 166128,
+    "minted": 57835,
+    "totalSupply": 554711
+  },
+  {
+    "date": "2022-01-04",
+    "burnt": 166578,
+    "minted": 57846,
+    "totalSupply": 556761
+  },
+  {
+    "date": "2022-01-05",
+    "burnt": 166893,
+    "minted": 58048,
+    "totalSupply": 559027
+  },
+  {
+    "date": "2022-01-06",
+    "burnt": 167168,
+    "minted": 58120,
+    "totalSupply": 558894
+  },
+  {
+    "date": "2022-01-07",
+    "burnt": 167436,
+    "minted": 58302,
+    "totalSupply": 560627
+  },
+  {
+    "date": "2022-01-08",
+    "burnt": 167476,
+    "minted": 58545,
+    "totalSupply": 562628
+  },
+  {
+    "date": "2022-01-09",
+    "burnt": 168022,
+    "minted": 58578,
+    "totalSupply": 565069
+  },
+  {
+    "date": "2022-01-10",
+    "burnt": 168181,
+    "minted": 58793,
+    "totalSupply": 565126
+  },
+  {
+    "date": "2022-01-11",
+    "burnt": 168199,
+    "minted": 58766,
+    "totalSupply": 565828
+  },
+  {
+    "date": "2022-01-12",
+    "burnt": 168788,
+    "minted": 58879,
+    "totalSupply": 565536
+  },
+  {
+    "date": "2022-01-13",
+    "burnt": 168945,
+    "minted": 58988,
+    "totalSupply": 565919
+  },
+  {
+    "date": "2022-01-14",
+    "burnt": 169487,
+    "minted": 59011,
+    "totalSupply": 566743
+  },
+  {
+    "date": "2022-01-15",
+    "burnt": 169887,
+    "minted": 58987,
+    "totalSupply": 568465
+  },
+  {
+    "date": "2022-01-16",
+    "burnt": 170137,
+    "minted": 59176,
+    "totalSupply": 569403
+  },
+  {
+    "date": "2022-01-17",
+    "burnt": 170558,
+    "minted": 59187,
+    "totalSupply": 571142
+  },
+  {
+    "date": "2022-01-18",
+    "burnt": 170810,
+    "minted": 59231,
+    "totalSupply": 570895
+  },
+  {
+    "date": "2022-01-19",
+    "burnt": 171007,
+    "minted": 59355,
+    "totalSupply": 571644
+  },
+  {
+    "date": "2022-01-20",
+    "burnt": 171530,
+    "minted": 59363,
+    "totalSupply": 572209
+  },
+  {
+    "date": "2022-01-21",
+    "burnt": 171613,
+    "minted": 59552,
+    "totalSupply": 573989
+  },
+  {
+    "date": "2022-01-22",
+    "burnt": 172255,
+    "minted": 59728,
+    "totalSupply": 575968
+  },
+  {
+    "date": "2022-01-23",
+    "burnt": 172735,
+    "minted": 59726,
+    "totalSupply": 575441
+  },
+  {
+    "date": "2022-01-24",
+    "burnt": 173275,
+    "minted": 59863,
+    "totalSupply": 576134
+  },
+  {
+    "date": "2022-01-25",
+    "burnt": 173893,
+    "minted": 60016,
+    "totalSupply": 577197
+  },
+  {
+    "date": "2022-01-26",
+    "burnt": 174322,
+    "minted": 59985,
+    "totalSupply": 579062
+  },
+  {
+    "date": "2022-01-27",
+    "burnt": 174329,
+    "minted": 60031,
+    "totalSupply": 578735
+  },
+  {
+    "date": "2022-01-28",
+    "burnt": 174346,
+    "minted": 60188,
+    "totalSupply": 580758
+  },
+  {
+    "date": "2022-01-29",
+    "burnt": 174331,
+    "minted": 60135,
+    "totalSupply": 582521
+  },
+  {
+    "date": "2022-01-30",
+    "burnt": 174388,
+    "minted": 60296,
+    "totalSupply": 584173
+  },
+  {
+    "date": "2022-01-31",
+    "burnt": 174857,
+    "minted": 60372,
+    "totalSupply": 586195
+  },
+  {
+    "date": "2022-02-01",
+    "burnt": 174677,
+    "minted": 60380,
+    "totalSupply": 587706
+  },
+  {
+    "date": "2022-02-02",
+    "burnt": 174960,
+    "minted": 60448,
+    "totalSupply": 589191
+  },
+  {
+    "date": "2022-02-03",
+    "burnt": 175205,
+    "minted": 60615,
+    "totalSupply": 589911
+  },
+  {
+    "date": "2022-02-04",
+    "burnt": 175647,
+    "minted": 60776,
+    "totalSupply": 590337
+  },
+  {
+    "date": "2022-02-05",
+    "burnt": 176090,
+    "minted": 60857,
+    "totalSupply": 591631
+  },
+  {
+    "date": "2022-02-06",
+    "burnt": 175915,
+    "minted": 60979,
+    "totalSupply": 592485
+  },
+  {
+    "date": "2022-02-07",
+    "burnt": 176268,
+    "minted": 61188,
+    "totalSupply": 594788
+  },
+  {
+    "date": "2022-02-08",
+    "burnt": 176458,
+    "minted": 61272,
+    "totalSupply": 597259
+  },
+  {
+    "date": "2022-02-09",
+    "burnt": 176862,
+    "minted": 61245,
+    "totalSupply": 597478
+  },
+  {
+    "date": "2022-02-10",
+    "burnt": 177252,
+    "minted": 61333,
+    "totalSupply": 599887
+  },
+  {
+    "date": "2022-02-11",
+    "burnt": 177380,
+    "minted": 61357,
+    "totalSupply": 599494
+  },
+  {
+    "date": "2022-02-12",
+    "burnt": 177973,
+    "minted": 61468,
+    "totalSupply": 601584
+  },
+  {
+    "date": "2022-02-13",
+    "burnt": 177981,
+    "minted": 61624,
+    "totalSupply": 603881
+  },
+  {
+    "date": "2022-02-14",
+    "burnt": 177899,
+    "minted": 61797,
+    "totalSupply": 605187
+  },
+  {
+    "date": "2022-02-15",
+    "burnt": 177815,
+    "minted": 62005,
+    "totalSupply": 605257
+  },
+  {
+    "date": "2022-02-16",
+    "burnt": 178232,
+    "minted": 62043,
+    "totalSupply": 607645
+  },
+  {
+    "date": "2022-02-17",
+    "burnt": 178501,
+    "minted": 62255,
+    "totalSupply": 610025
+  },
+  {
+    "date": "2022-02-18",
+    "burnt": 179191,
+    "minted": 62321,
+    "totalSupply": 611000
+  },
+  {
+    "date": "2022-02-19",
+    "burnt": 179878,
+    "minted": 62526,
+    "totalSupply": 610816
+  },
+  {
+    "date": "2022-02-20",
+    "burnt": 180135,
+    "minted": 62524,
+    "totalSupply": 613132
+  },
+  {
+    "date": "2022-02-21",
+    "burnt": 180374,
+    "minted": 62552,
+    "totalSupply": 615288
+  },
+  {
+    "date": "2022-02-22",
+    "burnt": 180248,
+    "minted": 62627,
+    "totalSupply": 615554
+  },
+  {
+    "date": "2022-02-23",
+    "burnt": 180341,
+    "minted": 62842,
+    "totalSupply": 617797
+  },
+  {
+    "date": "2022-02-24",
+    "burnt": 180657,
+    "minted": 63013,
+    "totalSupply": 617549
+  },
+  {
+    "date": "2022-02-25",
+    "burnt": 181350,
+    "minted": 62985,
+    "totalSupply": 619228
+  },
+  {
+    "date": "2022-02-26",
+    "burnt": 181583,
+    "minted": 63202,
+    "totalSupply": 620763
+  },
+  {
+    "date": "2022-02-27",
+    "burnt": 181624,
+    "minted": 63383,
+    "totalSupply": 620198
+  },
+  {
+    "date": "2022-02-28",
+    "burnt": 182181,
+    "minted": 63582,
+    "totalSupply": 620869
+  },
+  {
+    "date": "2022-03-01",
+    "burnt": 182423,
+    "minted": 63628,
+    "totalSupply": 623039
+  },
+  {
+    "date": "2022-03-02",
+    "burnt": 182954,
+    "minted": 63853,
+    "totalSupply": 624373
+  },
+  {
+    "date": "2022-03-03",
+    "burnt": 183682,
+    "minted": 63968,
+    "totalSupply": 623907
+  },
+  {
+    "date": "2022-03-04",
+    "burnt": 183929,
+    "minted": 64120,
+    "totalSupply": 623435
+  },
+  {
+    "date": "2022-03-05",
+    "burnt": 184089,
+    "minted": 64100,
+    "totalSupply": 623074
+  },
+  {
+    "date": "2022-03-06",
+    "burnt": 184655,
+    "minted": 64065,
+    "totalSupply": 623121
+  },
+  {
+    "date": "2022-03-07",
+    "burnt": 185340,
+    "minted": 64223,
+    "totalSupply": 622521
+  },
+  {
+    "date": "2022-03-08",
+    "burnt": 185776,
+    "minted": 64237,
+    "totalSupply": 624278
+  },
+  {
+    "date": "2022-03-09",
+    "burnt": 186089,
+    "minted": 64380,
+    "totalSupply": 624615
+  },
+  {
+    "date": "2022-03-10",
+    "burnt": 186355,
+    "minted": 64570,
+    "totalSupply": 624215
+  },
+  {
+    "date": "2022-03-11",
+    "burnt": 186338,
+    "minted": 64575,
+    "totalSupply": 626123
+  },
+  {
+    "date": "2022-03-12",
+    "burnt": 186914,
+    "minted": 64810,
+    "totalSupply": 625635
+  },
+  {
+    "date": "2022-03-13",
+    "burnt": 187162,
+    "minted": 65004,
+    "totalSupply": 627732
+  },
+  {
+    "date": "2022-03-14",
+    "burnt": 187389,
+    "minted": 65047,
+    "totalSupply": 627179
+  },
+  {
+    "date": "2022-03-15",
+    "burnt": 187552,
+    "minted": 65204,
+    "totalSupply": 627297
+  },
+  {
+    "date": "2022-03-16",
+    "burnt": 187594,
+    "minted": 65190,
+    "totalSupply": 629694
+  },
+  {
+    "date": "2022-03-17",
+    "burnt": 187855,
+    "minted": 65367,
+    "totalSupply": 631835
+  },
+  {
+    "date": "2022-03-18",
+    "burnt": 188283,
+    "minted": 65565,
+    "totalSupply": 632858
+  },
+  {
+    "date": "2022-03-19",
+    "burnt": 188311,
+    "minted": 65783,
+    "totalSupply": 634222
+  },
+  {
+    "date": "2022-03-20",
+    "burnt": 188419,
+    "minted": 66016,
+    "totalSupply": 635237
+  },
+  {
+    "date": "2022-03-21",
+    "burnt": 188753,
+    "minted": 66261,
+    "totalSupply": 635076
+  },
+  {
+    "date": "2022-03-22",
+    "burnt": 189156,
+    "minted": 66427,
+    "totalSupply": 635387
+  },
+  {
+    "date": "2022-03-23",
+    "burnt": 189618,
+    "minted": 66390,
+    "totalSupply": 636966
+  },
+  {
+    "date": "2022-03-24",
+    "burnt": 189505,
+    "minted": 66419,
+    "totalSupply": 638825
+  },
+  {
+    "date": "2022-03-25",
+    "burnt": 189424,
+    "minted": 66392,
+    "totalSupply": 641257
+  },
+  {
+    "date": "2022-03-26",
+    "burnt": 189629,
+    "minted": 66440,
+    "totalSupply": 641367
+  },
+  {
+    "date": "2022-03-27",
+    "burnt": 190324,
+    "minted": 66389,
+    "totalSupply": 641016
+  },
+  {
+    "date": "2022-03-28",
+    "burnt": 190998,
+    "minted": 66521,
+    "totalSupply": 642636
+  },
+  {
+    "date": "2022-03-29",
+    "burnt": 191449,
+    "minted": 66504,
+    "totalSupply": 643929
+  },
+  {
+    "date": "2022-03-30",
+    "burnt": 191579,
+    "minted": 66713,
+    "totalSupply": 646008
+  },
+  {
+    "date": "2022-03-31",
+    "burnt": 192023,
+    "minted": 66799,
+    "totalSupply": 645702
+  },
+  {
+    "date": "2022-04-01",
+    "burnt": 192652,
+    "minted": 66816,
+    "totalSupply": 647629
+  },
+  {
+    "date": "2022-04-02",
+    "burnt": 192593,
+    "minted": 67021,
+    "totalSupply": 648770
+  },
+  {
+    "date": "2022-04-03",
+    "burnt": 192935,
+    "minted": 67041,
+    "totalSupply": 650388
+  },
+  {
+    "date": "2022-04-04",
+    "burnt": 193205,
+    "minted": 67243,
+    "totalSupply": 651192
+  },
+  {
+    "date": "2022-04-05",
+    "burnt": 193236,
+    "minted": 67339,
+    "totalSupply": 650600
+  },
+  {
+    "date": "2022-04-06",
+    "burnt": 193868,
+    "minted": 67382,
+    "totalSupply": 652532
+  },
+  {
+    "date": "2022-04-07",
+    "burnt": 194451,
+    "minted": 67369,
+    "totalSupply": 654840
+  },
+  {
+    "date": "2022-04-08",
+    "burnt": 195195,
+    "minted": 67393,
+    "totalSupply": 655860
+  },
+  {
+    "date": "2022-04-09",
+    "burnt": 195928,
+    "minted": 67373,
+    "totalSupply": 656762
+  },
+  {
+    "date": "2022-04-10",
+    "burnt": 195833,
+    "minted": 67381,
+    "totalSupply": 656246
+  },
+  {
+    "date": "2022-04-11",
+    "burnt": 196276,
+    "minted": 67473,
+    "totalSupply": 657517
+  },
+  {
+    "date": "2022-04-12",
+    "burnt": 196160,
+    "minted": 67544,
+    "totalSupply": 657572
+  },
+  {
+    "date": "2022-04-13",
+    "burnt": 196544,
+    "minted": 67580,
+    "totalSupply": 657215
+  },
+  {
+    "date": "2022-04-14",
+    "burnt": 196661,
+    "minted": 67572,
+    "totalSupply": 658540
+  },
+  {
+    "date": "2022-04-15",
+    "burnt": 196897,
+    "minted": 67669,
+    "totalSupply": 658524
+  },
+  {
+    "date": "2022-04-16",
+    "burnt": 197235,
+    "minted": 67824,
+    "totalSupply": 657959
+  },
+  {
+    "date": "2022-04-17",
+    "burnt": 197471,
+    "minted": 67876,
+    "totalSupply": 659622
+  },
+  {
+    "date": "2022-04-18",
+    "burnt": 197339,
+    "minted": 67942,
+    "totalSupply": 660854
+  },
+  {
+    "date": "2022-04-19",
+    "burnt": 197315,
+    "minted": 67983,
+    "totalSupply": 661105
+  },
+  {
+    "date": "2022-04-20",
+    "burnt": 197165,
+    "minted": 68186,
+    "totalSupply": 661226
+  },
+  {
+    "date": "2022-04-21",
+    "burnt": 197311,
+    "minted": 68230,
+    "totalSupply": 663200
+  },
+  {
+    "date": "2022-04-22",
+    "burnt": 197642,
+    "minted": 68455,
+    "totalSupply": 664160
+  },
+  {
+    "date": "2022-04-23",
+    "burnt": 197969,
+    "minted": 68409,
+    "totalSupply": 665820
+  },
+  {
+    "date": "2022-04-24",
+    "burnt": 198342,
+    "minted": 68587,
+    "totalSupply": 667775
+  },
+  {
+    "date": "2022-04-25",
+    "burnt": 198371,
+    "minted": 68557,
+    "totalSupply": 670216
+  },
+  {
+    "date": "2022-04-26",
+    "burnt": 198667,
+    "minted": 68557,
+    "totalSupply": 669878
+  },
+  {
+    "date": "2022-04-27",
+    "burnt": 199326,
+    "minted": 68527,
+    "totalSupply": 670790
+  },
+  {
+    "date": "2022-04-28",
+    "burnt": 199286,
+    "minted": 68752,
+    "totalSupply": 672681
+  },
+  {
+    "date": "2022-04-29",
+    "burnt": 199765,
+    "minted": 68729,
+    "totalSupply": 672960
+  },
+  {
+    "date": "2022-04-30",
+    "burnt": 200441,
+    "minted": 68710,
+    "totalSupply": 674135
+  },
+  {
+    "date": "2022-05-01",
+    "burnt": 200589,
+    "minted": 68856,
+    "totalSupply": 675019
+  },
+  {
+    "date": "2022-05-02",
+    "burnt": 201151,
+    "minted": 69067,
+    "totalSupply": 675720
+  },
+  {
+    "date": "2022-05-03",
+    "burnt": 201613,
+    "minted": 69241,
+    "totalSupply": 675567
+  },
+  {
+    "date": "2022-05-04",
+    "burnt": 202268,
+    "minted": 69415,
+    "totalSupply": 677929
+  },
+  {
+    "date": "2022-05-05",
+    "burnt": 202887,
+    "minted": 69555,
+    "totalSupply": 679447
+  },
+  {
+    "date": "2022-05-06",
+    "burnt": 202828,
+    "minted": 69542,
+    "totalSupply": 681944
+  },
+  {
+    "date": "2022-05-07",
+    "burnt": 203482,
+    "minted": 69543,
+    "totalSupply": 682761
+  },
+  {
+    "date": "2022-05-08",
+    "burnt": 204082,
+    "minted": 69550,
+    "totalSupply": 684095
+  },
+  {
+    "date": "2022-05-09",
+    "burnt": 204140,
+    "minted": 69682,
+    "totalSupply": 686104
+  },
+  {
+    "date": "2022-05-10",
+    "burnt": 204635,
+    "minted": 69829,
+    "totalSupply": 685729
+  },
+  {
+    "date": "2022-05-11",
+    "burnt": 204753,
+    "minted": 70059,
+    "totalSupply": 688076
+  },
+  {
+    "date": "2022-05-12",
+    "burnt": 205328,
+    "minted": 70244,
+    "totalSupply": 687770
+  },
+  {
+    "date": "2022-05-13",
+    "burnt": 205225,
+    "minted": 70221,
+    "totalSupply": 687767
+  },
+  {
+    "date": "2022-05-14",
+    "burnt": 205395,
+    "minted": 70279,
+    "totalSupply": 687732
+  },
+  {
+    "date": "2022-05-15",
+    "burnt": 205760,
+    "minted": 70334,
+    "totalSupply": 689821
+  },
+  {
+    "date": "2022-05-16",
+    "burnt": 206293,
+    "minted": 70299,
+    "totalSupply": 691212
+  },
+  {
+    "date": "2022-05-17",
+    "burnt": 207028,
+    "minted": 70273,
+    "totalSupply": 693106
+  },
+  {
+    "date": "2022-05-18",
+    "burnt": 206986,
+    "minted": 70380,
+    "totalSupply": 695452
+  },
+  {
+    "date": "2022-05-19",
+    "burnt": 207376,
+    "minted": 70381,
+    "totalSupply": 697562
+  },
+  {
+    "date": "2022-05-20",
+    "burnt": 207331,
+    "minted": 70430,
+    "totalSupply": 698540
+  },
+  {
+    "date": "2022-05-21",
+    "burnt": 207773,
+    "minted": 70625,
+    "totalSupply": 698464
+  },
+  {
+    "date": "2022-05-22",
+    "burnt": 208366,
+    "minted": 70788,
+    "totalSupply": 700113
+  },
+  {
+    "date": "2022-05-23",
+    "burnt": 208271,
+    "minted": 70970,
+    "totalSupply": 701147
+  },
+  {
+    "date": "2022-05-24",
+    "burnt": 208571,
+    "minted": 71002,
+    "totalSupply": 703151
+  },
+  {
+    "date": "2022-05-25",
+    "burnt": 208601,
+    "minted": 71248,
+    "totalSupply": 702597
+  },
+  {
+    "date": "2022-05-26",
+    "burnt": 208632,
+    "minted": 71382,
+    "totalSupply": 702015
+  },
+  {
+    "date": "2022-05-27",
+    "burnt": 208612,
+    "minted": 71382,
+    "totalSupply": 704503
+  },
+  {
+    "date": "2022-05-28",
+    "burnt": 208856,
+    "minted": 71442,
+    "totalSupply": 705087
+  },
+  {
+    "date": "2022-05-29",
+    "burnt": 208705,
+    "minted": 71685,
+    "totalSupply": 705419
+  },
+  {
+    "date": "2022-05-30",
+    "burnt": 209021,
+    "minted": 71863,
+    "totalSupply": 705351
+  },
+  {
+    "date": "2022-05-31",
+    "burnt": 209595,
+    "minted": 72091,
+    "totalSupply": 705712
+  },
+  {
+    "date": "2022-06-01",
+    "burnt": 210092,
+    "minted": 72264,
+    "totalSupply": 707375
+  },
+  {
+    "date": "2022-06-02",
+    "burnt": 210721,
+    "minted": 72386,
+    "totalSupply": 706932
+  },
+  {
+    "date": "2022-06-03",
+    "burnt": 211190,
+    "minted": 72618,
+    "totalSupply": 709175
+  },
+  {
+    "date": "2022-06-04",
+    "burnt": 211645,
+    "minted": 72735,
+    "totalSupply": 709118
+  },
+  {
+    "date": "2022-06-05",
+    "burnt": 211548,
+    "minted": 72702,
+    "totalSupply": 710138
+  },
+  {
+    "date": "2022-06-06",
+    "burnt": 211611,
+    "minted": 72811,
+    "totalSupply": 710882
+  },
+  {
+    "date": "2022-06-07",
+    "burnt": 212200,
+    "minted": 72844,
+    "totalSupply": 712446
+  },
+  {
+    "date": "2022-06-08",
+    "burnt": 212890,
+    "minted": 72870,
+    "totalSupply": 714927
+  },
+  {
+    "date": "2022-06-09",
+    "burnt": 213218,
+    "minted": 72834,
+    "totalSupply": 714711
+  },
+  {
+    "date": "2022-06-10",
+    "burnt": 213821,
+    "minted": 72915,
+    "totalSupply": 716689
+  },
+  {
+    "date": "2022-06-11",
+    "burnt": 214222,
+    "minted": 72889,
+    "totalSupply": 716140
+  },
+  {
+    "date": "2022-06-12",
+    "burnt": 214555,
+    "minted": 73067,
+    "totalSupply": 716693
+  },
+  {
+    "date": "2022-06-13",
+    "burnt": 215193,
+    "minted": 73184,
+    "totalSupply": 719131
+  },
+  {
+    "date": "2022-06-14",
+    "burnt": 215644,
+    "minted": 73266,
+    "totalSupply": 719832
+  },
+  {
+    "date": "2022-06-15",
+    "burnt": 215813,
+    "minted": 73503,
+    "totalSupply": 720833
+  },
+  {
+    "date": "2022-06-16",
+    "burnt": 215894,
+    "minted": 73726,
+    "totalSupply": 720641
+  },
+  {
+    "date": "2022-06-17",
+    "burnt": 216110,
+    "minted": 73836,
+    "totalSupply": 721451
+  },
+  {
+    "date": "2022-06-18",
+    "burnt": 216638,
+    "minted": 73821,
+    "totalSupply": 721230
+  },
+  {
+    "date": "2022-06-19",
+    "burnt": 217274,
+    "minted": 73852,
+    "totalSupply": 720745
+  },
+  {
+    "date": "2022-06-20",
+    "burnt": 217811,
+    "minted": 73844,
+    "totalSupply": 721687
+  },
+  {
+    "date": "2022-06-21",
+    "burnt": 218085,
+    "minted": 73870,
+    "totalSupply": 721594
+  },
+  {
+    "date": "2022-06-22",
+    "burnt": 218005,
+    "minted": 73818,
+    "totalSupply": 721225
+  },
+  {
+    "date": "2022-06-23",
+    "burnt": 217962,
+    "minted": 73841,
+    "totalSupply": 723637
+  },
+  {
+    "date": "2022-06-24",
+    "burnt": 218455,
+    "minted": 73963,
+    "totalSupply": 726121
+  },
+  {
+    "date": "2022-06-25",
+    "burnt": 219013,
+    "minted": 74202,
+    "totalSupply": 727212
+  },
+  {
+    "date": "2022-06-26",
+    "burnt": 219759,
+    "minted": 74163,
+    "totalSupply": 729262
+  },
+  {
+    "date": "2022-06-27",
+    "burnt": 219609,
+    "minted": 74234,
+    "totalSupply": 728675
+  },
+  {
+    "date": "2022-06-28",
+    "burnt": 219590,
+    "minted": 74464,
+    "totalSupply": 728166
+  },
+  {
+    "date": "2022-06-29",
+    "burnt": 219810,
+    "minted": 74612,
+    "totalSupply": 729809
+  },
+  {
+    "date": "2022-06-30",
+    "burnt": 219648,
+    "minted": 74608,
+    "totalSupply": 732260
+  },
+  {
+    "date": "2022-07-01",
+    "burnt": 219591,
+    "minted": 74592,
+    "totalSupply": 734354
+  },
+  {
+    "date": "2022-07-02",
+    "burnt": 219836,
+    "minted": 74552,
+    "totalSupply": 734523
+  },
+  {
+    "date": "2022-07-03",
+    "burnt": 219894,
+    "minted": 74612,
+    "totalSupply": 734224
+  },
+  {
+    "date": "2022-07-04",
+    "burnt": 220240,
+    "minted": 74801,
+    "totalSupply": 734642
+  },
+  {
+    "date": "2022-07-05",
+    "burnt": 220671,
+    "minted": 74812,
+    "totalSupply": 735601
+  },
+  {
+    "date": "2022-07-06",
+    "burnt": 221007,
+    "minted": 75053,
+    "totalSupply": 737937
+  },
+  {
+    "date": "2022-07-07",
+    "burnt": 221086,
+    "minted": 75064,
+    "totalSupply": 738287
+  },
+  {
+    "date": "2022-07-08",
+    "burnt": 221092,
+    "minted": 75170,
+    "totalSupply": 740724
+  },
+  {
+    "date": "2022-07-09",
+    "burnt": 221182,
+    "minted": 75180,
+    "totalSupply": 740515
+  },
+  {
+    "date": "2022-07-10",
+    "burnt": 221927,
+    "minted": 75168,
+    "totalSupply": 740778
+  },
+  {
+    "date": "2022-07-11",
+    "burnt": 222560,
+    "minted": 75222,
+    "totalSupply": 740928
+  },
+  {
+    "date": "2022-07-12",
+    "burnt": 222977,
+    "minted": 75171,
+    "totalSupply": 741419
+  },
+  {
+    "date": "2022-07-13",
+    "burnt": 223133,
+    "minted": 75237,
+    "totalSupply": 742330
+  },
+  {
+    "date": "2022-07-14",
+    "burnt": 223731,
+    "minted": 75194,
+    "totalSupply": 744315
+  },
+  {
+    "date": "2022-07-15",
+    "burnt": 224439,
+    "minted": 75205,
+    "totalSupply": 745524
+  },
+  {
+    "date": "2022-07-16",
+    "burnt": 224487,
+    "minted": 75206,
+    "totalSupply": 745525
+  },
+  {
+    "date": "2022-07-17",
+    "burnt": 224532,
+    "minted": 75370,
+    "totalSupply": 747246
+  },
+  {
+    "date": "2022-07-18",
+    "burnt": 224680,
+    "minted": 75373,
+    "totalSupply": 747874
+  },
+  {
+    "date": "2022-07-19",
+    "burnt": 224895,
+    "minted": 75573,
+    "totalSupply": 750129
+  },
+  {
+    "date": "2022-07-20",
+    "burnt": 224733,
+    "minted": 75601,
+    "totalSupply": 752014
+  },
+  {
+    "date": "2022-07-21",
+    "burnt": 225458,
+    "minted": 75779,
+    "totalSupply": 751573
+  },
+  {
+    "date": "2022-07-22",
+    "burnt": 226142,
+    "minted": 75936,
+    "totalSupply": 751546
+  },
+  {
+    "date": "2022-07-23",
+    "burnt": 226837,
+    "minted": 76182,
+    "totalSupply": 751867
+  },
+  {
+    "date": "2022-07-24",
+    "burnt": 227019,
+    "minted": 76342,
+    "totalSupply": 753764
+  },
+  {
+    "date": "2022-07-25",
+    "burnt": 227211,
+    "minted": 76352,
+    "totalSupply": 753588
+  },
+  {
+    "date": "2022-07-26",
+    "burnt": 227536,
+    "minted": 76596,
+    "totalSupply": 754527
+  },
+  {
+    "date": "2022-07-27",
+    "burnt": 227498,
+    "minted": 76725,
+    "totalSupply": 755792
+  },
+  {
+    "date": "2022-07-28",
+    "burnt": 227767,
+    "minted": 76684,
+    "totalSupply": 755389
+  },
+  {
+    "date": "2022-07-29",
+    "burnt": 228417,
+    "minted": 76693,
+    "totalSupply": 756382
+  },
+  {
+    "date": "2022-07-30",
+    "burnt": 229160,
+    "minted": 76901,
+    "totalSupply": 756263
+  },
+  {
+    "date": "2022-07-31",
+    "burnt": 229473,
+    "minted": 76936,
+    "totalSupply": 756311
+  },
+  {
+    "date": "2022-08-01",
+    "burnt": 229976,
+    "minted": 77041,
+    "totalSupply": 756055
+  },
+  {
+    "date": "2022-08-02",
+    "burnt": 229822,
+    "minted": 77197,
+    "totalSupply": 757230
+  },
+  {
+    "date": "2022-08-03",
+    "burnt": 229856,
+    "minted": 77280,
+    "totalSupply": 758228
+  },
+  {
+    "date": "2022-08-04",
+    "burnt": 229728,
+    "minted": 77406,
+    "totalSupply": 759859
+  },
+  {
+    "date": "2022-08-05",
+    "burnt": 229742,
+    "minted": 77473,
+    "totalSupply": 759489
+  },
+  {
+    "date": "2022-08-06",
+    "burnt": 229782,
+    "minted": 77599,
+    "totalSupply": 761269
+  },
+  {
+    "date": "2022-08-07",
+    "burnt": 230036,
+    "minted": 77849,
+    "totalSupply": 762459
+  },
+  {
+    "date": "2022-08-08",
+    "burnt": 230685,
+    "minted": 78028,
+    "totalSupply": 762544
+  },
+  {
+    "date": "2022-08-09",
+    "burnt": 231138,
+    "minted": 78178,
+    "totalSupply": 763199
+  },
+  {
+    "date": "2022-08-10",
+    "burnt": 231495,
+    "minted": 78249,
+    "totalSupply": 763027
+  },
+  {
+    "date": "2022-08-11",
+    "burnt": 231538,
+    "minted": 78375,
+    "totalSupply": 765363
+  },
+  {
+    "date": "2022-08-12",
+    "burnt": 231376,
+    "minted": 78535,
+    "totalSupply": 765338
+  },
+  {
+    "date": "2022-08-13",
+    "burnt": 232044,
+    "minted": 78711,
+    "totalSupply": 766999
+  },
+  {
+    "date": "2022-08-14",
+    "burnt": 231988,
+    "minted": 78952,
+    "totalSupply": 768212
+  },
+  {
+    "date": "2022-08-15",
+    "burnt": 231984,
+    "minted": 79092,
+    "totalSupply": 769529
+  },
+  {
+    "date": "2022-08-16",
+    "burnt": 232705,
+    "minted": 79328,
+    "totalSupply": 770579
+  },
+  {
+    "date": "2022-08-17",
+    "burnt": 232922,
+    "minted": 79344,
+    "totalSupply": 771026
+  },
+  {
+    "date": "2022-08-18",
+    "burnt": 233546,
+    "minted": 79335,
+    "totalSupply": 771365
+  },
+  {
+    "date": "2022-08-19",
+    "burnt": 233844,
+    "minted": 79574,
+    "totalSupply": 771919
+  },
+  {
+    "date": "2022-08-20",
+    "burnt": 233850,
+    "minted": 79699,
+    "totalSupply": 771446
+  },
+  {
+    "date": "2022-08-21",
+    "burnt": 234418,
+    "minted": 79935,
+    "totalSupply": 771136
+  },
+  {
+    "date": "2022-08-22",
+    "burnt": 235122,
+    "minted": 79952,
+    "totalSupply": 771319
+  },
+  {
+    "date": "2022-08-23",
+    "burnt": 235460,
+    "minted": 80042,
+    "totalSupply": 770915
+  },
+  {
+    "date": "2022-08-24",
+    "burnt": 235744,
+    "minted": 80066,
+    "totalSupply": 771111
+  },
+  {
+    "date": "2022-08-25",
+    "burnt": 235707,
+    "minted": 80210,
+    "totalSupply": 772395
+  },
+  {
+    "date": "2022-08-26",
+    "burnt": 236093,
+    "minted": 80352,
+    "totalSupply": 772956
+  },
+  {
+    "date": "2022-08-27",
+    "burnt": 236532,
+    "minted": 80356,
+    "totalSupply": 775414
+  },
+  {
+    "date": "2022-08-28",
+    "burnt": 237101,
+    "minted": 80297,
+    "totalSupply": 776287
+  },
+  {
+    "date": "2022-08-29",
+    "burnt": 236983,
+    "minted": 80339,
+    "totalSupply": 776669
+  },
+  {
+    "date": "2022-08-30",
+    "burnt": 237142,
+    "minted": 80471,
+    "totalSupply": 778403
+  },
+  {
+    "date": "2022-08-31",
+    "burnt": 237206,
+    "minted": 80696,
+    "totalSupply": 778484
+  },
+  {
+    "date": "2022-09-01",
+    "burnt": 237333,
+    "minted": 80825,
+    "totalSupply": 779452
+  },
+  {
+    "date": "2022-09-02",
+    "burnt": 237488,
+    "minted": 81048,
+    "totalSupply": 781310
+  },
+  {
+    "date": "2022-09-03",
+    "burnt": 238162,
+    "minted": 81184,
+    "totalSupply": 781506
+  },
+  {
+    "date": "2022-09-04",
+    "burnt": 238234,
+    "minted": 81222,
+    "totalSupply": 782524
+  },
+  {
+    "date": "2022-09-05",
+    "burnt": 238723,
+    "minted": 81355,
+    "totalSupply": 784171
+  },
+  {
+    "date": "2022-09-06",
+    "burnt": 239235,
+    "minted": 81330,
+    "totalSupply": 784279
+  },
+  {
+    "date": "2022-09-07",
+    "burnt": 239225,
+    "minted": 81497,
+    "totalSupply": 786752
+  },
+  {
+    "date": "2022-09-08",
+    "burnt": 239226,
+    "minted": 81662,
+    "totalSupply": 787428
+  },
+  {
+    "date": "2022-09-09",
+    "burnt": 239071,
+    "minted": 81644,
+    "totalSupply": 787756
+  },
+  {
+    "date": "2022-09-10",
+    "burnt": 239521,
+    "minted": 81765,
+    "totalSupply": 790175
+  },
+  {
+    "date": "2022-09-11",
+    "burnt": 240048,
+    "minted": 81799,
+    "totalSupply": 791222
+  },
+  {
+    "date": "2022-09-12",
+    "burnt": 240253,
+    "minted": 81788,
+    "totalSupply": 792171
+  },
+  {
+    "date": "2022-09-13",
+    "burnt": 240314,
+    "minted": 81976,
+    "totalSupply": 794345
+  },
+  {
+    "date": "2022-09-14",
+    "burnt": 241038,
+    "minted": 82041,
+    "totalSupply": 794765
+  },
+  {
+    "date": "2022-09-15",
+    "burnt": 241288,
+    "minted": 82240,
+    "totalSupply": 795657
+  },
+  {
+    "date": "2022-09-16",
+    "burnt": 241539,
+    "minted": 82366,
+    "totalSupply": 795533
+  },
+  {
+    "date": "2022-09-17",
+    "burnt": 242164,
+    "minted": 82318,
+    "totalSupply": 796866
+  },
+  {
+    "date": "2022-09-18",
+    "burnt": 242180,
+    "minted": 82464,
+    "totalSupply": 796286
+  },
+  {
+    "date": "2022-09-19",
+    "burnt": 242509,
+    "minted": 82546,
+    "totalSupply": 795816
+  },
+  {
+    "date": "2022-09-20",
+    "burnt": 242367,
+    "minted": 82665,
+    "totalSupply": 796064
+  },
+  {
+    "date": "2022-09-21",
+    "burnt": 242515,
+    "minted": 82788,
+    "totalSupply": 798197
+  },
+  {
+    "date": "2022-09-22",
+    "burnt": 242865,
+    "minted": 82948,
+    "totalSupply": 797798
+  },
+  {
+    "date": "2022-09-23",
+    "burnt": 243368,
+    "minted": 83160,
+    "totalSupply": 798526
+  },
+  {
+    "date": "2022-09-24",
+    "burnt": 243883,
+    "minted": 83371,
+    "totalSupply": 798137
+  },
+  {
+    "date": "2022-09-25",
+    "burnt": 244278,
+    "minted": 83461,
+    "totalSupply": 800202
+  },
+  {
+    "date": "2022-09-26",
+    "burnt": 244877,
+    "minted": 83620,
+    "totalSupply": 800355
+  },
+  {
+    "date": "2022-09-27",
+    "burnt": 245619,
+    "minted": 83593,
+    "totalSupply": 802640
+  },
+  {
+    "date": "2022-09-28",
+    "burnt": 245708,
+    "minted": 83757,
+    "totalSupply": 803443
+  },
+  {
+    "date": "2022-09-29",
+    "burnt": 245702,
+    "minted": 83735,
+    "totalSupply": 803761
+  },
+  {
+    "date": "2022-09-30",
+    "burnt": 246407,
+    "minted": 83771,
+    "totalSupply": 804186
+  },
+  {
+    "date": "2022-10-01",
+    "burnt": 246784,
+    "minted": 83972,
+    "totalSupply": 806037
+  },
+  {
+    "date": "2022-10-02",
+    "burnt": 246906,
+    "minted": 83956,
+    "totalSupply": 806136
+  },
+  {
+    "date": "2022-10-03",
+    "burnt": 247040,
+    "minted": 84093,
+    "totalSupply": 806484
+  },
+  {
+    "date": "2022-10-04",
+    "burnt": 247157,
+    "minted": 84116,
+    "totalSupply": 808823
+  },
+  {
+    "date": "2022-10-05",
+    "burnt": 247375,
+    "minted": 84218,
+    "totalSupply": 809752
+  },
+  {
+    "date": "2022-10-06",
+    "burnt": 247731,
+    "minted": 84309,
+    "totalSupply": 811015
+  },
+  {
+    "date": "2022-10-07",
+    "burnt": 248069,
+    "minted": 84315,
+    "totalSupply": 811612
+  },
+  {
+    "date": "2022-10-08",
+    "burnt": 248119,
+    "minted": 84487,
+    "totalSupply": 813741
+  },
+  {
+    "date": "2022-10-09",
+    "burnt": 248533,
+    "minted": 84512,
+    "totalSupply": 815601
+  },
+  {
+    "date": "2022-10-10",
+    "burnt": 248700,
+    "minted": 84611,
+    "totalSupply": 816564
+  },
+  {
+    "date": "2022-10-11",
+    "burnt": 248810,
+    "minted": 84582,
+    "totalSupply": 819033
+  },
+  {
+    "date": "2022-10-12",
+    "burnt": 249167,
+    "minted": 84756,
+    "totalSupply": 819113
+  },
+  {
+    "date": "2022-10-13",
+    "burnt": 249846,
+    "minted": 84829,
+    "totalSupply": 820295
+  },
+  {
+    "date": "2022-10-14",
+    "burnt": 249716,
+    "minted": 84955,
+    "totalSupply": 822311
+  },
+  {
+    "date": "2022-10-15",
+    "burnt": 249641,
+    "minted": 84956,
+    "totalSupply": 823616
+  },
+  {
+    "date": "2022-10-16",
+    "burnt": 249999,
+    "minted": 84944,
+    "totalSupply": 825861
+  },
+  {
+    "date": "2022-10-17",
+    "burnt": 250522,
+    "minted": 84981,
+    "totalSupply": 826231
+  },
+  {
+    "date": "2022-10-18",
+    "burnt": 251221,
+    "minted": 84923,
+    "totalSupply": 826756
+  },
+  {
+    "date": "2022-10-19",
+    "burnt": 251196,
+    "minted": 84992,
+    "totalSupply": 828803
+  },
+  {
+    "date": "2022-10-20",
+    "burnt": 251063,
+    "minted": 84975,
+    "totalSupply": 828589
+  },
+  {
+    "date": "2022-10-21",
+    "burnt": 251358,
+    "minted": 85059,
+    "totalSupply": 828559
+  },
+  {
+    "date": "2022-10-22",
+    "burnt": 251638,
+    "minted": 85077,
+    "totalSupply": 830817
+  },
+  {
+    "date": "2022-10-23",
+    "burnt": 251974,
+    "minted": 85093,
+    "totalSupply": 831439
+  },
+  {
+    "date": "2022-10-24",
+    "burnt": 251876,
+    "minted": 85283,
+    "totalSupply": 832983
+  },
+  {
+    "date": "2022-10-25",
+    "burnt": 251849,
+    "minted": 85348,
+    "totalSupply": 834225
+  },
+  {
+    "date": "2022-10-26",
+    "burnt": 252487,
+    "minted": 85308,
+    "totalSupply": 836239
+  },
+  {
+    "date": "2022-10-27",
+    "burnt": 252398,
+    "minted": 85458,
+    "totalSupply": 836957
+  },
+  {
+    "date": "2022-10-28",
+    "burnt": 252269,
+    "minted": 85577,
+    "totalSupply": 837205
+  },
+  {
+    "date": "2022-10-29",
+    "burnt": 252224,
+    "minted": 85522,
+    "totalSupply": 836622
+  },
+  {
+    "date": "2022-10-30",
+    "burnt": 252633,
+    "minted": 85497,
+    "totalSupply": 838396
+  },
+  {
+    "date": "2022-10-31",
+    "burnt": 253098,
+    "minted": 85726,
+    "totalSupply": 837845
+  },
+  {
+    "date": "2022-11-01",
+    "burnt": 253076,
+    "minted": 85711,
+    "totalSupply": 837691
+  },
+  {
+    "date": "2022-11-02",
+    "burnt": 253599,
+    "minted": 85938,
+    "totalSupply": 839847
+  },
+  {
+    "date": "2022-11-03",
+    "burnt": 253963,
+    "minted": 86089,
+    "totalSupply": 841607
+  },
+  {
+    "date": "2022-11-04",
+    "burnt": 254583,
+    "minted": 86215,
+    "totalSupply": 843112
+  },
+  {
+    "date": "2022-11-05",
+    "burnt": 254602,
+    "minted": 86323,
+    "totalSupply": 844511
+  },
+  {
+    "date": "2022-11-06",
+    "burnt": 255292,
+    "minted": 86372,
+    "totalSupply": 846290
+  },
+  {
+    "date": "2022-11-07",
+    "burnt": 256023,
+    "minted": 86598,
+    "totalSupply": 848465
+  },
+  {
+    "date": "2022-11-08",
+    "burnt": 256635,
+    "minted": 86775,
+    "totalSupply": 850779
+  },
+  {
+    "date": "2022-11-09",
+    "burnt": 257201,
+    "minted": 86717,
+    "totalSupply": 851691
+  },
+  {
+    "date": "2022-11-10",
+    "burnt": 257090,
+    "minted": 86689,
+    "totalSupply": 851622
+  },
+  {
+    "date": "2022-11-11",
+    "burnt": 257004,
+    "minted": 86639,
+    "totalSupply": 851034
+  },
+  {
+    "date": "2022-11-12",
+    "burnt": 257508,
+    "minted": 86846,
+    "totalSupply": 852845
+  },
+  {
+    "date": "2022-11-13",
+    "burnt": 257826,
+    "minted": 86818,
+    "totalSupply": 852397
+  },
+  {
+    "date": "2022-11-14",
+    "burnt": 258375,
+    "minted": 86919,
+    "totalSupply": 853275
+  },
+  {
+    "date": "2022-11-15",
+    "burnt": 258638,
+    "minted": 87087,
+    "totalSupply": 855398
+  },
+  {
+    "date": "2022-11-16",
+    "burnt": 258840,
+    "minted": 87050,
+    "totalSupply": 856729
+  },
+  {
+    "date": "2022-11-17",
+    "burnt": 259044,
+    "minted": 87181,
+    "totalSupply": 856538
+  },
+  {
+    "date": "2022-11-18",
+    "burnt": 259442,
+    "minted": 87261,
+    "totalSupply": 857684
+  },
+  {
+    "date": "2022-11-19",
+    "burnt": 259666,
+    "minted": 87308,
+    "totalSupply": 857155
+  },
+  {
+    "date": "2022-11-20",
+    "burnt": 260287,
+    "minted": 87517,
+    "totalSupply": 857273
+  },
+  {
+    "date": "2022-11-21",
+    "burnt": 260332,
+    "minted": 87554,
+    "totalSupply": 858737
+  },
+  {
+    "date": "2022-11-22",
+    "burnt": 260840,
+    "minted": 87565,
+    "totalSupply": 860016
+  },
+  {
+    "date": "2022-11-23",
+    "burnt": 260991,
+    "minted": 87712,
+    "totalSupply": 860949
+  },
+  {
+    "date": "2022-11-24",
+    "burnt": 260824,
+    "minted": 87819,
+    "totalSupply": 861437
+  },
+  {
+    "date": "2022-11-25",
+    "burnt": 261143,
+    "minted": 87781,
+    "totalSupply": 862869
+  },
+  {
+    "date": "2022-11-26",
+    "burnt": 261056,
+    "minted": 87995,
+    "totalSupply": 864652
+  },
+  {
+    "date": "2022-11-27",
+    "burnt": 261479,
+    "minted": 88199,
+    "totalSupply": 866095
+  },
+  {
+    "date": "2022-11-28",
+    "burnt": 261748,
+    "minted": 88161,
+    "totalSupply": 866074
+  },
+  {
+    "date": "2022-11-29",
+    "burnt": 262203,
+    "minted": 88388,
+    "totalSupply": 868010
+  },
+  {
+    "date": "2022-11-30",
+    "burnt": 262461,
+    "minted": 88529,
+    "totalSupply": 869016
+  },
+  {
+    "date": "2022-12-01",
+    "burnt": 262501,
+    "minted": 88691,
+    "totalSupply": 869948
+  },
+  {
+    "date": "2022-12-02",
+    "burnt": 262380,
+    "minted": 88704,
+    "totalSupply": 869581
+  },
+  {
+    "date": "2022-12-03",
+    "burnt": 262627,
+    "minted": 88723,
+    "totalSupply": 870754
+  },
+  {
+    "date": "2022-12-04",
+    "burnt": 263206,
+    "minted": 88835,
+    "totalSupply": 872476
+  },
+  {
+    "date": "2022-12-05",
+    "burnt": 263753,
+    "minted": 89083,
+    "totalSupply": 873521
+  },
+  {
+    "date": "2022-12-06",
+    "burnt": 263939,
+    "minted": 89044,
+    "totalSupply": 873407
+  },
+  {
+    "date": "2022-12-07",
+    "burnt": 264308,
+    "minted": 89116,
+    "totalSupply": 873776
+  },
+  {
+    "date": "2022-12-08",
+    "burnt": 264827,
+    "minted": 89330,
+    "totalSupply": 875942
+  },
+  {
+    "date": "2022-12-09",
+    "burnt": 264709,
+    "minted": 89565,
+    "totalSupply": 875780
+  },
+  {
+    "date": "2022-12-10",
+    "burnt": 264851,
+    "minted": 89562,
+    "totalSupply": 877105
+  },
+  {
+    "date": "2022-12-11",
+    "burnt": 265327,
+    "minted": 89716,
+    "totalSupply": 877400
+  },
+  {
+    "date": "2022-12-12",
+    "burnt": 265328,
+    "minted": 89894,
+    "totalSupply": 877518
+  },
+  {
+    "date": "2022-12-13",
+    "burnt": 265329,
+    "minted": 89838,
+    "totalSupply": 878059
+  },
+  {
+    "date": "2022-12-14",
+    "burnt": 265715,
+    "minted": 90004,
+    "totalSupply": 879951
+  },
+  {
+    "date": "2022-12-15",
+    "burnt": 266201,
+    "minted": 90201,
+    "totalSupply": 879491
+  },
+  {
+    "date": "2022-12-16",
+    "burnt": 266739,
+    "minted": 90414,
+    "totalSupply": 880655
+  },
+  {
+    "date": "2022-12-17",
+    "burnt": 266783,
+    "minted": 90405,
+    "totalSupply": 881550
+  },
+  {
+    "date": "2022-12-18",
+    "burnt": 267187,
+    "minted": 90576,
+    "totalSupply": 883750
+  },
+  {
+    "date": "2022-12-19",
+    "burnt": 267666,
+    "minted": 90646,
+    "totalSupply": 885249
+  },
+  {
+    "date": "2022-12-20",
+    "burnt": 267566,
+    "minted": 90694,
+    "totalSupply": 885689
+  },
+  {
+    "date": "2022-12-21",
+    "burnt": 267441,
+    "minted": 90916,
+    "totalSupply": 886653
+  },
+  {
+    "date": "2022-12-22",
+    "burnt": 267555,
+    "minted": 90993,
+    "totalSupply": 886746
+  },
+  {
+    "date": "2022-12-23",
+    "burnt": 268274,
+    "minted": 91185,
+    "totalSupply": 887868
+  },
+  {
+    "date": "2022-12-24",
+    "burnt": 268713,
+    "minted": 91205,
+    "totalSupply": 888349
+  },
+  {
+    "date": "2022-12-25",
+    "burnt": 269263,
+    "minted": 91217,
+    "totalSupply": 889813
+  },
+  {
+    "date": "2022-12-26",
+    "burnt": 269623,
+    "minted": 91391,
+    "totalSupply": 891609
+  },
+  {
+    "date": "2022-12-27",
+    "burnt": 269637,
+    "minted": 91567,
+    "totalSupply": 891427
+  },
+  {
+    "date": "2022-12-28",
+    "burnt": 269806,
+    "minted": 91771,
+    "totalSupply": 893569
+  },
+  {
+    "date": "2022-12-29",
+    "burnt": 269924,
+    "minted": 91778,
+    "totalSupply": 893072
+  },
+  {
+    "date": "2022-12-30",
+    "burnt": 270269,
+    "minted": 91834,
+    "totalSupply": 894342
+  },
+  {
+    "date": "2022-12-31",
+    "burnt": 270525,
+    "minted": 91877,
+    "totalSupply": 895733
+  }
+]

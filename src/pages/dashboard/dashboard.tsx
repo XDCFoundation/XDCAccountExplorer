@@ -1,10 +1,5 @@
-import {
-  Card,
-  CardBody,
-  CardTitle,
-} from 'reactstrap';
-import DateInfo from 'ui/date-info/dateInfo';
 import AccountsPanel from './accountsPanel';
+import BurntVsMintedPanel from './burntVsMintedPanel';
 import MasternodesPanel from './masternodesPanel';
 
 function DashboardPage() {
@@ -20,15 +15,7 @@ function DashboardPage() {
           <MasternodesPanel />
         </div>
         <div className="col-6">
-          <Card>
-            <CardTitle>
-              <span className="font-bold">Burnt vs Minted</span>
-              <DateInfo date={new Date()} />
-            </CardTitle>
-            <CardBody>
-              todo: content here
-            </CardBody>
-          </Card>
+          <BurntVsMintedPanel />
         </div>
       </div>
     </>
