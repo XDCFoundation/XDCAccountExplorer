@@ -1,5 +1,5 @@
 import 'chart.js/auto';
-import { isNumber } from 'lodash';
+import { isFinite } from 'lodash';
 import { useState } from 'react';
 import { Chart as ReactChart } from 'react-chartjs-2';
 import { getChartOptions, mapToChartData } from './chart.helpers';
@@ -23,8 +23,8 @@ function Chart({
 
     return {
       label: dataset.label,
-      value: isNumber(value) ? value : null,
-      previousValue: isNumber(previousValue) ? previousValue : null,
+      value: isFinite(value) ? value : null,
+      previousValue: isFinite(previousValue) ? previousValue : null,
       active: !hiddenDatasets.includes(dataset.label),
       color: dataset.color,
       type: dataset.type,
