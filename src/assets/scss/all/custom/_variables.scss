@@ -269,3 +269,17 @@ $nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color !d
 $nav-tabs-link-active-color: $gray-700 !default;
 $nav-tabs-link-active-bg: $body-bg !default;
 $nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg !default;
+
+// Spinners
+
+// scss-docs-start spinner-variables
+$spinner-width:           2rem !default;
+$spinner-height:          $spinner-width !default;
+$spinner-vertical-align:  -.125em !default;
+$spinner-border-width:    .25em !default;
+$spinner-animation-speed: .75s !default;
+
+$spinner-width-sm:        1rem !default;
+$spinner-height-sm:       $spinner-width-sm !default;
+$spinner-border-width-sm: .2em !default;
+// scss-docs-end spinner-variables
