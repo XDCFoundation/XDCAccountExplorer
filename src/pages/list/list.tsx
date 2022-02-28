@@ -11,7 +11,7 @@ import RankingPanel from './ranking-panel/rankingPanel';
 function ListPage() {
   return (
     <Row>
-      <Col xs="12" md="9">
+      <Col lg="12" xl="9">
         <Card>
           <CardTitle>
             <span className="font-bold">List</span>
@@ -21,7 +21,7 @@ function ListPage() {
           </CardBody>
         </Card>
       </Col>
-      <Col xs="12" md="3">
+      <Col lg="12" xl="3">
         <RankingPanel />
       </Col>
     </Row>

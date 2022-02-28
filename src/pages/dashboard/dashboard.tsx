@@ -1,3 +1,4 @@
+import { Col, Row } from 'reactstrap';
 import AccountsPanel from './accountsPanel';
 import SupplyPanel from './supplyPanel';
 import MasternodesPanel from './masternodesPanel';
@@ -5,19 +6,19 @@ import MasternodesPanel from './masternodesPanel';
 function DashboardPage() {
   return (
     <>
-      <div className="row">
-        <div className="col-12">
+      <Row>
+        <Col lg="12" xl="12">
           <AccountsPanel />
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-6">
+        </Col>
+      </Row>
+      <Row>
+        <Col lg="12" xl="6">
           <MasternodesPanel />
-        </div>
-        <div className="col-6">
+        </Col>
+        <Col lg="12" xl="6">
           <SupplyPanel />
-        </div>
-      </div>
+        </Col>
+      </Row>
     </>
   );
 }
