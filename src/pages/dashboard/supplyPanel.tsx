@@ -2,14 +2,14 @@ import { Card, CardBody, CardTitle } from 'reactstrap';
 import { subDays } from 'date-fns';
 import { useState, useMemo } from 'react';
 import Filters, { FilterValue } from 'ui/filters/filters';
-import { AccountsStatsDataObject } from 'domains/accounts/accounts.types';
 import Chart from 'ui/chart/chart';
 import { ChartSeries, Colors } from 'ui/chart/chart.types';
-import useAccounts from 'domains/accounts/useAccounts';
 import DateInfo from 'ui/date-info/dateInfo';
 import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
+import useSupply from 'domains/supply/useSupply';
+import { SupplyDto } from 'domains/supply/supply.types';
 
-function AccountsPanel() {
+function SupplyPanel() {
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
   const getFilters = useMemo(() => {
@@ -20,27 +20,27 @@ function AccountsPanel() {
     return filtersObj;
   }, [timeFilter]);
 
-  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]) => {
+  const transposeToChartFormat = (dataObj: SupplyDto[]) => {
     const output: ChartSeries = {
       datasets: [
         {
-          type: 'line',
-          label: 'Total',
-          color: Colors.orange,
+          type: 'bar',
+          label: 'Burnt',
+          color: Colors.blue,
           yAxis: 'right',
           data: [] as number[],
         },
         {
-          type: 'line',
-          label: 'Contracts',
+          type: 'bar',
+          label: 'Minted',
           color: Colors.green,
           yAxis: 'right',
           data: [] as number[],
         },
         {
           type: 'line',
-          label: 'Token',
-          color: Colors.blue,
+          label: 'Total supply',
+          color: Colors.orange,
           yAxis: 'right',
           data: [] as number[],
         },
@@ -49,15 +49,15 @@ function AccountsPanel() {
     };
     dataObj.forEach((row) => {
       output.labels.push(row.date);
-      output.datasets[0].data.push(row.total);
-      output.datasets[1].data.push(row.contract);
-      output.datasets[2].data.push(row.token);
+      output.datasets[0].data.push(row.burnt);
+      output.datasets[1].data.push(row.minted);
+      output.datasets[2].data.push(row.total);
     });
 
     return output;
   };
 
-  const { data } = useAccounts.useAccounts(getFilters);
+  const { data } = useSupply(getFilters);
 
   const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
 
@@ -66,7 +66,7 @@ function AccountsPanel() {
       <Card>
         <CardTitle>
           <div className="float-left">
-            <span className="font-bold">Accounts</span>
+            <span className="font-bold">Burnt vs Minted XDC vs Total supply</span>
             <DateInfo date={new Date()} />
           </div>
         </CardTitle>
@@ -87,4 +87,4 @@ function AccountsPanel() {
   );
 }
 
-export default AccountsPanel;
+export default SupplyPanel;

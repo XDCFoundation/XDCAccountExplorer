@@ -5,11 +5,13 @@ const server = jsonServer.create();
 const accountStats = require('./account-stats.json');
 const accountsByTranche = require('./accounts-by-tranche.json');
 const masternodes = require('./masternodes.json');
+const supply = require('./burntMintedTotalSupply.json');
 
 const router = jsonServer.router({
   accountStats,
   masternodes,
   accountsByTranche,
+  supply,
   // ... add more resources ...
 });
 const middlewares = jsonServer.defaults();
