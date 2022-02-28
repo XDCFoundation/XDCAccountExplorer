@@ -1,5 +1,5 @@
 import AccountsPanel from './accountsPanel';
-import BurntVsMintedPanel from './burntVsMintedPanel';
+import SupplyPanel from './supplyPanel';
 import MasternodesPanel from './masternodesPanel';
 
 function DashboardPage() {
@@ -15,7 +15,7 @@ function DashboardPage() {
           <MasternodesPanel />
         </div>
         <div className="col-6">
-          <BurntVsMintedPanel />
+          <SupplyPanel />
         </div>
       </div>
     </>

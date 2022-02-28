@@ -9,8 +9,6 @@ import useAccounts from 'domains/accounts/useAccounts';
 import DateInfo from 'ui/date-info/dateInfo';
 import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
 
-const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
-
 function AccountsPanel() {
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
@@ -74,7 +72,7 @@ function AccountsPanel() {
         </CardTitle>
         <CardBody>
           <Chart
-            series={chartData ?? placeholderData}
+            series={chartData}
             height={300}
             scales={{ rightEnabled: true }}
           />

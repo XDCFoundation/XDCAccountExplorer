@@ -6,12 +6,10 @@ import Chart from 'ui/chart/chart';
 import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import DateInfo from 'ui/date-info/dateInfo';
 import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
-import useBurntMintedTotalSupply from 'domains/burntVsMintedvsTotalSupply/useBurntMintedTotalSupply';
-import { BurntMintedTotalSupplyStatsDto } from 'domains/burntVsMintedvsTotalSupply/burntMintedTotalSupply.types';
+import useSupply from 'domains/supply/useSupply';
+import { SupplyDto } from 'domains/supply/supply.types';
 
-const placeholderData: ChartSeries = ({ datasets: [], labels: [] });
-
-function BurntVsMintedPanel() {
+function SupplyPanel() {
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
 
   const getFilters = useMemo(() => {
@@ -22,7 +20,7 @@ function BurntVsMintedPanel() {
     return filtersObj;
   }, [timeFilter]);
 
-  const transposeToChartFormat = (dataObj: BurntMintedTotalSupplyStatsDto[]) => {
+  const transposeToChartFormat = (dataObj: SupplyDto[]) => {
     const output: ChartSeries = {
       datasets: [
         {
@@ -43,7 +41,7 @@ function BurntVsMintedPanel() {
           type: 'line',
           label: 'Total supply',
           color: Colors.orange,
-          yAxis: 'left',
+          yAxis: 'right',
           data: [] as number[],
         },
       ],
@@ -53,13 +51,13 @@ function BurntVsMintedPanel() {
       output.labels.push(row.date);
       output.datasets[0].data.push(row.burnt);
       output.datasets[1].data.push(row.minted);
-      output.datasets[2].data.push(row.totalSupply);
+      output.datasets[2].data.push(row.total);
     });
 
     return output;
   };
 
-  const { data } = useBurntMintedTotalSupply(getFilters);
+  const { data } = useSupply(getFilters);
 
   const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
 
@@ -74,7 +72,7 @@ function BurntVsMintedPanel() {
         </CardTitle>
         <CardBody>
           <Chart
-            series={chartData ?? placeholderData}
+            series={chartData}
             height={300}
             scales={{ rightEnabled: true }}
           />
@@ -89,4 +87,4 @@ function BurntVsMintedPanel() {
   );
 }
 
-export default BurntVsMintedPanel;
+export default SupplyPanel;
