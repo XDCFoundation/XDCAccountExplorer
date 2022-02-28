@@ -1,0 +1,2162 @@
+[
+  {
+      "date": "2022-01-28",
+      "burnt": 217,
+      "minted": 225,
+      "total": 50
+  },
+  {
+      "date": "2022-02-01",
+      "burnt": 214,
+      "minted": 222,
+      "total": 53
+  },
+  {
+      "date": "2022-02-02",
+      "burnt": 210,
+      "minted": 217,
+      "total": 58
+  },
+  {
+      "date": "2022-02-03",
+      "burnt": 213,
+      "minted": 219,
+      "total": 61
+  },
+  {
+      "date": "2022-02-04",
+      "burnt": 216,
+      "minted": 221,
+      "total": 67
+  },
+  {
+      "date": "2022-02-05",
+      "burnt": 214,
+      "minted": 218,
+      "total": 71
+  },
+  {
+      "date": "2022-02-06",
+      "burnt": 215,
+      "minted": 219,
+      "total": 74
+  },
+  {
+      "date": "2022-02-07",
+      "burnt": 213,
+      "minted": 217,
+      "total": 80
+  },
+  {
+      "date": "2022-02-08",
+      "burnt": 213,
+      "minted": 216,
+      "total": 86
+  },
+  {
+      "date": "2022-02-09",
+      "burnt": 217,
+      "minted": 219,
+      "total": 89
+  },
+  {
+      "date": "2022-02-10",
+      "burnt": 220,
+      "minted": 222,
+      "total": 95
+  },
+  {
+      "date": "2022-02-11",
+      "burnt": 221,
+      "minted": 222,
+      "total": 99
+  },
+  {
+      "date": "2022-02-12",
+      "burnt": 226,
+      "minted": 226,
+      "total": 104
+  },
+  {
+      "date": "2022-02-13",
+      "burnt": 225,
+      "minted": 224,
+      "total": 107
+  },
+  {
+      "date": "2022-02-14",
+      "burnt": 224,
+      "minted": 222,
+      "total": 110
+  },
+  {
+      "date": "2022-02-15",
+      "burnt": 221,
+      "minted": 219,
+      "total": 116
+  },
+  {
+      "date": "2022-02-16",
+      "burnt": 218,
+      "minted": 215,
+      "total": 119
+  },
+  {
+      "date": "2022-02-17",
+      "burnt": 222,
+      "minted": 218,
+      "total": 125
+  },
+  {
+      "date": "2022-02-18",
+      "burnt": 223,
+      "minted": 218,
+      "total": 130
+  },
+  {
+      "date": "2022-02-19",
+      "burnt": 225,
+      "minted": 220,
+      "total": 134
+  },
+  {
+      "date": "2022-02-20",
+      "burnt": 222,
+      "minted": 217,
+      "total": 138
+  },
+  {
+      "date": "2022-02-21",
+      "burnt": 224,
+      "minted": 218,
+      "total": 141
+  },
+  {
+      "date": "2022-02-22",
+      "burnt": 227,
+      "minted": 221,
+      "total": 147
+  },
+  {
+      "date": "2022-02-23",
+      "burnt": 226,
+      "minted": 220,
+      "total": 152
+  },
+  {
+      "date": "2022-02-24",
+      "burnt": 226,
+      "minted": 220,
+      "total": 157
+  },
+  {
+      "date": "2022-02-25",
+      "burnt": 229,
+      "minted": 222,
+      "total": 161
+  },
+  {
+      "date": "2022-02-26",
+      "burnt": 225,
+      "minted": 218,
+      "total": 164
+  },
+  {
+      "date": "2022-02-27",
+      "burnt": 226,
+      "minted": 219,
+      "total": 168
+  },
+  {
+      "date": "2022-02-28",
+      "burnt": 230,
+      "minted": 223,
+      "total": 174
+  },
+  {
+      "date": "2022-02-29",
+      "burnt": 229,
+      "minted": 221,
+      "total": 177
+  },
+  {
+      "date": "2022-02-30",
+      "burnt": 234,
+      "minted": 225,
+      "total": 180
+  },
+  {
+      "date": "2022-02-31",
+      "burnt": 235,
+      "minted": 226,
+      "total": 186
+  },
+  {
+      "date": "2022-03-01",
+      "burnt": 235,
+      "minted": 225,
+      "total": 191
+  },
+  {
+      "date": "2022-03-02",
+      "burnt": 237,
+      "minted": 227,
+      "total": 196
+  },
+  {
+      "date": "2022-03-03",
+      "burnt": 233,
+      "minted": 223,
+      "total": 199
+  },
+  {
+      "date": "2022-03-04",
+      "burnt": 229,
+      "minted": 219,
+      "total": 205
+  },
+  {
+      "date": "2022-03-05",
+      "burnt": 229,
+      "minted": 219,
+      "total": 209
+  },
+  {
+      "date": "2022-03-06",
+      "burnt": 226,
+      "minted": 215,
+      "total": 215
+  },
+  {
+      "date": "2022-03-07",
+      "burnt": 229,
+      "minted": 218,
+      "total": 219
+  },
+  {
+      "date": "2022-03-08",
+      "burnt": 230,
+      "minted": 219,
+      "total": 223
+  },
+  {
+      "date": "2022-03-09",
+      "burnt": 230,
+      "minted": 219,
+      "total": 227
+  },
+  {
+      "date": "2022-03-10",
+      "burnt": 231,
+      "minted": 220,
+      "total": 233
+  },
+  {
+      "date": "2022-03-11",
+      "burnt": 235,
+      "minted": 223,
+      "total": 239
+  },
+  {
+      "date": "2022-03-12",
+      "burnt": 236,
+      "minted": 224,
+      "total": 244
+  },
+  {
+      "date": "2022-03-13",
+      "burnt": 237,
+      "minted": 225,
+      "total": 249
+  },
+  {
+      "date": "2022-03-14",
+      "burnt": 238,
+      "minted": 225,
+      "total": 255
+  },
+  {
+      "date": "2022-03-15",
+      "burnt": 239,
+      "minted": 225,
+      "total": 261
+  },
+  {
+      "date": "2022-03-16",
+      "burnt": 238,
+      "minted": 223,
+      "total": 266
+  },
+  {
+      "date": "2022-03-17",
+      "burnt": 240,
+      "minted": 225,
+      "total": 270
+  },
+  {
+      "date": "2022-03-18",
+      "burnt": 235,
+      "minted": 220,
+      "total": 276
+  },
+  {
+      "date": "2022-03-20",
+      "burnt": 218,
+      "minted": 222,
+      "total": 83
+  },
+  {
+      "date": "2022-03-21",
+      "burnt": 215,
+      "minted": 223,
+      "total": 84
+  },
+  {
+      "date": "2022-03-22",
+      "burnt": 215,
+      "minted": 227,
+      "total": 80
+  },
+  {
+      "date": "2022-03-23",
+      "burnt": 216,
+      "minted": 228,
+      "total": 75
+  },
+  {
+      "date": "2022-03-24",
+      "burnt": 217,
+      "minted": 228,
+      "total": 79
+  },
+  {
+      "date": "2022-03-25",
+      "burnt": 217,
+      "minted": 223,
+      "total": 75
+  },
+  {
+      "date": "2022-03-26",
+      "burnt": 217,
+      "minted": 226,
+      "total": 76
+  },
+  {
+      "date": "2022-03-27",
+      "burnt": 215,
+      "minted": 220,
+      "total": 83
+  },
+  {
+      "date": "2022-03-28",
+      "burnt": 219,
+      "minted": 227,
+      "total": 84
+  },
+  {
+      "date": "2022-03-29",
+      "burnt": 219,
+      "minted": 227,
+      "total": 77
+  },
+  {
+      "date": "2022-03-30",
+      "burnt": 218,
+      "minted": 220,
+      "total": 82
+  },
+  {
+      "date": "2022-04-01",
+      "burnt": 219,
+      "minted": 221,
+      "total": 76
+  },
+  {
+      "date": "2022-04-02",
+      "burnt": 217,
+      "minted": 227,
+      "total": 80
+  },
+  {
+      "date": "2022-04-03",
+      "burnt": 216,
+      "minted": 228,
+      "total": 84
+  },
+  {
+      "date": "2022-04-04",
+      "burnt": 219,
+      "minted": 222,
+      "total": 81
+  },
+  {
+      "date": "2022-04-05",
+      "burnt": 218,
+      "minted": 221,
+      "total": 75
+  },
+  {
+      "date": "2022-04-06",
+      "burnt": 218,
+      "minted": 221,
+      "total": 79
+  },
+  {
+      "date": "2022-04-07",
+      "burnt": 216,
+      "minted": 227,
+      "total": 80
+  },
+  {
+      "date": "2022-04-08",
+      "burnt": 216,
+      "minted": 225,
+      "total": 83
+  },
+  {
+      "date": "2022-04-09",
+      "burnt": 216,
+      "minted": 225,
+      "total": 82
+  },
+  {
+      "date": "2022-04-10",
+      "burnt": 218,
+      "minted": 220,
+      "total": 75
+  },
+  {
+      "date": "2022-04-11",
+      "burnt": 217,
+      "minted": 220,
+      "total": 82
+  },
+  {
+      "date": "2022-04-12",
+      "burnt": 216,
+      "minted": 221,
+      "total": 81
+  },
+  {
+      "date": "2022-04-13",
+      "burnt": 215,
+      "minted": 228,
+      "total": 77
+  },
+  {
+      "date": "2022-04-14",
+      "burnt": 218,
+      "minted": 220,
+      "total": 76
+  },
+  {
+      "date": "2022-04-15",
+      "burnt": 218,
+      "minted": 228,
+      "total": 75
+  },
+  {
+      "date": "2022-04-16",
+      "burnt": 218,
+      "minted": 229,
+      "total": 80
+  },
+  {
+      "date": "2022-04-17",
+      "burnt": 218,
+      "minted": 227,
+      "total": 78
+  },
+  {
+      "date": "2022-04-18",
+      "burnt": 216,
+      "minted": 229,
+      "total": 79
+  },
+  {
+      "date": "2022-04-19",
+      "burnt": 216,
+      "minted": 221,
+      "total": 79
+  },
+  {
+      "date": "2022-04-20",
+      "burnt": 219,
+      "minted": 229,
+      "total": 80
+  },
+  {
+      "date": "2022-04-21",
+      "burnt": 219,
+      "minted": 223,
+      "total": 82
+  },
+  {
+      "date": "2022-04-22",
+      "burnt": 217,
+      "minted": 223,
+      "total": 82
+  },
+  {
+      "date": "2022-04-23",
+      "burnt": 217,
+      "minted": 223,
+      "total": 80
+  },
+  {
+      "date": "2022-04-24",
+      "burnt": 218,
+      "minted": 223,
+      "total": 82
+  },
+  {
+      "date": "2022-04-25",
+      "burnt": 219,
+      "minted": 229,
+      "total": 75
+  },
+  {
+      "date": "2022-04-26",
+      "burnt": 218,
+      "minted": 228,
+      "total": 75
+  },
+  {
+      "date": "2022-04-27",
+      "burnt": 217,
+      "minted": 224,
+      "total": 77
+  },
+  {
+      "date": "2022-04-28",
+      "burnt": 215,
+      "minted": 225,
+      "total": 78
+  },
+  {
+      "date": "2022-04-29",
+      "burnt": 215,
+      "minted": 220,
+      "total": 79
+  },
+  {
+      "date": "2022-04-30",
+      "burnt": 218,
+      "minted": 221,
+      "total": 81
+  },
+  {
+      "date": "2022-04-31",
+      "burnt": 215,
+      "minted": 227,
+      "total": 79
+  },
+  {
+      "date": "2022-05-01",
+      "burnt": 215,
+      "minted": 220,
+      "total": 77
+  },
+  {
+      "date": "2022-05-02",
+      "burnt": 217,
+      "minted": 223,
+      "total": 78
+  },
+  {
+      "date": "2022-05-03",
+      "burnt": 216,
+      "minted": 229,
+      "total": 76
+  },
+  {
+      "date": "2022-05-04",
+      "burnt": 215,
+      "minted": 226,
+      "total": 80
+  },
+  {
+      "date": "2022-05-05",
+      "burnt": 218,
+      "minted": 229,
+      "total": 80
+  },
+  {
+      "date": "2022-05-06",
+      "burnt": 215,
+      "minted": 225,
+      "total": 81
+  },
+  {
+      "date": "2022-05-07",
+      "burnt": 218,
+      "minted": 229,
+      "total": 80
+  },
+  {
+      "date": "2022-05-09",
+      "burnt": 232,
+      "minted": 225,
+      "total": 124
+  },
+  {
+      "date": "2022-05-10",
+      "burnt": 222,
+      "minted": 224,
+      "total": 117
+  },
+  {
+      "date": "2022-05-11",
+      "burnt": 225,
+      "minted": 229,
+      "total": 121
+  },
+  {
+      "date": "2022-05-12",
+      "burnt": 221,
+      "minted": 224,
+      "total": 122
+  },
+  {
+      "date": "2022-05-13",
+      "burnt": 231,
+      "minted": 227,
+      "total": 120
+  },
+  {
+      "date": "2022-05-14",
+      "burnt": 228,
+      "minted": 223,
+      "total": 118
+  },
+  {
+      "date": "2022-05-15",
+      "burnt": 225,
+      "minted": 220,
+      "total": 118
+  },
+  {
+      "date": "2022-05-16",
+      "burnt": 220,
+      "minted": 224,
+      "total": 119
+  },
+  {
+      "date": "2022-05-17",
+      "burnt": 232,
+      "minted": 227,
+      "total": 116
+  },
+  {
+      "date": "2022-05-18",
+      "burnt": 232,
+      "minted": 225,
+      "total": 115
+  },
+  {
+      "date": "2022-05-19",
+      "burnt": 222,
+      "minted": 229,
+      "total": 115
+  },
+  {
+      "date": "2022-05-20",
+      "burnt": 223,
+      "minted": 223,
+      "total": 115
+  },
+  {
+      "date": "2022-05-21",
+      "burnt": 223,
+      "minted": 225,
+      "total": 121
+  },
+  {
+      "date": "2022-05-22",
+      "burnt": 233,
+      "minted": 221,
+      "total": 117
+  },
+  {
+      "date": "2022-05-23",
+      "burnt": 223,
+      "minted": 223,
+      "total": 119
+  },
+  {
+      "date": "2022-05-24",
+      "burnt": 224,
+      "minted": 226,
+      "total": 121
+  },
+  {
+      "date": "2022-05-25",
+      "burnt": 220,
+      "minted": 229,
+      "total": 120
+  },
+  {
+      "date": "2022-05-26",
+      "burnt": 230,
+      "minted": 228,
+      "total": 117
+  },
+  {
+      "date": "2022-05-27",
+      "burnt": 225,
+      "minted": 226,
+      "total": 120
+  },
+  {
+      "date": "2022-05-28",
+      "burnt": 233,
+      "minted": 228,
+      "total": 117
+  },
+  {
+      "date": "2022-05-29",
+      "burnt": 223,
+      "minted": 221,
+      "total": 124
+  },
+  {
+      "date": "2022-05-30",
+      "burnt": 224,
+      "minted": 220,
+      "total": 119
+  },
+  {
+      "date": "2022-06-01",
+      "burnt": 228,
+      "minted": 224,
+      "total": 116
+  },
+  {
+      "date": "2022-06-02",
+      "burnt": 229,
+      "minted": 220,
+      "total": 118
+  },
+  {
+      "date": "2022-06-03",
+      "burnt": 225,
+      "minted": 227,
+      "total": 122
+  },
+  {
+      "date": "2022-06-04",
+      "burnt": 226,
+      "minted": 220,
+      "total": 118
+  },
+  {
+      "date": "2022-06-05",
+      "burnt": 228,
+      "minted": 221,
+      "total": 115
+  },
+  {
+      "date": "2022-06-06",
+      "burnt": 231,
+      "minted": 225,
+      "total": 118
+  },
+  {
+      "date": "2022-06-07",
+      "burnt": 233,
+      "minted": 228,
+      "total": 116
+  },
+  {
+      "date": "2022-06-08",
+      "burnt": 223,
+      "minted": 222,
+      "total": 119
+  },
+  {
+      "date": "2022-06-09",
+      "burnt": 228,
+      "minted": 226,
+      "total": 118
+  },
+  {
+      "date": "2022-06-10",
+      "burnt": 225,
+      "minted": 228,
+      "total": 124
+  },
+  {
+      "date": "2022-06-11",
+      "burnt": 225,
+      "minted": 228,
+      "total": 116
+  },
+  {
+      "date": "2022-06-12",
+      "burnt": 232,
+      "minted": 224,
+      "total": 123
+  },
+  {
+      "date": "2022-06-13",
+      "burnt": 230,
+      "minted": 228,
+      "total": 118
+  },
+  {
+      "date": "2022-06-14",
+      "burnt": 222,
+      "minted": 221,
+      "total": 119
+  },
+  {
+      "date": "2022-06-15",
+      "burnt": 230,
+      "minted": 229,
+      "total": 123
+  },
+  {
+      "date": "2022-06-16",
+      "burnt": 221,
+      "minted": 227,
+      "total": 119
+  },
+  {
+      "date": "2022-06-17",
+      "burnt": 229,
+      "minted": 228,
+      "total": 120
+  },
+  {
+      "date": "2022-06-18",
+      "burnt": 221,
+      "minted": 224,
+      "total": 118
+  },
+  {
+      "date": "2022-06-19",
+      "burnt": 230,
+      "minted": 221,
+      "total": 115
+  },
+  {
+      "date": "2022-06-20",
+      "burnt": 233,
+      "minted": 228,
+      "total": 117
+  },
+  {
+      "date": "2022-06-21",
+      "burnt": 221,
+      "minted": 227,
+      "total": 117
+  },
+  {
+      "date": "2022-06-22",
+      "burnt": 223,
+      "minted": 229,
+      "total": 122
+  },
+  {
+      "date": "2022-06-23",
+      "burnt": 220,
+      "minted": 225,
+      "total": 117
+  },
+  {
+      "date": "2022-06-24",
+      "burnt": 222,
+      "minted": 222,
+      "total": 123
+  },
+  {
+      "date": "2022-06-25",
+      "burnt": 234,
+      "minted": 223,
+      "total": 122
+  },
+  {
+      "date": "2022-06-26",
+      "burnt": 221,
+      "minted": 220,
+      "total": 124
+  },
+  {
+      "date": "2022-06-27",
+      "burnt": 223,
+      "minted": 224,
+      "total": 123
+  },
+  {
+      "date": "2022-06-29",
+      "burnt": 223,
+      "minted": 222,
+      "total": 155
+  },
+  {
+      "date": "2022-06-30",
+      "burnt": 230,
+      "minted": 225,
+      "total": 161
+  },
+  {
+      "date": "2022-06-31",
+      "burnt": 230,
+      "minted": 222,
+      "total": 162
+  },
+  {
+      "date": "2022-07-01",
+      "burnt": 225,
+      "minted": 228,
+      "total": 164
+  },
+  {
+      "date": "2022-07-02",
+      "burnt": 224,
+      "minted": 229,
+      "total": 162
+  },
+  {
+      "date": "2022-07-03",
+      "burnt": 232,
+      "minted": 226,
+      "total": 157
+  },
+  {
+      "date": "2022-07-04",
+      "burnt": 227,
+      "minted": 228,
+      "total": 156
+  },
+  {
+      "date": "2022-07-05",
+      "burnt": 224,
+      "minted": 229,
+      "total": 160
+  },
+  {
+      "date": "2022-07-06",
+      "burnt": 229,
+      "minted": 228,
+      "total": 160
+  },
+  {
+      "date": "2022-07-07",
+      "burnt": 225,
+      "minted": 224,
+      "total": 159
+  },
+  {
+      "date": "2022-07-08",
+      "burnt": 222,
+      "minted": 220,
+      "total": 164
+  },
+  {
+      "date": "2022-07-09",
+      "burnt": 234,
+      "minted": 222,
+      "total": 159
+  },
+  {
+      "date": "2022-07-10",
+      "burnt": 224,
+      "minted": 225,
+      "total": 164
+  },
+  {
+      "date": "2022-07-11",
+      "burnt": 228,
+      "minted": 225,
+      "total": 159
+  },
+  {
+      "date": "2022-07-12",
+      "burnt": 220,
+      "minted": 225,
+      "total": 160
+  },
+  {
+      "date": "2022-07-13",
+      "burnt": 234,
+      "minted": 229,
+      "total": 160
+  },
+  {
+      "date": "2022-07-14",
+      "burnt": 222,
+      "minted": 228,
+      "total": 156
+  },
+  {
+      "date": "2022-07-15",
+      "burnt": 224,
+      "minted": 226,
+      "total": 159
+  },
+  {
+      "date": "2022-07-16",
+      "burnt": 228,
+      "minted": 228,
+      "total": 157
+  },
+  {
+      "date": "2022-07-17",
+      "burnt": 223,
+      "minted": 221,
+      "total": 155
+  },
+  {
+      "date": "2022-07-18",
+      "burnt": 228,
+      "minted": 229,
+      "total": 160
+  },
+  {
+      "date": "2022-07-19",
+      "burnt": 227,
+      "minted": 223,
+      "total": 163
+  },
+  {
+      "date": "2022-07-20",
+      "burnt": 220,
+      "minted": 223,
+      "total": 155
+  },
+  {
+      "date": "2022-07-21",
+      "burnt": 233,
+      "minted": 220,
+      "total": 162
+  },
+  {
+      "date": "2022-07-22",
+      "burnt": 220,
+      "minted": 226,
+      "total": 157
+  },
+  {
+      "date": "2022-07-23",
+      "burnt": 222,
+      "minted": 223,
+      "total": 156
+  },
+  {
+      "date": "2022-07-24",
+      "burnt": 220,
+      "minted": 229,
+      "total": 161
+  },
+  {
+      "date": "2022-07-25",
+      "burnt": 220,
+      "minted": 226,
+      "total": 160
+  },
+  {
+      "date": "2022-07-26",
+      "burnt": 227,
+      "minted": 223,
+      "total": 157
+  },
+  {
+      "date": "2022-07-27",
+      "burnt": 233,
+      "minted": 222,
+      "total": 161
+  },
+  {
+      "date": "2022-07-28",
+      "burnt": 234,
+      "minted": 225,
+      "total": 156
+  },
+  {
+      "date": "2022-07-29",
+      "burnt": 229,
+      "minted": 226,
+      "total": 161
+  },
+  {
+      "date": "2022-07-30",
+      "burnt": 234,
+      "minted": 223,
+      "total": 164
+  },
+  {
+      "date": "2022-07-31",
+      "burnt": 234,
+      "minted": 224,
+      "total": 155
+  },
+  {
+      "date": "2022-08-01",
+      "burnt": 224,
+      "minted": 220,
+      "total": 158
+  },
+  {
+      "date": "2022-08-02",
+      "burnt": 230,
+      "minted": 228,
+      "total": 162
+  },
+  {
+      "date": "2022-08-03",
+      "burnt": 225,
+      "minted": 229,
+      "total": 157
+  },
+  {
+      "date": "2022-08-04",
+      "burnt": 228,
+      "minted": 220,
+      "total": 162
+  },
+  {
+      "date": "2022-08-05",
+      "burnt": 221,
+      "minted": 223,
+      "total": 156
+  },
+  {
+      "date": "2022-08-06",
+      "burnt": 230,
+      "minted": 222,
+      "total": 157
+  },
+  {
+      "date": "2022-08-07",
+      "burnt": 227,
+      "minted": 227,
+      "total": 159
+  },
+  {
+      "date": "2022-08-08",
+      "burnt": 222,
+      "minted": 222,
+      "total": 164
+  },
+  {
+      "date": "2022-08-09",
+      "burnt": 227,
+      "minted": 225,
+      "total": 162
+  },
+  {
+      "date": "2022-08-10",
+      "burnt": 226,
+      "minted": 226,
+      "total": 162
+  },
+  {
+      "date": "2022-08-11",
+      "burnt": 221,
+      "minted": 227,
+      "total": 161
+  },
+  {
+      "date": "2022-08-12",
+      "burnt": 231,
+      "minted": 223,
+      "total": 163
+  },
+  {
+      "date": "2022-08-13",
+      "burnt": 234,
+      "minted": 224,
+      "total": 162
+  },
+  {
+      "date": "2022-08-14",
+      "burnt": 220,
+      "minted": 223,
+      "total": 156
+  },
+  {
+      "date": "2022-08-15",
+      "burnt": 232,
+      "minted": 229,
+      "total": 164
+  },
+  {
+      "date": "2022-08-17",
+      "burnt": 228,
+      "minted": 228,
+      "total": 139
+  },
+  {
+      "date": "2022-08-18",
+      "burnt": 225,
+      "minted": 228,
+      "total": 140
+  },
+  {
+      "date": "2022-08-19",
+      "burnt": 231,
+      "minted": 226,
+      "total": 142
+  },
+  {
+      "date": "2022-08-20",
+      "burnt": 231,
+      "minted": 226,
+      "total": 141
+  },
+  {
+      "date": "2022-08-21",
+      "burnt": 227,
+      "minted": 222,
+      "total": 140
+  },
+  {
+      "date": "2022-08-22",
+      "burnt": 223,
+      "minted": 221,
+      "total": 135
+  },
+  {
+      "date": "2022-08-23",
+      "burnt": 221,
+      "minted": 220,
+      "total": 140
+  },
+  {
+      "date": "2022-08-24",
+      "burnt": 234,
+      "minted": 224,
+      "total": 142
+  },
+  {
+      "date": "2022-08-25",
+      "burnt": 231,
+      "minted": 226,
+      "total": 139
+  },
+  {
+      "date": "2022-08-26",
+      "burnt": 228,
+      "minted": 223,
+      "total": 136
+  },
+  {
+      "date": "2022-08-27",
+      "burnt": 226,
+      "minted": 220,
+      "total": 136
+  },
+  {
+      "date": "2022-08-28",
+      "burnt": 224,
+      "minted": 226,
+      "total": 136
+  },
+  {
+      "date": "2022-08-29",
+      "burnt": 227,
+      "minted": 221,
+      "total": 141
+  },
+  {
+      "date": "2022-08-30",
+      "burnt": 232,
+      "minted": 226,
+      "total": 144
+  },
+  {
+      "date": "2022-09-01",
+      "burnt": 223,
+      "minted": 229,
+      "total": 136
+  },
+  {
+      "date": "2022-09-02",
+      "burnt": 228,
+      "minted": 224,
+      "total": 143
+  },
+  {
+      "date": "2022-09-03",
+      "burnt": 226,
+      "minted": 223,
+      "total": 144
+  },
+  {
+      "date": "2022-09-04",
+      "burnt": 223,
+      "minted": 222,
+      "total": 143
+  },
+  {
+      "date": "2022-09-05",
+      "burnt": 228,
+      "minted": 225,
+      "total": 135
+  },
+  {
+      "date": "2022-09-06",
+      "burnt": 223,
+      "minted": 228,
+      "total": 142
+  },
+  {
+      "date": "2022-09-07",
+      "burnt": 226,
+      "minted": 226,
+      "total": 137
+  },
+  {
+      "date": "2022-09-08",
+      "burnt": 221,
+      "minted": 221,
+      "total": 139
+  },
+  {
+      "date": "2022-09-09",
+      "burnt": 232,
+      "minted": 223,
+      "total": 139
+  },
+  {
+      "date": "2022-09-10",
+      "burnt": 223,
+      "minted": 224,
+      "total": 144
+  },
+  {
+      "date": "2022-09-11",
+      "burnt": 227,
+      "minted": 224,
+      "total": 142
+  },
+  {
+      "date": "2022-09-12",
+      "burnt": 228,
+      "minted": 222,
+      "total": 136
+  },
+  {
+      "date": "2022-09-13",
+      "burnt": 222,
+      "minted": 220,
+      "total": 137
+  },
+  {
+      "date": "2022-09-14",
+      "burnt": 228,
+      "minted": 226,
+      "total": 141
+  },
+  {
+      "date": "2022-09-15",
+      "burnt": 223,
+      "minted": 228,
+      "total": 139
+  },
+  {
+      "date": "2022-09-16",
+      "burnt": 220,
+      "minted": 229,
+      "total": 137
+  },
+  {
+      "date": "2022-09-17",
+      "burnt": 230,
+      "minted": 229,
+      "total": 143
+  },
+  {
+      "date": "2022-09-18",
+      "burnt": 222,
+      "minted": 226,
+      "total": 141
+  },
+  {
+      "date": "2022-09-19",
+      "burnt": 232,
+      "minted": 227,
+      "total": 144
+  },
+  {
+      "date": "2022-09-20",
+      "burnt": 222,
+      "minted": 225,
+      "total": 138
+  },
+  {
+      "date": "2022-09-21",
+      "burnt": 229,
+      "minted": 228,
+      "total": 143
+  },
+  {
+      "date": "2022-09-22",
+      "burnt": 225,
+      "minted": 221,
+      "total": 138
+  },
+  {
+      "date": "2022-09-23",
+      "burnt": 227,
+      "minted": 222,
+      "total": 143
+  },
+  {
+      "date": "2022-09-24",
+      "burnt": 220,
+      "minted": 229,
+      "total": 138
+  },
+  {
+      "date": "2022-09-25",
+      "burnt": 232,
+      "minted": 229,
+      "total": 138
+  },
+  {
+      "date": "2022-09-26",
+      "burnt": 221,
+      "minted": 224,
+      "total": 137
+  },
+  {
+      "date": "2022-09-27",
+      "burnt": 222,
+      "minted": 226,
+      "total": 137
+  },
+  {
+      "date": "2022-09-28",
+      "burnt": 228,
+      "minted": 225,
+      "total": 144
+  },
+  {
+      "date": "2022-09-29",
+      "burnt": 223,
+      "minted": 228,
+      "total": 141
+  },
+  {
+      "date": "2022-09-30",
+      "burnt": 220,
+      "minted": 224,
+      "total": 136
+  },
+  {
+      "date": "2022-09-31",
+      "burnt": 233,
+      "minted": 220,
+      "total": 137
+  },
+  {
+      "date": "2022-10-01",
+      "burnt": 229,
+      "minted": 221,
+      "total": 143
+  },
+  {
+      "date": "2022-10-02",
+      "burnt": 231,
+      "minted": 224,
+      "total": 142
+  },
+  {
+      "date": "2022-10-03",
+      "burnt": 232,
+      "minted": 227,
+      "total": 144
+  },
+  {
+      "date": "2022-10-04",
+      "burnt": 229,
+      "minted": 228,
+      "total": 142
+  },
+  {
+      "date": "2022-10-06",
+      "burnt": 226,
+      "minted": 221,
+      "total": 182
+  },
+  {
+      "date": "2022-10-07",
+      "burnt": 229,
+      "minted": 221,
+      "total": 184
+  },
+  {
+      "date": "2022-10-08",
+      "burnt": 220,
+      "minted": 226,
+      "total": 183
+  },
+  {
+      "date": "2022-10-09",
+      "burnt": 228,
+      "minted": 223,
+      "total": 178
+  },
+  {
+      "date": "2022-10-10",
+      "burnt": 234,
+      "minted": 227,
+      "total": 184
+  },
+  {
+      "date": "2022-10-11",
+      "burnt": 223,
+      "minted": 227,
+      "total": 177
+  },
+  {
+      "date": "2022-10-12",
+      "burnt": 220,
+      "minted": 227,
+      "total": 184
+  },
+  {
+      "date": "2022-10-13",
+      "burnt": 234,
+      "minted": 220,
+      "total": 181
+  },
+  {
+      "date": "2022-10-14",
+      "burnt": 222,
+      "minted": 227,
+      "total": 176
+  },
+  {
+      "date": "2022-10-15",
+      "burnt": 229,
+      "minted": 220,
+      "total": 182
+  },
+  {
+      "date": "2022-10-16",
+      "burnt": 231,
+      "minted": 223,
+      "total": 177
+  },
+  {
+      "date": "2022-10-17",
+      "burnt": 229,
+      "minted": 229,
+      "total": 177
+  },
+  {
+      "date": "2022-10-18",
+      "burnt": 232,
+      "minted": 227,
+      "total": 179
+  },
+  {
+      "date": "2022-10-19",
+      "burnt": 230,
+      "minted": 227,
+      "total": 181
+  },
+  {
+      "date": "2022-10-20",
+      "burnt": 226,
+      "minted": 222,
+      "total": 175
+  },
+  {
+      "date": "2022-10-21",
+      "burnt": 227,
+      "minted": 225,
+      "total": 180
+  },
+  {
+      "date": "2022-10-22",
+      "burnt": 226,
+      "minted": 225,
+      "total": 177
+  },
+  {
+      "date": "2022-10-23",
+      "burnt": 230,
+      "minted": 226,
+      "total": 184
+  },
+  {
+      "date": "2022-10-24",
+      "burnt": 221,
+      "minted": 222,
+      "total": 181
+  },
+  {
+      "date": "2022-10-25",
+      "burnt": 221,
+      "minted": 229,
+      "total": 175
+  },
+  {
+      "date": "2022-10-26",
+      "burnt": 221,
+      "minted": 221,
+      "total": 182
+  },
+  {
+      "date": "2022-10-27",
+      "burnt": 224,
+      "minted": 229,
+      "total": 175
+  },
+  {
+      "date": "2022-10-28",
+      "burnt": 232,
+      "minted": 225,
+      "total": 175
+  },
+  {
+      "date": "2022-10-29",
+      "burnt": 227,
+      "minted": 229,
+      "total": 178
+  },
+  {
+      "date": "2022-10-30",
+      "burnt": 232,
+      "minted": 229,
+      "total": 175
+  },
+  {
+      "date": "2022-11-01",
+      "burnt": 221,
+      "minted": 224,
+      "total": 184
+  },
+  {
+      "date": "2022-11-02",
+      "burnt": 224,
+      "minted": 221,
+      "total": 181
+  },
+  {
+      "date": "2022-11-03",
+      "burnt": 229,
+      "minted": 223,
+      "total": 183
+  },
+  {
+      "date": "2022-11-04",
+      "burnt": 227,
+      "minted": 228,
+      "total": 177
+  },
+  {
+      "date": "2022-11-05",
+      "burnt": 229,
+      "minted": 223,
+      "total": 180
+  },
+  {
+      "date": "2022-11-06",
+      "burnt": 233,
+      "minted": 229,
+      "total": 175
+  },
+  {
+      "date": "2022-11-07",
+      "burnt": 228,
+      "minted": 229,
+      "total": 178
+  },
+  {
+      "date": "2022-11-08",
+      "burnt": 220,
+      "minted": 224,
+      "total": 184
+  },
+  {
+      "date": "2022-11-09",
+      "burnt": 229,
+      "minted": 224,
+      "total": 181
+  },
+  {
+      "date": "2022-11-10",
+      "burnt": 220,
+      "minted": 227,
+      "total": 181
+  },
+  {
+      "date": "2022-11-11",
+      "burnt": 222,
+      "minted": 224,
+      "total": 178
+  },
+  {
+      "date": "2022-11-12",
+      "burnt": 228,
+      "minted": 222,
+      "total": 181
+  },
+  {
+      "date": "2022-11-13",
+      "burnt": 222,
+      "minted": 224,
+      "total": 175
+  },
+  {
+      "date": "2022-11-14",
+      "burnt": 230,
+      "minted": 226,
+      "total": 179
+  },
+  {
+      "date": "2022-11-15",
+      "burnt": 221,
+      "minted": 222,
+      "total": 181
+  },
+  {
+      "date": "2022-11-16",
+      "burnt": 229,
+      "minted": 229,
+      "total": 179
+  },
+  {
+      "date": "2022-11-17",
+      "burnt": 230,
+      "minted": 229,
+      "total": 180
+  },
+  {
+      "date": "2022-11-18",
+      "burnt": 232,
+      "minted": 228,
+      "total": 175
+  },
+  {
+      "date": "2022-11-19",
+      "burnt": 234,
+      "minted": 220,
+      "total": 175
+  },
+  {
+      "date": "2022-11-20",
+      "burnt": 224,
+      "minted": 226,
+      "total": 181
+  },
+  {
+      "date": "2022-11-21",
+      "burnt": 233,
+      "minted": 227,
+      "total": 180
+  },
+  {
+      "date": "2022-11-22",
+      "burnt": 232,
+      "minted": 229,
+      "total": 175
+  },
+  {
+      "date": "2022-11-23",
+      "burnt": 229,
+      "minted": 224,
+      "total": 176
+  },
+  {
+      "date": "2022-11-24",
+      "burnt": 225,
+      "minted": 222,
+      "total": 177
+  },
+  {
+      "date": "2022-11-26",
+      "burnt": 221,
+      "minted": 222,
+      "total": 195
+  },
+  {
+      "date": "2022-11-27",
+      "burnt": 223,
+      "minted": 222,
+      "total": 196
+  },
+  {
+      "date": "2022-11-28",
+      "burnt": 224,
+      "minted": 220,
+      "total": 196
+  },
+  {
+      "date": "2022-11-29",
+      "burnt": 228,
+      "minted": 220,
+      "total": 198
+  },
+  {
+      "date": "2022-11-30",
+      "burnt": 226,
+      "minted": 227,
+      "total": 197
+  },
+  {
+      "date": "2022-11-31",
+      "burnt": 231,
+      "minted": 229,
+      "total": 196
+  },
+  {
+      "date": "2023-00-01",
+      "burnt": 233,
+      "minted": 227,
+      "total": 203
+  },
+  {
+      "date": "2023-00-02",
+      "burnt": 229,
+      "minted": 224,
+      "total": 196
+  },
+  {
+      "date": "2023-00-03",
+      "burnt": 224,
+      "minted": 224,
+      "total": 197
+  },
+  {
+      "date": "2023-00-04",
+      "burnt": 220,
+      "minted": 228,
+      "total": 202
+  },
+  {
+      "date": "2023-00-05",
+      "burnt": 225,
+      "minted": 223,
+      "total": 195
+  },
+  {
+      "date": "2023-00-06",
+      "burnt": 230,
+      "minted": 228,
+      "total": 200
+  },
+  {
+      "date": "2023-00-07",
+      "burnt": 224,
+      "minted": 222,
+      "total": 195
+  },
+  {
+      "date": "2023-00-08",
+      "burnt": 226,
+      "minted": 229,
+      "total": 201
+  },
+  {
+      "date": "2023-00-09",
+      "burnt": 227,
+      "minted": 224,
+      "total": 202
+  },
+  {
+      "date": "2023-00-10",
+      "burnt": 225,
+      "minted": 229,
+      "total": 200
+  },
+  {
+      "date": "2023-00-11",
+      "burnt": 220,
+      "minted": 227,
+      "total": 197
+  },
+  {
+      "date": "2023-00-12",
+      "burnt": 231,
+      "minted": 224,
+      "total": 202
+  },
+  {
+      "date": "2023-00-13",
+      "burnt": 221,
+      "minted": 221,
+      "total": 200
+  },
+  {
+      "date": "2023-00-14",
+      "burnt": 223,
+      "minted": 223,
+      "total": 203
+  },
+  {
+      "date": "2023-00-15",
+      "burnt": 228,
+      "minted": 223,
+      "total": 200
+  },
+  {
+      "date": "2023-00-16",
+      "burnt": 224,
+      "minted": 224,
+      "total": 202
+  },
+  {
+      "date": "2023-00-17",
+      "burnt": 233,
+      "minted": 227,
+      "total": 195
+  },
+  {
+      "date": "2023-00-18",
+      "burnt": 230,
+      "minted": 222,
+      "total": 198
+  },
+  {
+      "date": "2023-00-19",
+      "burnt": 226,
+      "minted": 224,
+      "total": 197
+  },
+  {
+      "date": "2023-00-20",
+      "burnt": 232,
+      "minted": 229,
+      "total": 198
+  },
+  {
+      "date": "2023-00-21",
+      "burnt": 220,
+      "minted": 226,
+      "total": 198
+  },
+  {
+      "date": "2023-00-22",
+      "burnt": 234,
+      "minted": 226,
+      "total": 203
+  },
+  {
+      "date": "2023-00-23",
+      "burnt": 225,
+      "minted": 220,
+      "total": 200
+  },
+  {
+      "date": "2023-00-24",
+      "burnt": 232,
+      "minted": 222,
+      "total": 200
+  },
+  {
+      "date": "2023-00-25",
+      "burnt": 223,
+      "minted": 220,
+      "total": 201
+  },
+  {
+      "date": "2023-00-26",
+      "burnt": 233,
+      "minted": 228,
+      "total": 195
+  },
+  {
+      "date": "2023-00-27",
+      "burnt": 232,
+      "minted": 227,
+      "total": 195
+  },
+  {
+      "date": "2023-00-28",
+      "burnt": 223,
+      "minted": 228,
+      "total": 198
+  },
+  {
+      "date": "2023-00-29",
+      "burnt": 222,
+      "minted": 226,
+      "total": 199
+  },
+  {
+      "date": "2023-00-30",
+      "burnt": 232,
+      "minted": 225,
+      "total": 199
+  },
+  {
+      "date": "2023-00-31",
+      "burnt": 220,
+      "minted": 221,
+      "total": 201
+  },
+  {
+      "date": "2023-01-01",
+      "burnt": 227,
+      "minted": 221,
+      "total": 204
+  },
+  {
+      "date": "2023-01-02",
+      "burnt": 228,
+      "minted": 224,
+      "total": 196
+  },
+  {
+      "date": "2023-01-03",
+      "burnt": 230,
+      "minted": 228,
+      "total": 200
+  },
+  {
+      "date": "2023-01-04",
+      "burnt": 232,
+      "minted": 229,
+      "total": 204
+  },
+  {
+      "date": "2023-01-05",
+      "burnt": 222,
+      "minted": 229,
+      "total": 201
+  },
+  {
+      "date": "2023-01-06",
+      "burnt": 229,
+      "minted": 227,
+      "total": 201
+  },
+  {
+      "date": "2023-01-07",
+      "burnt": 220,
+      "minted": 229,
+      "total": 199
+  },
+  {
+      "date": "2023-01-08",
+      "burnt": 223,
+      "minted": 225,
+      "total": 204
+  },
+  {
+      "date": "2023-01-09",
+      "burnt": 221,
+      "minted": 228,
+      "total": 196
+  },
+  {
+      "date": "2023-01-10",
+      "burnt": 222,
+      "minted": 220,
+      "total": 202
+  },
+  {
+      "date": "2023-01-11",
+      "burnt": 231,
+      "minted": 228,
+      "total": 202
+  },
+  {
+      "date": "2023-01-12",
+      "burnt": 226,
+      "minted": 224,
+      "total": 202
+  },
+  {
+      "date": "2023-01-13",
+      "burnt": 234,
+      "minted": 226,
+      "total": 203
+  },
+  {
+      "date": "2023-01-14",
+      "burnt": 233,
+      "minted": 228,
+      "total": 199
+  },
+  {
+      "date": "2023-01-15",
+      "burnt": 221,
+      "minted": 225,
+      "total": 201
+  },
+  {
+      "date": "2023-01-16",
+      "burnt": 231,
+      "minted": 222,
+      "total": 195
+  },
+  {
+      "date": "2023-01-17",
+      "burnt": 221,
+      "minted": 229,
+      "total": 196
+  },
+  {
+      "date": "2023-01-18",
+      "burnt": 228,
+      "minted": 226,
+      "total": 199
+  },
+  {
+      "date": "2023-01-19",
+      "burnt": 220,
+      "minted": 221,
+      "total": 203
+  },
+  {
+      "date": "2023-01-20",
+      "burnt": 233,
+      "minted": 221,
+      "total": 204
+  },
+  {
+      "date": "2023-01-21",
+      "burnt": 232,
+      "minted": 223,
+      "total": 200
+  },
+  {
+      "date": "2023-01-22",
+      "burnt": 220,
+      "minted": 221,
+      "total": 202
+  },
+  {
+      "date": "2023-01-23",
+      "burnt": 229,
+      "minted": 222,
+      "total": 197
+  },
+  {
+      "date": "2023-01-24",
+      "burnt": 223,
+      "minted": 220,
+      "total": 200
+  },
+  {
+      "date": "2023-01-25",
+      "burnt": 225,
+      "minted": 229,
+      "total": 203
+  },
+  {
+      "date": "2023-01-26",
+      "burnt": 222,
+      "minted": 225,
+      "total": 199
+  },
+  {
+      "date": "2023-01-27",
+      "burnt": 225,
+      "minted": 227,
+      "total": 197
+  },
+  {
+      "date": "2023-01-28",
+      "burnt": 227,
+      "minted": 226,
+      "total": 198
+  }
+]
