@@ -21,7 +21,7 @@ server.get('/amountRanking', (req, res) => {
 });
 server.get('/accountRanking', (req, res) => {
   const { query } = req;
-  query.balance = Math.round(10000000 + Math.random() * 10000000);
+  query.balance = Math.round(1000 + Math.random() * 1000);
 
   const result = calculateAmountStats(query, accountsByTranche);
   result.type = 'account';

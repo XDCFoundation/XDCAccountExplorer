@@ -1,12 +1,21 @@
 import { useQuery, UseQueryResult } from 'react-query';
 import { AccountRanking, AmountRanking, RankingFilters } from './ranking.types';
-import { getAccountRanking } from './ranking.api';
+import { getAccountRanking, getAmountRanking } from './ranking.api';
 
 function useRanking(filters: RankingFilters | null)
   : UseQueryResult<AccountRanking | AmountRanking, Error> {
   return useQuery(
     ['ranking', filters],
-    () => getAccountRanking<AccountRanking | AmountRanking>(filters as RankingFilters),
+    (): Promise<AccountRanking | AmountRanking> => {
+      if (!filters) {
+        throw new Error('Can\'t fetch ranking. No filters provided.');
+      }
+
+      if (filters.type === 'account') {
+        return getAccountRanking(filters);
+      }
+      return getAmountRanking(filters);
+    },
     { enabled: !!filters },
   );
 }
