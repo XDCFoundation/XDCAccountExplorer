@@ -1,0 +1,9 @@
+$borderColor: #E7EAF3;
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid $borderColor;
+  padding: 1em 1.5em;
+}

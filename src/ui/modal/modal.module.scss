@@ -1,0 +1,59 @@
+$fontColor: #252525;
+$modalBackground: #fff;
+$shadow: 0px 1px 10px #0000001A;
+$borderRadius: 12px;
+
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  
+  opacity: 0;
+  transition: opacity 150ms ease-in, background-color 150ms ease-in;
+  
+  backdrop-filter: blur(0.8em);
+
+  @supports not (backdrop-filter: blur()) {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  &.visible {
+    opacity: 1;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.right {
+    justify-content: flex-end;
+  }
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 500px;
+  color: $fontColor;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: $modalBackground;
+    box-shadow: $shadow;
+    border-radius: $borderRadius;
+    overflow: auto;
+    
+    &.right {
+      border-radius: $borderRadius 0px 0px $borderRadius;
+    }
+  }
+}
