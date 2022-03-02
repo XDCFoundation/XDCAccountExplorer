@@ -16,6 +16,6 @@ $invalid-color: red;
     }
 
     button {
-      border-radius: $radius;
+      border-radius: $radius !important;
     }
 }

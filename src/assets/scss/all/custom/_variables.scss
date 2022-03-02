@@ -219,12 +219,12 @@ $input-box-shadow: none !default; // 0 1px 3px 0 $gray-400 !default;
 $input-focus-box-shadow: none !default; //0 1px 3px 0 $gray-500 !default;
 
 $custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
-$custom-select-indicator: url('../../../../assets/images/custom-select.png') !default;
+$custom-select-indicator: url('/assets/images/custom-select.png') !default;
 $custom-select-bg-size: 0px -1px;
 $input-btn-focus-box-shadow: transparent !default;
 $custom-select-focus-box-shadow: transparent !default;
 $custom-select-indicator: str-replace(
-  url('../../../../assets/images/custom-select.png'),
+  url('/assets/images/custom-select.png'),
   '%23'
 ) !default;
 $custom-control-indicator-box-shadow: none !default;
