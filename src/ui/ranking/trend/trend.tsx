@@ -20,7 +20,7 @@ function Trend({ negative, value, description }: RankingTrendProps) {
         {!negative && <IconCaretUp />}
         {negative && <IconCaretDown />}
       </span>
-      <b className="ml-2 mr-3">
+      <b className="ms-2 me-3">
         {value.toLocaleString()}
       </b>
       <small>

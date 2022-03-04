@@ -55,7 +55,7 @@ function RankingForm({ onSearch }: RankingFormProps) {
         <Button
           type="button"
           color="primary"
-          className="primary ml-3"
+          className="primary ms-3"
           disabled={!searchInputValid}
           onClick={() => onSearch({
             type: isAccountNumber(searchValue) ? 'account' : 'amount',
@@ -76,7 +76,7 @@ function RankingForm({ onSearch }: RankingFormProps) {
           onChange={(event) => { setIncludeFoundation(event.currentTarget.checked); }}
         />
         {' '}
-        <Label check for="cb-foundation">
+        <Label check for="cb-foundation" className="mb-0">
           Include XDC Foundation Accounts
         </Label>
       </FormGroup>
@@ -89,7 +89,7 @@ function RankingForm({ onSearch }: RankingFormProps) {
           onChange={(event) => { setIncludeZeroBalance(event.currentTarget.checked); }}
         />
         {' '}
-        <Label check for="cb-zero">
+        <Label check for="cb-zero" className="mb-0">
           Include Zero Balance Accounts
         </Label>
       </FormGroup>

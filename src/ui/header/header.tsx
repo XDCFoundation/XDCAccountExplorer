@@ -21,12 +21,12 @@ function Header({
       <Navbar className="top-navbar" dark expand>
         <div className="navbar-header">
           <div className="navbar-brand">
-            <IconLogo className="mr-2" />
+            <IconLogo className="me-2" />
             <span>XDC</span>
           </div>
         </div>
         <Collapse className="navbarbg" navbar data-navbarbg="skin1">
-          <Nav className="ml-auto float-right" navbar>
+          <Nav className="ms-auto float-right" navbar>
             {routes.map((prop, key) => {
               if (prop.redirect) {
                 return null;
@@ -35,7 +35,7 @@ function Header({
                 <NavItem key={key}>
                   <NavLink
                     to={prop.path}
-                    className={(navData) => (navData.isActive ? 'nav-link ml-5 active' : 'nav-link ml-5')}
+                    className={(navData) => (navData.isActive ? 'nav-link ms-5 active' : 'nav-link ms-5')}
                   >
                     <i className={prop.icon} />
                     {' '}
