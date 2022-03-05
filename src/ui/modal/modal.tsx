@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import {
   MouseEventHandler, PropsWithChildren, ReactNode, useEffect, useRef, useState,
 } from 'react';
+import Portal from 'ui/portal/portal';
 import ModalBody from './modal-body/modalBody';
 import ModalFooter from './modal-footer/modalFooter';
 import ModalHeader from './modal-header/modalHeader';
@@ -49,37 +50,38 @@ function Modal({
   }
 
   return (
-    <div
-      className={classNames(
-        styles.container,
-        styles[position],
-        {
-          [styles.visible]: visible,
-        },
-      )}
-      ref={backdropRef}
-      onClick={closeModal}
-      role="presentation"
-
-    >
-      <div className={classNames(styles.modal, className)}>
-        {!!renderHeader && (
-        <ModalHeader onCancel={onCancel}>
-          {renderHeader()}
-        </ModalHeader>
+    <Portal>
+      <div
+        className={classNames(
+          styles.container,
+          styles[position],
+          {
+            [styles.visible]: visible,
+          },
         )}
-        <div className={classNames(styles.content, styles[position])}>
-          <ModalBody>
-            {children}
-          </ModalBody>
-          {!!renderFooter && (
-          <ModalFooter>
-            {renderFooter()}
-          </ModalFooter>
+        ref={backdropRef}
+        onClick={closeModal}
+        role="presentation"
+      >
+        <div className={classNames(styles.modal, className)}>
+          {!!renderHeader && (
+          <ModalHeader onCancel={onCancel}>
+            {renderHeader()}
+          </ModalHeader>
           )}
+          <div className={classNames(styles.content, styles[position])}>
+            <ModalBody>
+              {children}
+            </ModalBody>
+            {!!renderFooter && (
+            <ModalFooter>
+              {renderFooter()}
+            </ModalFooter>
+            )}
+          </div>
         </div>
       </div>
-    </div>
+    </Portal>
   );
 }
 

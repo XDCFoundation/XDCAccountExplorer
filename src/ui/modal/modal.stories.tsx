@@ -1,10 +1,19 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { useState } from 'react';
+import { PortalContainer } from 'ui/portal/portal';
 import Modal from './modal';
 
 export default {
   title: 'UI/Modal',
   component: Modal,
+  decorators: [
+    (Story) => (
+      <>
+        <Story />
+        <PortalContainer />
+      </>
+    ),
+  ],
 } as ComponentMeta<typeof Modal>;
 
 const Template: ComponentStory<typeof Modal> = (args) => {
