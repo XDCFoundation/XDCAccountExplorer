@@ -82,7 +82,7 @@ $theme-colors: map-merge(
     'info': #2149B9,
     'warning': #fb6340,
     'danger': #f62d51,
-    'light': $gray-100,
+    'light': $gray-200,
     'dark': $gray-800,
     'cyan': #4fc3f7,
     'orange': #fb6340,
@@ -117,7 +117,7 @@ $enable-gradients: false !default;
 // Body
 $main-body-bg: #fff !default;
 $body-bg: #fff;
-$body-color: #3e5569 !default;
+$body-color: #252525 !default;
 
 $box-shadow-sm: 0 0.125rem 0.25rem rgba($black, 0.075) !default;
 $box-shadow: 0 0.5rem 1rem rgba($black, 0.08) !default;

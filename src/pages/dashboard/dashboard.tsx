@@ -1,5 +1,5 @@
 import { Col, Row } from 'reactstrap';
-import AccountsPanel from './accountsPanel';
+import AccountsPanel from './accounts-panel/accountsPanel';
 import SupplyPanel from './supplyPanel';
 import MasternodesPanel from './masternodesPanel';
 

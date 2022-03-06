@@ -1,14 +1,17 @@
-import { useQuery, UseQueryResult } from 'react-query';
 import { TimeFilters } from 'domains/time-filters/timeFilters';
-import { AccountsStatsDataObject } from './accounts.types';
+import { useQuery, UseQueryResult } from 'react-query';
 import { getAccountsStats } from './accounts.api';
+import { AccountFilters, AccountsStatsDataObject } from './accounts.types';
 
-function useAccounts(filters: TimeFilters): UseQueryResult<AccountsStatsDataObject[], Error> {
+function useAccounts(
+  timeFilters: TimeFilters,
+  accountFilters: AccountFilters,
+): UseQueryResult<AccountsStatsDataObject[], Error> {
   return useQuery(
-    ['accounts', filters],
-    () => getAccountsStats(filters),
+    ['accounts', timeFilters, accountFilters],
+    () => getAccountsStats({ ...timeFilters, ...accountFilters }),
     { initialData: [] },
   );
 }
 
-export default { useAccounts };
+export default useAccounts;
