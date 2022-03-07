@@ -3,11 +3,13 @@ import { BrowserRouter } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { QueryClient, QueryClientProvider } from 'react-query';
+import { PortalContainer } from 'ui/portal/portal';
 
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       retry: false,
+      refetchOnWindowFocus: false,
     },
   },
 });
@@ -17,6 +19,7 @@ function App() {
     <BrowserRouter>
       <QueryClientProvider client={queryClient}>
         <XdcExplorer />
+        <PortalContainer />
         <ToastContainer />
       </QueryClientProvider>
     </BrowserRouter>

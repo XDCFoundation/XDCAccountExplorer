@@ -6,7 +6,8 @@
 
 #main-wrapper {
   width: 100%;
-  overflow: hidden;
+  height: 100vh;
+  overflow: overlay;
 }
 
 .page-wrapper {
