@@ -1,9 +1,18 @@
 import useAccountsByTranche from 'domains/accounts-by-tranche/hooks/useAccountsByTranche';
+import { useMemo } from 'react';
 import Table from 'ui/table/table';
-import { accountsByTrancheTableColumns } from './accountsByTrancheTable.helpers';
+import useMediaBreakpoints from 'util/use-media-breakpoints/useMediaBreakpoints';
+import { getAccountsByTrancheTableColumns } from './accountsByTrancheTable.helpers';
 
 function AccountsByTrancheTable() {
   const { data = [], isLoading } = useAccountsByTranche();
+
+  const { isMediaBreakpointUp } = useMediaBreakpoints();
+  const withBalancePercentageColumn = isMediaBreakpointUp('md');
+
+  const accountsByTrancheTableColumns = useMemo(() => (
+    getAccountsByTrancheTableColumns({ withBalancePercentageColumn })
+  ), [withBalancePercentageColumn]);
 
   return (
     <Table

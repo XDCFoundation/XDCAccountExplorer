@@ -42,7 +42,13 @@ function UsdBalance({ value }: CellProps<AccountTranche, number>) {
 }
 
 // Table columns
-export const accountsByTrancheTableColumns: Column<AccountTranche>[] = [
+type GetAccountsByTrancheTableColumnsParams = {
+  withBalancePercentageColumn: boolean;
+};
+
+export const getAccountsByTrancheTableColumns = ({
+  withBalancePercentageColumn,
+}: GetAccountsByTrancheTableColumnsParams): Column<AccountTranche>[] => [
   {
     Header: <RightAlignedText>Balance from-to (XDC)</RightAlignedText>,
     accessor: 'balanceFrom',
@@ -73,11 +79,13 @@ export const accountsByTrancheTableColumns: Column<AccountTranche>[] = [
     Cell: NumberCell,
     width: 100,
   },
-  {
-    accessor: 'balancePercentage',
-    Cell: BalancePercentage,
-    width: 200,
-  },
+  ...(withBalancePercentageColumn
+    ? [{
+      accessor: 'balancePercentage',
+      Cell: BalancePercentage,
+      width: 200,
+    } as Column<AccountTranche>]
+    : []),
   {
     Header: <RightAlignedText>Value (USD)</RightAlignedText>,
     accessor: 'usdBalance',
