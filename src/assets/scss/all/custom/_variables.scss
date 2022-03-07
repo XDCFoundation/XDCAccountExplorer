@@ -149,7 +149,7 @@ $h3-font-size: 24px !default;
 $h4-font-size: 18px !default;
 $h5-font-size: 16px !default;
 $h6-font-size: 14px !default;
-$headings-margin-bottom: (1rem / 2) !default;
+$headings-margin-bottom: calc(1rem / 2) !default;
 $headings-font-weight: 700 !default;
 $headings-color: inherit !default;
 
@@ -253,7 +253,7 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xlg: 1600px
+  xxl: 1600px
 ) !default;
 // Navbar
 $navbar-dark-color: rgba($white, 1) !default;
