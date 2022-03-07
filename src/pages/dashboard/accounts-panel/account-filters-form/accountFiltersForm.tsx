@@ -114,6 +114,7 @@ function AccountFiltersForm({
       <Input
         type="number"
         placeholder="Minimum number of XDC"
+        id={FormFields.MinimumAmount}
         name={FormFields.MinimumAmount}
         className="mb-4"
         value={formValues.minimumAmount}
@@ -128,6 +129,7 @@ function AccountFiltersForm({
         <Input
           type="checkbox"
           color="primary"
+          id={FormFields.IncludeFoundationAccounts}
           name={FormFields.IncludeFoundationAccounts}
           checked={formValues.includeFoundationAccounts}
           onChange={changeCheckboxValue}
@@ -140,6 +142,7 @@ function AccountFiltersForm({
         <Input
           type="checkbox"
           color="primary"
+          id={FormFields.IncludeSecondLayerApplications}
           name={FormFields.IncludeSecondLayerApplications}
           checked={formValues.includeSecondLayerApplications}
           onChange={changeCheckboxValue}
