@@ -41,7 +41,7 @@ function SupplyPanel() {
           type: 'line',
           label: 'Total supply',
           color: Colors.orange,
-          yAxis: 'right',
+          yAxis: 'left',
           data: [] as number[],
         },
       ],
@@ -74,7 +74,7 @@ function SupplyPanel() {
           <Chart
             series={chartData}
             height={300}
-            scales={{ rightEnabled: true }}
+            scales={{ rightEnabled: true, leftEnabled: true }}
           />
           <Filters
             items={DEFAULT_TIME_FILTERS}
