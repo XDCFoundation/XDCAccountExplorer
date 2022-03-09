@@ -9,6 +9,7 @@ import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import Chart from 'ui/chart/chart';
 import useMasternodes from 'domains/masternodes/useMasternodes';
 import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
+import DateLabelFormatter from 'ui/chart/label-formatters/date-label-formatter';
 import styles from './masternodesPanel.module.scss';
 
 function MasternodesPanel() {
@@ -22,7 +23,7 @@ function MasternodesPanel() {
     return filtersObj;
   }, [timeFilter]);
 
-  const transposeToChartFormat = (dataObj: MasternodesDataObject[]) => {
+  const transposeToChartFormat = (dataObj: MasternodesDataObject[]): ChartSeries => {
     const output: ChartSeries = {
       datasets: [
         {
@@ -53,7 +54,12 @@ function MasternodesPanel() {
 
   const { data } = useMasternodes.useMasternodes(getFilters);
 
-  const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
+  const dateLabelFormatter = new DateLabelFormatter();
+  const chartData = useMemo(
+    () => dateLabelFormatter.transpose(transposeToChartFormat(data ?? [])),
+    [data],
+  );
+
   return (
     <Card>
       <CardTitle>

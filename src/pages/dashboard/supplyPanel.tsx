@@ -8,6 +8,7 @@ import DateInfo from 'ui/date-info/dateInfo';
 import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
 import useSupply from 'domains/supply/useSupply';
 import { SupplyDto } from 'domains/supply/supply.types';
+import DateLabelFormatter from 'ui/chart/label-formatters/date-label-formatter';
 
 function SupplyPanel() {
   const [timeFilter, setTimeFilter] = useState<FilterValue>(7);
@@ -20,7 +21,7 @@ function SupplyPanel() {
     return filtersObj;
   }, [timeFilter]);
 
-  const transposeToChartFormat = (dataObj: SupplyDto[]) => {
+  const transposeToChartFormat = (dataObj: SupplyDto[]): ChartSeries => {
     const output: ChartSeries = {
       datasets: [
         {
@@ -59,7 +60,11 @@ function SupplyPanel() {
 
   const { data } = useSupply(getFilters);
 
-  const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
+  const dateLabelFormatter = new DateLabelFormatter();
+  const chartData = useMemo(
+    () => dateLabelFormatter.transpose(transposeToChartFormat(data ?? [])),
+    [data],
+  );
 
   return (
     <div>

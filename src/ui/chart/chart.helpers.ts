@@ -4,7 +4,8 @@ import { ChartSeries, Scales } from './chart.types';
 const FONT_COLOR = '#4A4F55CC';
 const GRID_COLOR = '#E7EAF3';
 
-const TICKS_COUNT = 6;
+const Y_SCALE_TICKS_COUNT = 6;
+const X_SCALE_TICKS_MAX = 10;
 
 export const getChartOptions = ({ scales }: {
   scales: Scales
@@ -57,7 +58,7 @@ export const getChartOptions = ({ scales }: {
           color: GRID_COLOR,
         },
         ticks: {
-          count: TICKS_COUNT,
+          count: Y_SCALE_TICKS_COUNT,
           color: FONT_COLOR,
         },
       },
@@ -76,7 +77,7 @@ export const getChartOptions = ({ scales }: {
           color: GRID_COLOR,
         },
         ticks: {
-          count: TICKS_COUNT,
+          count: Y_SCALE_TICKS_COUNT,
           color: FONT_COLOR,
         },
       },
@@ -88,6 +89,7 @@ export const getChartOptions = ({ scales }: {
         },
         ticks: {
           color: FONT_COLOR,
+          maxTicksLimit: X_SCALE_TICKS_MAX,
         },
       },
     },
