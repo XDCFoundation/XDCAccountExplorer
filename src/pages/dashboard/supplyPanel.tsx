@@ -55,14 +55,13 @@ function SupplyPanel() {
       output.datasets[2].data.push(row.total);
     });
 
-    return output;
+    return (new DateLabelFormatter()).transpose(output);
   };
 
   const { data } = useSupply(getFilters);
 
-  const dateLabelFormatter = new DateLabelFormatter();
   const chartData = useMemo(
-    () => dateLabelFormatter.transpose(transposeToChartFormat(data ?? [])),
+    () => transposeToChartFormat(data ?? []),
     [data],
   );
 

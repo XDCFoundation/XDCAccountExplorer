@@ -75,14 +75,13 @@ function AccountsPanel() {
       output.datasets[2].data.push(row.token);
     });
 
-    return output;
+    return (new DateLabelFormatter()).transpose(output);
   };
 
   const { data } = useAccounts(timeFilters, accountFilters);
 
-  const dateLabelFormatter = new DateLabelFormatter();
   const chartData = useMemo(
-    () => dateLabelFormatter.transpose(transposeToChartFormat(data ?? [])),
+    () => transposeToChartFormat(data ?? []),
     [data],
   );
 

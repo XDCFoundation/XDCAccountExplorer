@@ -49,14 +49,13 @@ function MasternodesPanel() {
       output.datasets[1].data.push(row.validators);
     });
 
-    return output;
+    return (new DateLabelFormatter()).transpose(output);
   };
 
   const { data } = useMasternodes.useMasternodes(getFilters);
 
-  const dateLabelFormatter = new DateLabelFormatter();
   const chartData = useMemo(
-    () => dateLabelFormatter.transpose(transposeToChartFormat(data ?? [])),
+    () => transposeToChartFormat(data ?? []),
     [data],
   );
 

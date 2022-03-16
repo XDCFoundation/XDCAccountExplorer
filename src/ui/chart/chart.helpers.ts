@@ -90,6 +90,7 @@ export const getChartOptions = ({ scales }: {
         ticks: {
           color: FONT_COLOR,
           maxTicksLimit: X_SCALE_TICKS_MAX,
+          maxRotation: 0,
         },
       },
     },

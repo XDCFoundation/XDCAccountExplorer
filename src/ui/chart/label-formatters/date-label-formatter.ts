@@ -1,18 +1,17 @@
-import { format } from 'date-fns';
 import LabelFormatter from './label-formatter';
 
 class DateLabelFormatter extends LabelFormatter {
-  private dateFormat;
+  private dateTimeFormatOptions: Intl.DateTimeFormatOptions;
 
-  constructor(dateFormat?: string) {
+  constructor(dateFormat?: Intl.DateTimeFormatOptions) {
     super();
-    this.dateFormat = dateFormat ?? 'M/d';
+    this.dateTimeFormatOptions = dateFormat ?? { day: 'numeric', month: 'numeric' };
   }
 
   format(label: string) {
     if (Date.parse(label)) {
       const d = new Date(label);
-      return format(d, this.dateFormat);
+      return d.toLocaleString(undefined, this.dateTimeFormatOptions);
     }
 
     return label;
