@@ -9,6 +9,7 @@ import Chart from 'ui/chart/chart';
 import { ChartSeries, Colors } from 'ui/chart/chart.types';
 import useAccounts from 'domains/accounts/useAccounts';
 import DateInfo from 'ui/date-info/dateInfo';
+import DateLabelFormatter from 'ui/chart/label-formatters/date-label-formatter';
 import { DEFAULT_TIME_FILTERS, TimeFilters } from 'domains/time-filters/timeFilters';
 import { ReactComponent as FilterIcon } from 'assets/images/icons/icon_filter.svg';
 import AccountFiltersForm from './account-filters-form/accountFiltersForm';
@@ -40,7 +41,7 @@ function AccountsPanel() {
     return filtersObj;
   }, [timeFilter]);
 
-  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]) => {
+  const transposeToChartFormat = (dataObj: AccountsStatsDataObject[]): ChartSeries => {
     const output: ChartSeries = {
       datasets: [
         {
@@ -74,12 +75,15 @@ function AccountsPanel() {
       output.datasets[2].data.push(row.token);
     });
 
-    return output;
+    return (new DateLabelFormatter()).transpose(output);
   };
 
   const { data } = useAccounts(timeFilters, accountFilters);
 
-  const chartData = useMemo(() => transposeToChartFormat(data ?? []), [data]);
+  const chartData = useMemo(
+    () => transposeToChartFormat(data ?? []),
+    [data],
+  );
 
   return (
     <div>
