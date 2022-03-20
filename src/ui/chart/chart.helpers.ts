@@ -5,7 +5,7 @@ const FONT_COLOR = '#4A4F55CC';
 const GRID_COLOR = '#E7EAF3';
 
 const Y_SCALE_TICKS_COUNT = 6;
-const X_SCALE_TICKS_MAX = 10;
+const X_SCALE_TICKS_PADDING = 50;
 
 export const getChartOptions = ({ scales }: {
   scales: Scales
@@ -89,7 +89,7 @@ export const getChartOptions = ({ scales }: {
         },
         ticks: {
           color: FONT_COLOR,
-          maxTicksLimit: X_SCALE_TICKS_MAX,
+          autoSkipPadding: X_SCALE_TICKS_PADDING,
           maxRotation: 0,
         },
       },
