@@ -1,15 +1,14 @@
-import { format } from 'date-fns';
-
 interface DateInfoProps {
   date: Date,
+  dateFormat?: Intl.DateTimeFormatOptions,
 }
 
-const dateFormat = 'd/M/yyyy';
+function DateInfo({ date, dateFormat }: DateInfoProps) {
+  const format = dateFormat ?? { day: 'numeric', month: 'numeric', year: 'numeric' };
 
-function DateInfo({ date }: DateInfoProps) {
   return (
     <span className="small ms-2 me-2">
-      {format(date, dateFormat)}
+      {date.toLocaleString(undefined, format)}
     </span>
   );
 }

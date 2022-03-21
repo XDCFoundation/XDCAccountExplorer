@@ -5,7 +5,7 @@ class DateLabelFormatter extends LabelFormatter {
 
   constructor(dateFormat?: Intl.DateTimeFormatOptions) {
     super();
-    this.dateTimeFormatOptions = dateFormat ?? { day: 'numeric', month: 'numeric' };
+    this.dateTimeFormatOptions = dateFormat ?? { day: 'numeric', month: 'numeric', year: 'numeric' };
   }
 
   format(label: string) {
