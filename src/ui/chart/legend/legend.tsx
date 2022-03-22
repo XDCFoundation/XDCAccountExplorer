@@ -1,6 +1,7 @@
 import { ChartType } from 'chart.js';
 import classNames from 'classnames';
 import Trend from 'ui/chart/trend/trend';
+import numberAbbreviate from 'util/number-abbreviate';
 import styles from './legend.module.scss';
 
 export interface LegendItem {
@@ -37,7 +38,9 @@ function Legend({ items, onItemClick }: LegendProps) {
             />
             {legendItem.label}
           </div>
-          <div className={styles.amount}>{legendItem.value?.toLocaleString()}</div>
+          <div className={styles.amount}>
+            {legendItem.value ? numberAbbreviate(Number.parseFloat(legendItem.value.toString())) : ''}
+          </div>
           <Trend value={legendItem.value} previousValue={legendItem.previousValue} />
         </button>
       ))}
