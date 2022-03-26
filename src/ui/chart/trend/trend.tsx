@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { isNull } from 'lodash';
-import numberAbbreviate from 'util/number-abbreviate';
+import shortenNumber from 'util/shorten-number';
 import styles from './trend.module.scss';
 
 interface TrendProps {
@@ -24,7 +24,7 @@ function Trend({ value, previousValue }: TrendProps) {
     })}
     >
       {isDifferencePositive && '+'}
-      {numberAbbreviate(difference)}
+      {shortenNumber(difference)}
     </div>
   );
 }

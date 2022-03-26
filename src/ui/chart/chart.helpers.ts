@@ -1,5 +1,5 @@
 import { ChartData, ChartOptions } from 'chart.js';
-import numberAbbreviate from 'util/number-abbreviate';
+import shortenNumber from 'util/shorten-number';
 import { ChartSeries, Scales } from './chart.types';
 
 const FONT_COLOR = '#4A4F55CC';
@@ -61,7 +61,7 @@ export const getChartOptions = ({ scales }: {
         ticks: {
           count: Y_SCALE_TICKS_COUNT,
           color: FONT_COLOR,
-          callback: (value) => numberAbbreviate(Number.parseFloat(value.toString())),
+          callback: (value) => shortenNumber(Number.parseFloat(value.toString())),
         },
       },
       // Right y axis
@@ -81,7 +81,7 @@ export const getChartOptions = ({ scales }: {
         ticks: {
           count: Y_SCALE_TICKS_COUNT,
           color: FONT_COLOR,
-          callback: (value) => numberAbbreviate(Number.parseFloat(value.toString())),
+          callback: (value) => shortenNumber(Number.parseFloat(value.toString())),
         },
       },
       // X axis
