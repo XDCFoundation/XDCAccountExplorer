@@ -2,7 +2,7 @@
 const jsonServer = require('json-server');
 
 const server = jsonServer.create();
-const accountsByTranche = require('./accounts-by-tranche.json');
+const accountByTranche = require('./account-by-tranche.json');
 const masternodes = require('./masternodes.json');
 const supply = require('./supply-stats.json');
 const { calculateAmountStats } = require('./calculate-amount-stats');
@@ -15,7 +15,7 @@ server.get('/amountRanking', (req, res) => {
   const { query } = req;
   query.balance = Number.parseInt(query.input, 10);
 
-  const result = calculateAmountStats(query, accountsByTranche);
+  const result = calculateAmountStats(query, accountByTranche);
   result.type = 'amount';
 
   res.jsonp(result);
@@ -25,7 +25,7 @@ server.get('/accountRanking', (req, res) => {
   const { query } = req;
   query.balance = Math.round(1000 + Math.random() * 1000);
 
-  const result = calculateAmountStats(query, accountsByTranche);
+  const result = calculateAmountStats(query, accountByTranche);
   result.type = 'account';
   result.account = query.input;
   result.transactions = Math.round(100 + Math.random() * 1000);
@@ -43,7 +43,7 @@ server.get('/accountStats', (req, res) => {
 
 const router = jsonServer.router({
   masternodes,
-  accountsByTranche,
+  accountByTranche,
   supply,
   // ... add more resources ...
 });
