@@ -4,15 +4,23 @@ import {
   CardTitle,
   Spinner,
 } from 'reactstrap';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 import { RankingFilters } from 'domains/ranking/ranking.types';
 import useRanking from 'domains/ranking/useRanking';
+import DisplayableError from 'util/displayable-error';
 import RankingResult from './rankingResult';
 import RankingForm from './rankingForm';
 
 function RankingPanel() {
   const [formFilters, setFormFilters] = useState<RankingFilters | null>(null);
-  const { data, isLoading } = useRanking(formFilters);
+  const { data, error, isLoading } = useRanking(formFilters);
+
+  useEffect(() => {
+    if (error) {
+      toast.error(error instanceof DisplayableError ? error.message : 'Unexpected error');
+    }
+  }, [error]);
 
   return (
     <Card>
