@@ -1,4 +1,5 @@
 import { useMemo } from 'react';
+import formatNumber from 'util/number/formatNumber';
 import styles from './rankingAccountResult.module.scss';
 
 interface RankingAccountResultProps {
@@ -24,7 +25,7 @@ function RankingAccountResult({ account, transactions, balance }: RankingAccount
           Total transactions:
         </span>
         <span>
-          {transactions.toLocaleString()}
+          {formatNumber(transactions)}
         </span>
       </div>
       <div className={styles.stat}>
@@ -32,7 +33,7 @@ function RankingAccountResult({ account, transactions, balance }: RankingAccount
           Balance:
         </span>
         <span>
-          {balance.toLocaleString()}
+          {formatNumber(balance)}
           {' XDC'}
         </span>
       </div>

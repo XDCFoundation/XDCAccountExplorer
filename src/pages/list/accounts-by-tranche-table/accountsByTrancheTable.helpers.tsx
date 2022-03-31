@@ -1,6 +1,7 @@
 import { AccountTranche } from 'domains/accounts-by-tranche/accountsByTranche.types';
 import { PropsWithChildren } from 'react';
 import { CellProps, Column } from 'react-table';
+import formatNumber from 'util/number/formatNumber';
 import styles from './accountsByTrancheTable.module.scss';
 
 // Reusable cells
@@ -9,7 +10,7 @@ function RightAlignedText({ children }: PropsWithChildren<unknown>) {
 }
 
 function NumberCell({ value }: CellProps<AccountTranche, number | undefined>) {
-  return <RightAlignedText>{value?.toLocaleString() ?? '-'}</RightAlignedText>;
+  return <RightAlignedText>{formatNumber(value)}</RightAlignedText>;
 }
 
 // Column specific cells
@@ -17,8 +18,8 @@ function Tranche(cell: CellProps<AccountTranche>) {
   const { row: { original: { balanceTo, balanceFrom } } } = cell;
 
   const formattedBalance = Number.isFinite(balanceTo)
-    ? `${balanceFrom.toLocaleString()} - ${balanceTo.toLocaleString()}`
-    : `${balanceFrom.toLocaleString()} +`;
+    ? `${formatNumber(balanceFrom)} - ${formatNumber(balanceTo)}`
+    : `${formatNumber(balanceFrom)} +`;
 
   return <RightAlignedText>{formattedBalance}</RightAlignedText>;
 }
@@ -36,7 +37,7 @@ function BalancePercentage({ value = 0 }: CellProps<AccountTranche, number | und
 function UsdBalance({ value }: CellProps<AccountTranche, number>) {
   return (
     <RightAlignedText>
-      <b>{value.toLocaleString()}</b>
+      <b>{formatNumber(value)}</b>
     </RightAlignedText>
   );
 }
