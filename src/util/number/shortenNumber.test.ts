@@ -1,4 +1,4 @@
-import shortenNumber from 'util/shorten-number';
+import shortenNumber from 'util/number/shortenNumber';
 
 describe('number abbreviation test', () => {
   it('should abbreviate numbers to show max 3 digits', () => {

@@ -1,7 +1,7 @@
 import { ChartType } from 'chart.js';
 import classNames from 'classnames';
 import Trend from 'ui/chart/trend/trend';
-import shortenNumber from 'util/shorten-number';
+import shortenNumber from 'util/number/shortenNumber';
 import styles from './legend.module.scss';
 
 export interface LegendItem {

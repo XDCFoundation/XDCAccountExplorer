@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import { isNull } from 'lodash';
-import shortenNumber from 'util/shorten-number';
+import shortenNumber from 'util/number/shortenNumber';
 import styles from './trend.module.scss';
 
 interface TrendProps {

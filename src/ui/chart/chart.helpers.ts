@@ -1,5 +1,5 @@
 import { ChartData, ChartOptions } from 'chart.js';
-import shortenNumber from 'util/shorten-number';
+import shortenNumber from 'util/number/shortenNumber';
 import { ChartSeries, Scales } from './chart.types';
 
 const FONT_COLOR = '#4A4F55CC';
