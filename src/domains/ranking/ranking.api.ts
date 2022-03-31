@@ -1,6 +1,9 @@
 import { get, buildURLQuery } from 'api/api.helpers';
-import DisplayableError from 'util/displayable-error';
-import { AccountRanking, AmountRanking, RankingFilters } from './ranking.types';
+import DisplayableError from 'util/error/displayable-error';
+import { isRankingError } from './ranking.helpers';
+import {
+  AccountRanking, AmountRanking, RankingError, RankingFilters,
+} from './ranking.types';
 
 const ACCOUNT_RANKING_ENDPOINT: string = 'accountRanking';
 const AMOUNT_RANKING_ENDPOINT: string = 'amountRanking';
@@ -8,17 +11,13 @@ const AMOUNT_RANKING_ENDPOINT: string = 'amountRanking';
 const getAccountRanking = async (filters: RankingFilters): Promise<AccountRanking> => {
   const url: string = `${ACCOUNT_RANKING_ENDPOINT}?${buildURLQuery(filters)}`;
 
-  return new Promise<AccountRanking>((resolve, reject) => {
-    get<AccountRanking>(url)
-      .then((response) => {
-        const obj = JSON.parse(JSON.stringify(response));
-        if (obj.message) {
-          reject(new DisplayableError(obj.message));
-        } else {
-          resolve(response);
-        }
-      });
-  });
+  const response = await get<AccountRanking | RankingError>(url);
+
+  if (isRankingError(response)) {
+    throw new DisplayableError(response.message);
+  }
+
+  return response;
 };
 
 const getAmountRanking = async (filters: RankingFilters): Promise<AmountRanking> => {

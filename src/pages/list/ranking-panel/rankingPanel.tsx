@@ -1,26 +1,18 @@
+import { RankingFilters } from 'domains/ranking/ranking.types';
+import useRanking from 'domains/ranking/useRanking';
+import { useState } from 'react';
 import {
   Card,
   CardBody,
   CardTitle,
   Spinner,
 } from 'reactstrap';
-import { useEffect, useState } from 'react';
-import { toast } from 'react-toastify';
-import { RankingFilters } from 'domains/ranking/ranking.types';
-import useRanking from 'domains/ranking/useRanking';
-import DisplayableError from 'util/displayable-error';
-import RankingResult from './rankingResult';
 import RankingForm from './rankingForm';
+import RankingResult from './rankingResult';
 
 function RankingPanel() {
   const [formFilters, setFormFilters] = useState<RankingFilters | null>(null);
-  const { data, error, isLoading } = useRanking(formFilters);
-
-  useEffect(() => {
-    if (error) {
-      toast.error(error instanceof DisplayableError ? error.message : 'Unexpected error');
-    }
-  }, [error]);
+  const { data, isLoading } = useRanking(formFilters);
 
   return (
     <Card>
