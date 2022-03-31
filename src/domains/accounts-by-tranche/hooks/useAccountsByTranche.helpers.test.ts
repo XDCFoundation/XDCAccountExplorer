@@ -16,8 +16,8 @@ describe('useAccountsByTranche.helpers', () => {
         {
           accounts: 5,
           balanceFrom: 10,
-          xdcBalance: 200,
-          usdBalance: 1000,
+          xdcBalance: 2000,
+          usdBalance: 10000,
         },
       ];
 
@@ -25,12 +25,12 @@ describe('useAccountsByTranche.helpers', () => {
         {
           accounts: 5,
           balanceFrom: 10,
-          xdcBalance: 200,
-          usdBalance: 1000,
+          xdcBalance: 2000,
+          usdBalance: 10000,
           accountsWithGreaterBalance: 5,
           balanceTo: Number.POSITIVE_INFINITY,
           balancePercentage: 1,
-          xdcAverageBalance: 40,
+          xdcAverageBalance: 400,
         },
         {
           accounts: 2,
@@ -39,7 +39,7 @@ describe('useAccountsByTranche.helpers', () => {
           xdcBalance: 100,
           usdBalance: 500,
           accountsWithGreaterBalance: 7,
-          balancePercentage: 0.5,
+          balancePercentage: 0.2,
           xdcAverageBalance: 50,
         },
       ];
