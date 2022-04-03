@@ -1,14 +1,14 @@
+import { RankingFilters } from 'domains/ranking/ranking.types';
+import useRanking from 'domains/ranking/useRanking';
+import { useState } from 'react';
 import {
   Card,
   CardBody,
   CardTitle,
   Spinner,
 } from 'reactstrap';
-import { useState } from 'react';
-import { RankingFilters } from 'domains/ranking/ranking.types';
-import useRanking from 'domains/ranking/useRanking';
-import RankingResult from './rankingResult';
 import RankingForm from './rankingForm';
+import RankingResult from './rankingResult';
 
 function RankingPanel() {
   const [formFilters, setFormFilters] = useState<RankingFilters | null>(null);
