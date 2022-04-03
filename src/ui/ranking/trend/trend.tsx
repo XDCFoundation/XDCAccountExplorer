@@ -1,6 +1,7 @@
 import { ReactComponent as IconCaretUp } from 'assets/images/icons/icon_caret_up.svg';
 import { ReactComponent as IconCaretDown } from 'assets/images/icons/icon_caret_down.svg';
 import classNames from 'classnames';
+import formatNumber from 'util/number/formatNumber';
 import styles from './trend.module.scss';
 
 interface RankingTrendProps {
@@ -21,7 +22,7 @@ function Trend({ negative, value, description }: RankingTrendProps) {
         {negative && <IconCaretDown />}
       </span>
       <b className="ms-2 me-3">
-        {value.toLocaleString()}
+        {formatNumber(value)}
       </b>
       <small>
         {description}

@@ -1,3 +1,5 @@
+import formatNumber from 'util/number/formatNumber';
+
 interface RankingAmountResultProps {
   balance: number;
 }
@@ -8,7 +10,7 @@ function RankingAmountResult({ balance }: RankingAmountResultProps) {
       <h4>
         With account balance of
         <br />
-        {balance.toLocaleString()}
+        {formatNumber(balance)}
         {' '}
         XDC
       </h4>
