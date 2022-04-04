@@ -9,6 +9,7 @@ import classNames from 'classnames';
 import { ReactComponent as IconMagnifier } from 'assets/images/icons/icon_maginifier.svg';
 import { useMemo, useState } from 'react';
 import { RankingFilters } from 'domains/ranking/ranking.types';
+import isFeatureEnabled from 'util/is-feature-enabled';
 import { isEmpty } from 'lodash';
 import styles from './rankingForm.module.scss';
 
@@ -18,6 +19,8 @@ const isNumericString = (string: string) => string.replace(/ /g, '').match(/^[0-
 interface RankingFormProps {
   onSearch: (formFilters: RankingFilters) => void;
 }
+
+const rankingAmountEnabled = isFeatureEnabled('RANKING_AMOUNT');
 
 function RankingForm({ onSearch }: RankingFormProps) {
   const [searchValue, setSearchValue] = useState<string>('');
@@ -33,19 +36,20 @@ function RankingForm({ onSearch }: RankingFormProps) {
     if (isAccountNumber(searchValue)) {
       return true;
     }
-    if (isNumericString(searchValue)) {
+    if (rankingAmountEnabled && isNumericString(searchValue)) {
       return true;
     }
 
     return false;
   }, [searchValue]);
+  const rankingPlaceholder = rankingAmountEnabled ? 'Account Number or XDC amount' : 'Account Number';
 
   return (
     <div>
       <InputGroup className={styles.rankingSearch}>
         <Input
           type="text"
-          placeholder="Account Number or XDC amount"
+          placeholder={rankingPlaceholder}
           value={searchValue}
           onChange={searchChange}
           className={classNames({
