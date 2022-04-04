@@ -1,10 +1,10 @@
 import DashboardPage from 'pages/dashboard/dashboard';
 import ListPage from 'pages/list/list';
-import featureEnabled from 'util/feature-enabled';
+import isFeatureEnabled from 'util/is-feature-enabled';
 import { RouteConfig } from './types';
 
 const routes: RouteConfig[] = [];
-if (featureEnabled('DASHBOARD')) {
+if (isFeatureEnabled('DASHBOARD')) {
   routes.push({
     path: '/dashboard',
     name: 'Dashboard',

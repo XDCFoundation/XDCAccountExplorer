@@ -9,7 +9,7 @@ import classNames from 'classnames';
 import { ReactComponent as IconMagnifier } from 'assets/images/icons/icon_maginifier.svg';
 import { useMemo, useState } from 'react';
 import { RankingFilters } from 'domains/ranking/ranking.types';
-import featureEnabled from 'util/feature-enabled';
+import isFeatureEnabled from 'util/is-feature-enabled';
 import { isEmpty } from 'lodash';
 import styles from './rankingForm.module.scss';
 
@@ -20,7 +20,7 @@ interface RankingFormProps {
   onSearch: (formFilters: RankingFilters) => void;
 }
 
-const rankingAmountEnabled = featureEnabled('RANKING_AMOUNT');
+const rankingAmountEnabled = isFeatureEnabled('RANKING_AMOUNT');
 
 function RankingForm({ onSearch }: RankingFormProps) {
   const [searchValue, setSearchValue] = useState<string>('');

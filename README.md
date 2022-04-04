@@ -44,3 +44,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Environment variables
 #### `REACT_APP_API_URL`
 Sets API base url. In development mode defaults to `http://localhost:5000`.
+#### `REACT_APP_FEATURE_DASHBOARD`
+Defines if dashboard page is available. In development mode defaults to `false`.
+#### `REACT_APP_FEATURE_RANKING_AMOUNT`
+Defines if searching XDC amount in ranking is available. In development mode defaults to `false`.
+
+Hint: all features should be prefixed with `REACT_APP_FEATURE_`
